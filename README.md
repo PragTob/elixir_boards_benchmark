@@ -79,84 +79,84 @@ Run Time
     <th style="text-align: right">99th&nbsp;%</th>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.Tuple1D</td>
-    <td style="white-space: nowrap; text-align: right">134.98 K</td>
-    <td style="white-space: nowrap; text-align: right">7.41 μs</td>
-    <td style="white-space: nowrap; text-align: right">±53.74%</td>
-    <td style="white-space: nowrap; text-align: right">6.84 μs</td>
-    <td style="white-space: nowrap; text-align: right">11.83 μs</td>
+    <td style="white-space: nowrap">Tuple1D</td>
+    <td style="white-space: nowrap; text-align: right">132.36 K</td>
+    <td style="white-space: nowrap; text-align: right">7.56 μs</td>
+    <td style="white-space: nowrap; text-align: right">±36.11%</td>
+    <td style="white-space: nowrap; text-align: right">6.97 μs</td>
+    <td style="white-space: nowrap; text-align: right">13.11 μs</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.Tuple2D</td>
-    <td style="white-space: nowrap; text-align: right">134.44 K</td>
-    <td style="white-space: nowrap; text-align: right">7.44 μs</td>
-    <td style="white-space: nowrap; text-align: right">±43.15%</td>
-    <td style="white-space: nowrap; text-align: right">7.09 μs</td>
-    <td style="white-space: nowrap; text-align: right">11.97 μs</td>
+    <td style="white-space: nowrap">Tuple2D</td>
+    <td style="white-space: nowrap; text-align: right">127.43 K</td>
+    <td style="white-space: nowrap; text-align: right">7.85 μs</td>
+    <td style="white-space: nowrap; text-align: right">±37.17%</td>
+    <td style="white-space: nowrap; text-align: right">7.52 μs</td>
+    <td style="white-space: nowrap; text-align: right">12.26 μs</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.MapTuple</td>
-    <td style="white-space: nowrap; text-align: right">125.46 K</td>
-    <td style="white-space: nowrap; text-align: right">7.97 μs</td>
-    <td style="white-space: nowrap; text-align: right">±26.09%</td>
-    <td style="white-space: nowrap; text-align: right">7.63 μs</td>
-    <td style="white-space: nowrap; text-align: right">16.14 μs</td>
-  </tr>
-  <tr>
-    <td style="white-space: nowrap">Elixir.Board.ETSSet</td>
-    <td style="white-space: nowrap; text-align: right">60.17 K</td>
-    <td style="white-space: nowrap; text-align: right">16.62 μs</td>
-    <td style="white-space: nowrap; text-align: right">±9.78%</td>
+    <td style="white-space: nowrap">MapTuple</td>
+    <td style="white-space: nowrap; text-align: right">125.80 K</td>
+    <td style="white-space: nowrap; text-align: right">7.95 μs</td>
+    <td style="white-space: nowrap; text-align: right">±25.99%</td>
+    <td style="white-space: nowrap; text-align: right">7.65 μs</td>
     <td style="white-space: nowrap; text-align: right">16.09 μs</td>
-    <td style="white-space: nowrap; text-align: right">21.06 μs</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.MapTupleFull</td>
-    <td style="white-space: nowrap; text-align: right">56.31 K</td>
-    <td style="white-space: nowrap; text-align: right">17.76 μs</td>
-    <td style="white-space: nowrap; text-align: right">±10.80%</td>
-    <td style="white-space: nowrap; text-align: right">16.77 μs</td>
-    <td style="white-space: nowrap; text-align: right">24.39 μs</td>
+    <td style="white-space: nowrap">ETSSet</td>
+    <td style="white-space: nowrap; text-align: right">60.29 K</td>
+    <td style="white-space: nowrap; text-align: right">16.59 μs</td>
+    <td style="white-space: nowrap; text-align: right">±9.51%</td>
+    <td style="white-space: nowrap; text-align: right">16.08 μs</td>
+    <td style="white-space: nowrap; text-align: right">20.35 μs</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.ETSOrderedSet</td>
-    <td style="white-space: nowrap; text-align: right">38.78 K</td>
-    <td style="white-space: nowrap; text-align: right">25.79 μs</td>
-    <td style="white-space: nowrap; text-align: right">±7.48%</td>
-    <td style="white-space: nowrap; text-align: right">24.96 μs</td>
-    <td style="white-space: nowrap; text-align: right">30.91 μs</td>
+    <td style="white-space: nowrap">MapTupleFull</td>
+    <td style="white-space: nowrap; text-align: right">56.39 K</td>
+    <td style="white-space: nowrap; text-align: right">17.73 μs</td>
+    <td style="white-space: nowrap; text-align: right">±12.91%</td>
+    <td style="white-space: nowrap; text-align: right">16.83 μs</td>
+    <td style="white-space: nowrap; text-align: right">23.31 μs</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.Map2D</td>
-    <td style="white-space: nowrap; text-align: right">36.37 K</td>
-    <td style="white-space: nowrap; text-align: right">27.50 μs</td>
-    <td style="white-space: nowrap; text-align: right">±9.87%</td>
-    <td style="white-space: nowrap; text-align: right">27.48 μs</td>
-    <td style="white-space: nowrap; text-align: right">33.32 μs</td>
+    <td style="white-space: nowrap">ETSOrderedSet</td>
+    <td style="white-space: nowrap; text-align: right">39.57 K</td>
+    <td style="white-space: nowrap; text-align: right">25.27 μs</td>
+    <td style="white-space: nowrap; text-align: right">±9.41%</td>
+    <td style="white-space: nowrap; text-align: right">24.73 μs</td>
+    <td style="white-space: nowrap; text-align: right">28.80 μs</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.List2D</td>
-    <td style="white-space: nowrap; text-align: right">29.34 K</td>
-    <td style="white-space: nowrap; text-align: right">34.08 μs</td>
-    <td style="white-space: nowrap; text-align: right">±3.77%</td>
-    <td style="white-space: nowrap; text-align: right">33.85 μs</td>
-    <td style="white-space: nowrap; text-align: right">36.72 μs</td>
+    <td style="white-space: nowrap">Map2D</td>
+    <td style="white-space: nowrap; text-align: right">36.06 K</td>
+    <td style="white-space: nowrap; text-align: right">27.73 μs</td>
+    <td style="white-space: nowrap; text-align: right">±8.82%</td>
+    <td style="white-space: nowrap; text-align: right">27.80 μs</td>
+    <td style="white-space: nowrap; text-align: right">33.05 μs</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.MapTupleHalfFull</td>
-    <td style="white-space: nowrap; text-align: right">24.63 K</td>
-    <td style="white-space: nowrap; text-align: right">40.60 μs</td>
-    <td style="white-space: nowrap; text-align: right">±4.40%</td>
-    <td style="white-space: nowrap; text-align: right">40.55 μs</td>
-    <td style="white-space: nowrap; text-align: right">45.26 μs</td>
+    <td style="white-space: nowrap">List2D</td>
+    <td style="white-space: nowrap; text-align: right">29.36 K</td>
+    <td style="white-space: nowrap; text-align: right">34.06 μs</td>
+    <td style="white-space: nowrap; text-align: right">±4.37%</td>
+    <td style="white-space: nowrap; text-align: right">33.66 μs</td>
+    <td style="white-space: nowrap; text-align: right">37.39 μs</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.List1D</td>
-    <td style="white-space: nowrap; text-align: right">15.29 K</td>
-    <td style="white-space: nowrap; text-align: right">65.41 μs</td>
-    <td style="white-space: nowrap; text-align: right">±3.04%</td>
-    <td style="white-space: nowrap; text-align: right">64.98 μs</td>
-    <td style="white-space: nowrap; text-align: right">70.72 μs</td>
+    <td style="white-space: nowrap">MapTupleHalfFull</td>
+    <td style="white-space: nowrap; text-align: right">24.61 K</td>
+    <td style="white-space: nowrap; text-align: right">40.63 μs</td>
+    <td style="white-space: nowrap; text-align: right">±2.94%</td>
+    <td style="white-space: nowrap; text-align: right">40.69 μs</td>
+    <td style="white-space: nowrap; text-align: right">43.84 μs</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">List1D</td>
+    <td style="white-space: nowrap; text-align: right">15.14 K</td>
+    <td style="white-space: nowrap; text-align: right">66.06 μs</td>
+    <td style="white-space: nowrap; text-align: right">±3.10%</td>
+    <td style="white-space: nowrap; text-align: right">65.80 μs</td>
+    <td style="white-space: nowrap; text-align: right">71.16 μs</td>
   </tr>
 </table>
 
@@ -167,54 +167,54 @@ Comparison
     <th style="text-align: right">IPS</th>
     <th style="text-align: right">Slower</th>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.Tuple1D</td>
-    <td style="white-space: nowrap;text-align: right">134.98 K</td>
+    <td style="white-space: nowrap">Tuple1D</td>
+    <td style="white-space: nowrap;text-align: right">132.36 K</td>
     <td>&nbsp;</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.Tuple2D</td>
-    <td style="white-space: nowrap; text-align: right">134.44 K</td>
-    <td style="white-space: nowrap; text-align: right">1.0x</td>
+    <td style="white-space: nowrap">Tuple2D</td>
+    <td style="white-space: nowrap; text-align: right">127.43 K</td>
+    <td style="white-space: nowrap; text-align: right">1.04x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.MapTuple</td>
-    <td style="white-space: nowrap; text-align: right">125.46 K</td>
-    <td style="white-space: nowrap; text-align: right">1.08x</td>
+    <td style="white-space: nowrap">MapTuple</td>
+    <td style="white-space: nowrap; text-align: right">125.80 K</td>
+    <td style="white-space: nowrap; text-align: right">1.05x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.ETSSet</td>
-    <td style="white-space: nowrap; text-align: right">60.17 K</td>
-    <td style="white-space: nowrap; text-align: right">2.24x</td>
+    <td style="white-space: nowrap">ETSSet</td>
+    <td style="white-space: nowrap; text-align: right">60.29 K</td>
+    <td style="white-space: nowrap; text-align: right">2.2x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.MapTupleFull</td>
-    <td style="white-space: nowrap; text-align: right">56.31 K</td>
-    <td style="white-space: nowrap; text-align: right">2.4x</td>
+    <td style="white-space: nowrap">MapTupleFull</td>
+    <td style="white-space: nowrap; text-align: right">56.39 K</td>
+    <td style="white-space: nowrap; text-align: right">2.35x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.ETSOrderedSet</td>
-    <td style="white-space: nowrap; text-align: right">38.78 K</td>
-    <td style="white-space: nowrap; text-align: right">3.48x</td>
+    <td style="white-space: nowrap">ETSOrderedSet</td>
+    <td style="white-space: nowrap; text-align: right">39.57 K</td>
+    <td style="white-space: nowrap; text-align: right">3.34x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.Map2D</td>
-    <td style="white-space: nowrap; text-align: right">36.37 K</td>
-    <td style="white-space: nowrap; text-align: right">3.71x</td>
+    <td style="white-space: nowrap">Map2D</td>
+    <td style="white-space: nowrap; text-align: right">36.06 K</td>
+    <td style="white-space: nowrap; text-align: right">3.67x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.List2D</td>
-    <td style="white-space: nowrap; text-align: right">29.34 K</td>
-    <td style="white-space: nowrap; text-align: right">4.6x</td>
+    <td style="white-space: nowrap">List2D</td>
+    <td style="white-space: nowrap; text-align: right">29.36 K</td>
+    <td style="white-space: nowrap; text-align: right">4.51x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.MapTupleHalfFull</td>
-    <td style="white-space: nowrap; text-align: right">24.63 K</td>
-    <td style="white-space: nowrap; text-align: right">5.48x</td>
+    <td style="white-space: nowrap">MapTupleHalfFull</td>
+    <td style="white-space: nowrap; text-align: right">24.61 K</td>
+    <td style="white-space: nowrap; text-align: right">5.38x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.List1D</td>
-    <td style="white-space: nowrap; text-align: right">15.29 K</td>
-    <td style="white-space: nowrap; text-align: right">8.83x</td>
+    <td style="white-space: nowrap">List1D</td>
+    <td style="white-space: nowrap; text-align: right">15.14 K</td>
+    <td style="white-space: nowrap; text-align: right">8.74x</td>
   </tr>
 </table>
 
@@ -226,52 +226,52 @@ Memory Usage
       <th style="text-align: right">Factor</th>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.Tuple1D</td>
+    <td style="white-space: nowrap">Tuple1D</td>
     <td style="white-space: nowrap">54.91 KB</td>
       <td>&nbsp;</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.Tuple2D</td>
+    <td style="white-space: nowrap">Tuple2D</td>
     <td style="white-space: nowrap">18.51 KB</td>
     <td>0.34x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.MapTuple</td>
+    <td style="white-space: nowrap">MapTuple</td>
     <td style="white-space: nowrap">12.74 KB</td>
     <td>0.23x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.ETSSet</td>
+    <td style="white-space: nowrap">ETSSet</td>
     <td style="white-space: nowrap">11.55 KB</td>
     <td>0.21x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.MapTupleFull</td>
-    <td style="white-space: nowrap">26.32 KB</td>
-    <td>0.48x</td>
+    <td style="white-space: nowrap">MapTupleFull</td>
+    <td style="white-space: nowrap">25.79 KB</td>
+    <td>0.47x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.ETSOrderedSet</td>
+    <td style="white-space: nowrap">ETSOrderedSet</td>
     <td style="white-space: nowrap">11.55 KB</td>
     <td>0.21x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.Map2D</td>
+    <td style="white-space: nowrap">Map2D</td>
     <td style="white-space: nowrap">49.55 KB</td>
     <td>0.9x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.List2D</td>
+    <td style="white-space: nowrap">List2D</td>
     <td style="white-space: nowrap">22.60 KB</td>
     <td>0.41x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.MapTupleHalfFull</td>
+    <td style="white-space: nowrap">MapTupleHalfFull</td>
     <td style="white-space: nowrap">45.22 KB</td>
     <td>0.82x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.List1D</td>
+    <td style="white-space: nowrap">List1D</td>
     <td style="white-space: nowrap">59.38 KB</td>
     <td>1.08x</td>
   </tr>
@@ -293,84 +293,84 @@ Run Time
     <th style="text-align: right">99th&nbsp;%</th>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.Tuple1D</td>
-    <td style="white-space: nowrap; text-align: right">5.40 M</td>
-    <td style="white-space: nowrap; text-align: right">185.06 ns</td>
-    <td style="white-space: nowrap; text-align: right">±985.83%</td>
-    <td style="white-space: nowrap; text-align: right">144 ns</td>
-    <td style="white-space: nowrap; text-align: right">445.59 ns</td>
+    <td style="white-space: nowrap">Tuple2D</td>
+    <td style="white-space: nowrap; text-align: right">4.98 M</td>
+    <td style="white-space: nowrap; text-align: right">200.94 ns</td>
+    <td style="white-space: nowrap; text-align: right">±1059.71%</td>
+    <td style="white-space: nowrap; text-align: right">170 ns</td>
+    <td style="white-space: nowrap; text-align: right">331 ns</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.Tuple2D</td>
-    <td style="white-space: nowrap; text-align: right">4.83 M</td>
-    <td style="white-space: nowrap; text-align: right">206.96 ns</td>
-    <td style="white-space: nowrap; text-align: right">±1027.27%</td>
-    <td style="white-space: nowrap; text-align: right">179 ns</td>
-    <td style="white-space: nowrap; text-align: right">463 ns</td>
+    <td style="white-space: nowrap">Tuple1D</td>
+    <td style="white-space: nowrap; text-align: right">4.89 M</td>
+    <td style="white-space: nowrap; text-align: right">204.62 ns</td>
+    <td style="white-space: nowrap; text-align: right">±1262.07%</td>
+    <td style="white-space: nowrap; text-align: right">142 ns</td>
+    <td style="white-space: nowrap; text-align: right">401 ns</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.MapTuple</td>
-    <td style="white-space: nowrap; text-align: right">4.29 M</td>
-    <td style="white-space: nowrap; text-align: right">233.07 ns</td>
-    <td style="white-space: nowrap; text-align: right">±970.36%</td>
-    <td style="white-space: nowrap; text-align: right">212 ns</td>
-    <td style="white-space: nowrap; text-align: right">303 ns</td>
+    <td style="white-space: nowrap">MapTuple</td>
+    <td style="white-space: nowrap; text-align: right">4.08 M</td>
+    <td style="white-space: nowrap; text-align: right">245.26 ns</td>
+    <td style="white-space: nowrap; text-align: right">±5145.19%</td>
+    <td style="white-space: nowrap; text-align: right">192 ns</td>
+    <td style="white-space: nowrap; text-align: right">290 ns</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.MapTupleFull</td>
-    <td style="white-space: nowrap; text-align: right">2.05 M</td>
-    <td style="white-space: nowrap; text-align: right">488.56 ns</td>
-    <td style="white-space: nowrap; text-align: right">±20.79%</td>
-    <td style="white-space: nowrap; text-align: right">474 ns</td>
-    <td style="white-space: nowrap; text-align: right">692.01 ns</td>
+    <td style="white-space: nowrap">MapTupleFull</td>
+    <td style="white-space: nowrap; text-align: right">1.89 M</td>
+    <td style="white-space: nowrap; text-align: right">528.41 ns</td>
+    <td style="white-space: nowrap; text-align: right">±9.44%</td>
+    <td style="white-space: nowrap; text-align: right">519 ns</td>
+    <td style="white-space: nowrap; text-align: right">658 ns</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.ETSSet</td>
-    <td style="white-space: nowrap; text-align: right">1.76 M</td>
-    <td style="white-space: nowrap; text-align: right">568.34 ns</td>
-    <td style="white-space: nowrap; text-align: right">±33.42%</td>
-    <td style="white-space: nowrap; text-align: right">535 ns</td>
-    <td style="white-space: nowrap; text-align: right">1488 ns</td>
+    <td style="white-space: nowrap">ETSSet</td>
+    <td style="white-space: nowrap; text-align: right">1.80 M</td>
+    <td style="white-space: nowrap; text-align: right">556.84 ns</td>
+    <td style="white-space: nowrap; text-align: right">±32.26%</td>
+    <td style="white-space: nowrap; text-align: right">526 ns</td>
+    <td style="white-space: nowrap; text-align: right">1859.09 ns</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.Map2D</td>
-    <td style="white-space: nowrap; text-align: right">1.16 M</td>
-    <td style="white-space: nowrap; text-align: right">860.70 ns</td>
-    <td style="white-space: nowrap; text-align: right">±19.74%</td>
-    <td style="white-space: nowrap; text-align: right">802 ns</td>
-    <td style="white-space: nowrap; text-align: right">1951.48 ns</td>
+    <td style="white-space: nowrap">Map2D</td>
+    <td style="white-space: nowrap; text-align: right">1.22 M</td>
+    <td style="white-space: nowrap; text-align: right">818.20 ns</td>
+    <td style="white-space: nowrap; text-align: right">±75.37%</td>
+    <td style="white-space: nowrap; text-align: right">767 ns</td>
+    <td style="white-space: nowrap; text-align: right">2800 ns</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.ETSOrderedSet</td>
-    <td style="white-space: nowrap; text-align: right">1.11 M</td>
-    <td style="white-space: nowrap; text-align: right">899.78 ns</td>
-    <td style="white-space: nowrap; text-align: right">±27.74%</td>
-    <td style="white-space: nowrap; text-align: right">858 ns</td>
-    <td style="white-space: nowrap; text-align: right">1802.79 ns</td>
+    <td style="white-space: nowrap">ETSOrderedSet</td>
+    <td style="white-space: nowrap; text-align: right">1.08 M</td>
+    <td style="white-space: nowrap; text-align: right">924.57 ns</td>
+    <td style="white-space: nowrap; text-align: right">±24.11%</td>
+    <td style="white-space: nowrap; text-align: right">885 ns</td>
+    <td style="white-space: nowrap; text-align: right">2154.45 ns</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.List2D</td>
-    <td style="white-space: nowrap; text-align: right">0.91 M</td>
-    <td style="white-space: nowrap; text-align: right">1098.31 ns</td>
-    <td style="white-space: nowrap; text-align: right">±43.50%</td>
-    <td style="white-space: nowrap; text-align: right">1058 ns</td>
-    <td style="white-space: nowrap; text-align: right">1495.02 ns</td>
+    <td style="white-space: nowrap">List2D</td>
+    <td style="white-space: nowrap; text-align: right">0.88 M</td>
+    <td style="white-space: nowrap; text-align: right">1131.48 ns</td>
+    <td style="white-space: nowrap; text-align: right">±45.29%</td>
+    <td style="white-space: nowrap; text-align: right">1064 ns</td>
+    <td style="white-space: nowrap; text-align: right">3115.64 ns</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.MapTupleHalfFull</td>
+    <td style="white-space: nowrap">MapTupleHalfFull</td>
     <td style="white-space: nowrap; text-align: right">0.81 M</td>
-    <td style="white-space: nowrap; text-align: right">1234.98 ns</td>
-    <td style="white-space: nowrap; text-align: right">±66.77%</td>
-    <td style="white-space: nowrap; text-align: right">1191 ns</td>
-    <td style="white-space: nowrap; text-align: right">3137.68 ns</td>
+    <td style="white-space: nowrap; text-align: right">1235.25 ns</td>
+    <td style="white-space: nowrap; text-align: right">±58.48%</td>
+    <td style="white-space: nowrap; text-align: right">1194 ns</td>
+    <td style="white-space: nowrap; text-align: right">2421.24 ns</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.List1D</td>
-    <td style="white-space: nowrap; text-align: right">0.43 M</td>
-    <td style="white-space: nowrap; text-align: right">2347.66 ns</td>
-    <td style="white-space: nowrap; text-align: right">±61.42%</td>
-    <td style="white-space: nowrap; text-align: right">2234 ns</td>
-    <td style="white-space: nowrap; text-align: right">3413 ns</td>
+    <td style="white-space: nowrap">List1D</td>
+    <td style="white-space: nowrap; text-align: right">0.44 M</td>
+    <td style="white-space: nowrap; text-align: right">2252.39 ns</td>
+    <td style="white-space: nowrap; text-align: right">±32.61%</td>
+    <td style="white-space: nowrap; text-align: right">2160 ns</td>
+    <td style="white-space: nowrap; text-align: right">3432 ns</td>
   </tr>
 </table>
 
@@ -381,54 +381,54 @@ Comparison
     <th style="text-align: right">IPS</th>
     <th style="text-align: right">Slower</th>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.Tuple1D</td>
-    <td style="white-space: nowrap;text-align: right">5.40 M</td>
+    <td style="white-space: nowrap">Tuple2D</td>
+    <td style="white-space: nowrap;text-align: right">4.98 M</td>
     <td>&nbsp;</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.Tuple2D</td>
-    <td style="white-space: nowrap; text-align: right">4.83 M</td>
-    <td style="white-space: nowrap; text-align: right">1.12x</td>
+    <td style="white-space: nowrap">Tuple1D</td>
+    <td style="white-space: nowrap; text-align: right">4.89 M</td>
+    <td style="white-space: nowrap; text-align: right">1.02x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.MapTuple</td>
-    <td style="white-space: nowrap; text-align: right">4.29 M</td>
-    <td style="white-space: nowrap; text-align: right">1.26x</td>
+    <td style="white-space: nowrap">MapTuple</td>
+    <td style="white-space: nowrap; text-align: right">4.08 M</td>
+    <td style="white-space: nowrap; text-align: right">1.22x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.MapTupleFull</td>
-    <td style="white-space: nowrap; text-align: right">2.05 M</td>
-    <td style="white-space: nowrap; text-align: right">2.64x</td>
+    <td style="white-space: nowrap">MapTupleFull</td>
+    <td style="white-space: nowrap; text-align: right">1.89 M</td>
+    <td style="white-space: nowrap; text-align: right">2.63x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.ETSSet</td>
-    <td style="white-space: nowrap; text-align: right">1.76 M</td>
-    <td style="white-space: nowrap; text-align: right">3.07x</td>
+    <td style="white-space: nowrap">ETSSet</td>
+    <td style="white-space: nowrap; text-align: right">1.80 M</td>
+    <td style="white-space: nowrap; text-align: right">2.77x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.Map2D</td>
-    <td style="white-space: nowrap; text-align: right">1.16 M</td>
-    <td style="white-space: nowrap; text-align: right">4.65x</td>
+    <td style="white-space: nowrap">Map2D</td>
+    <td style="white-space: nowrap; text-align: right">1.22 M</td>
+    <td style="white-space: nowrap; text-align: right">4.07x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.ETSOrderedSet</td>
-    <td style="white-space: nowrap; text-align: right">1.11 M</td>
-    <td style="white-space: nowrap; text-align: right">4.86x</td>
+    <td style="white-space: nowrap">ETSOrderedSet</td>
+    <td style="white-space: nowrap; text-align: right">1.08 M</td>
+    <td style="white-space: nowrap; text-align: right">4.6x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.List2D</td>
-    <td style="white-space: nowrap; text-align: right">0.91 M</td>
-    <td style="white-space: nowrap; text-align: right">5.93x</td>
+    <td style="white-space: nowrap">List2D</td>
+    <td style="white-space: nowrap; text-align: right">0.88 M</td>
+    <td style="white-space: nowrap; text-align: right">5.63x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.MapTupleHalfFull</td>
+    <td style="white-space: nowrap">MapTupleHalfFull</td>
     <td style="white-space: nowrap; text-align: right">0.81 M</td>
-    <td style="white-space: nowrap; text-align: right">6.67x</td>
+    <td style="white-space: nowrap; text-align: right">6.15x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.List1D</td>
-    <td style="white-space: nowrap; text-align: right">0.43 M</td>
-    <td style="white-space: nowrap; text-align: right">12.69x</td>
+    <td style="white-space: nowrap">List1D</td>
+    <td style="white-space: nowrap; text-align: right">0.44 M</td>
+    <td style="white-space: nowrap; text-align: right">11.21x</td>
   </tr>
 </table>
 
@@ -440,54 +440,54 @@ Memory Usage
       <th style="text-align: right">Factor</th>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.Tuple1D</td>
-    <td style="white-space: nowrap">1344 B</td>
+    <td style="white-space: nowrap">Tuple2D</td>
+    <td style="white-space: nowrap">512 B</td>
       <td>&nbsp;</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.Tuple2D</td>
-    <td style="white-space: nowrap">512 B</td>
-    <td>0.38x</td>
+    <td style="white-space: nowrap">Tuple1D</td>
+    <td style="white-space: nowrap">1344 B</td>
+    <td>2.63x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.MapTuple</td>
+    <td style="white-space: nowrap">MapTuple</td>
     <td style="white-space: nowrap">368 B</td>
-    <td>0.27x</td>
+    <td>0.72x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.MapTupleFull</td>
+    <td style="white-space: nowrap">MapTupleFull</td>
     <td style="white-space: nowrap">400 B</td>
-    <td>0.3x</td>
+    <td>0.78x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.ETSSet</td>
+    <td style="white-space: nowrap">ETSSet</td>
     <td style="white-space: nowrap">248 B</td>
-    <td>0.18x</td>
+    <td>0.48x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.Map2D</td>
+    <td style="white-space: nowrap">Map2D</td>
     <td style="white-space: nowrap">1712 B</td>
-    <td>1.27x</td>
+    <td>3.34x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.ETSOrderedSet</td>
+    <td style="white-space: nowrap">ETSOrderedSet</td>
     <td style="white-space: nowrap">248 B</td>
-    <td>0.18x</td>
+    <td>0.48x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.List2D</td>
+    <td style="white-space: nowrap">List2D</td>
     <td style="white-space: nowrap">656 B</td>
-    <td>0.49x</td>
+    <td>1.28x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.MapTupleHalfFull</td>
+    <td style="white-space: nowrap">MapTupleHalfFull</td>
     <td style="white-space: nowrap">1504 B</td>
-    <td>1.12x</td>
+    <td>2.94x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.List1D</td>
+    <td style="white-space: nowrap">List1D</td>
     <td style="white-space: nowrap">2048 B</td>
-    <td>1.52x</td>
+    <td>4.0x</td>
   </tr>
 </table>
 
@@ -506,84 +506,84 @@ Run Time
     <th style="text-align: right">99th&nbsp;%</th>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.Tuple1D</td>
-    <td style="white-space: nowrap; text-align: right">37.47 M</td>
-    <td style="white-space: nowrap; text-align: right">26.69 ns</td>
-    <td style="white-space: nowrap; text-align: right">±538.54%</td>
-    <td style="white-space: nowrap; text-align: right">24 ns</td>
-    <td style="white-space: nowrap; text-align: right">40 ns</td>
+    <td style="white-space: nowrap">Tuple1D</td>
+    <td style="white-space: nowrap; text-align: right">49.18 M</td>
+    <td style="white-space: nowrap; text-align: right">20.33 ns</td>
+    <td style="white-space: nowrap; text-align: right">±734.76%</td>
+    <td style="white-space: nowrap; text-align: right">18 ns</td>
+    <td style="white-space: nowrap; text-align: right">34 ns</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.Tuple2D</td>
-    <td style="white-space: nowrap; text-align: right">37.40 M</td>
-    <td style="white-space: nowrap; text-align: right">26.74 ns</td>
-    <td style="white-space: nowrap; text-align: right">±554.65%</td>
-    <td style="white-space: nowrap; text-align: right">24 ns</td>
-    <td style="white-space: nowrap; text-align: right">58 ns</td>
+    <td style="white-space: nowrap">Tuple2D</td>
+    <td style="white-space: nowrap; text-align: right">42.15 M</td>
+    <td style="white-space: nowrap; text-align: right">23.73 ns</td>
+    <td style="white-space: nowrap; text-align: right">±7257.42%</td>
+    <td style="white-space: nowrap; text-align: right">19 ns</td>
+    <td style="white-space: nowrap; text-align: right">36 ns</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.MapTuple</td>
-    <td style="white-space: nowrap; text-align: right">27.53 M</td>
-    <td style="white-space: nowrap; text-align: right">36.32 ns</td>
-    <td style="white-space: nowrap; text-align: right">±1752.39%</td>
-    <td style="white-space: nowrap; text-align: right">35 ns</td>
+    <td style="white-space: nowrap">MapTuple</td>
+    <td style="white-space: nowrap; text-align: right">30.97 M</td>
+    <td style="white-space: nowrap; text-align: right">32.28 ns</td>
+    <td style="white-space: nowrap; text-align: right">±1611.81%</td>
+    <td style="white-space: nowrap; text-align: right">30 ns</td>
+    <td style="white-space: nowrap; text-align: right">53 ns</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">List1D</td>
+    <td style="white-space: nowrap; text-align: right">22.18 M</td>
+    <td style="white-space: nowrap; text-align: right">45.08 ns</td>
+    <td style="white-space: nowrap; text-align: right">±52.14%</td>
     <td style="white-space: nowrap; text-align: right">42 ns</td>
+    <td style="white-space: nowrap; text-align: right">99 ns</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.MapTupleHalfFull</td>
+    <td style="white-space: nowrap">MapTupleHalfFull</td>
+    <td style="white-space: nowrap; text-align: right">19.51 M</td>
+    <td style="white-space: nowrap; text-align: right">51.25 ns</td>
+    <td style="white-space: nowrap; text-align: right">±74.59%</td>
+    <td style="white-space: nowrap; text-align: right">47 ns</td>
+    <td style="white-space: nowrap; text-align: right">94 ns</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">Map2D</td>
     <td style="white-space: nowrap; text-align: right">16.56 M</td>
-    <td style="white-space: nowrap; text-align: right">60.40 ns</td>
-    <td style="white-space: nowrap; text-align: right">±105.77%</td>
-    <td style="white-space: nowrap; text-align: right">55 ns</td>
-    <td style="white-space: nowrap; text-align: right">110 ns</td>
+    <td style="white-space: nowrap; text-align: right">60.39 ns</td>
+    <td style="white-space: nowrap; text-align: right">±34.66%</td>
+    <td style="white-space: nowrap; text-align: right">56 ns</td>
+    <td style="white-space: nowrap; text-align: right">100 ns</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.List1D</td>
-    <td style="white-space: nowrap; text-align: right">14.99 M</td>
-    <td style="white-space: nowrap; text-align: right">66.71 ns</td>
-    <td style="white-space: nowrap; text-align: right">±30.51%</td>
-    <td style="white-space: nowrap; text-align: right">66 ns</td>
-    <td style="white-space: nowrap; text-align: right">143 ns</td>
+    <td style="white-space: nowrap">List2D</td>
+    <td style="white-space: nowrap; text-align: right">10.98 M</td>
+    <td style="white-space: nowrap; text-align: right">91.08 ns</td>
+    <td style="white-space: nowrap; text-align: right">±92.11%</td>
+    <td style="white-space: nowrap; text-align: right">85 ns</td>
+    <td style="white-space: nowrap; text-align: right">199 ns</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.Map2D</td>
-    <td style="white-space: nowrap; text-align: right">14.12 M</td>
-    <td style="white-space: nowrap; text-align: right">70.82 ns</td>
-    <td style="white-space: nowrap; text-align: right">±23.77%</td>
-    <td style="white-space: nowrap; text-align: right">68 ns</td>
-    <td style="white-space: nowrap; text-align: right">111 ns</td>
+    <td style="white-space: nowrap">MapTupleFull</td>
+    <td style="white-space: nowrap; text-align: right">10.66 M</td>
+    <td style="white-space: nowrap; text-align: right">93.84 ns</td>
+    <td style="white-space: nowrap; text-align: right">±22.28%</td>
+    <td style="white-space: nowrap; text-align: right">88 ns</td>
+    <td style="white-space: nowrap; text-align: right">135 ns</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.MapTupleFull</td>
-    <td style="white-space: nowrap; text-align: right">11.39 M</td>
-    <td style="white-space: nowrap; text-align: right">87.77 ns</td>
-    <td style="white-space: nowrap; text-align: right">±14.37%</td>
-    <td style="white-space: nowrap; text-align: right">84 ns</td>
-    <td style="white-space: nowrap; text-align: right">113 ns</td>
+    <td style="white-space: nowrap">ETSSet</td>
+    <td style="white-space: nowrap; text-align: right">10.19 M</td>
+    <td style="white-space: nowrap; text-align: right">98.16 ns</td>
+    <td style="white-space: nowrap; text-align: right">±15.62%</td>
+    <td style="white-space: nowrap; text-align: right">96 ns</td>
+    <td style="white-space: nowrap; text-align: right">146 ns</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.List2D</td>
-    <td style="white-space: nowrap; text-align: right">10.22 M</td>
-    <td style="white-space: nowrap; text-align: right">97.83 ns</td>
-    <td style="white-space: nowrap; text-align: right">±97.79%</td>
-    <td style="white-space: nowrap; text-align: right">89 ns</td>
-    <td style="white-space: nowrap; text-align: right">219 ns</td>
-  </tr>
-  <tr>
-    <td style="white-space: nowrap">Elixir.Board.ETSSet</td>
-    <td style="white-space: nowrap; text-align: right">9.40 M</td>
-    <td style="white-space: nowrap; text-align: right">106.37 ns</td>
-    <td style="white-space: nowrap; text-align: right">±118.99%</td>
-    <td style="white-space: nowrap; text-align: right">103 ns</td>
-    <td style="white-space: nowrap; text-align: right">149 ns</td>
-  </tr>
-  <tr>
-    <td style="white-space: nowrap">Elixir.Board.ETSOrderedSet</td>
-    <td style="white-space: nowrap; text-align: right">6.05 M</td>
-    <td style="white-space: nowrap; text-align: right">165.16 ns</td>
-    <td style="white-space: nowrap; text-align: right">±26.96%</td>
-    <td style="white-space: nowrap; text-align: right">160 ns</td>
-    <td style="white-space: nowrap; text-align: right">276.58 ns</td>
+    <td style="white-space: nowrap">ETSOrderedSet</td>
+    <td style="white-space: nowrap; text-align: right">6.12 M</td>
+    <td style="white-space: nowrap; text-align: right">163.49 ns</td>
+    <td style="white-space: nowrap; text-align: right">±29.68%</td>
+    <td style="white-space: nowrap; text-align: right">157 ns</td>
+    <td style="white-space: nowrap; text-align: right">289 ns</td>
   </tr>
 </table>
 
@@ -594,54 +594,54 @@ Comparison
     <th style="text-align: right">IPS</th>
     <th style="text-align: right">Slower</th>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.Tuple1D</td>
-    <td style="white-space: nowrap;text-align: right">37.47 M</td>
+    <td style="white-space: nowrap">Tuple1D</td>
+    <td style="white-space: nowrap;text-align: right">49.18 M</td>
     <td>&nbsp;</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.Tuple2D</td>
-    <td style="white-space: nowrap; text-align: right">37.40 M</td>
-    <td style="white-space: nowrap; text-align: right">1.0x</td>
+    <td style="white-space: nowrap">Tuple2D</td>
+    <td style="white-space: nowrap; text-align: right">42.15 M</td>
+    <td style="white-space: nowrap; text-align: right">1.17x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.MapTuple</td>
-    <td style="white-space: nowrap; text-align: right">27.53 M</td>
-    <td style="white-space: nowrap; text-align: right">1.36x</td>
+    <td style="white-space: nowrap">MapTuple</td>
+    <td style="white-space: nowrap; text-align: right">30.97 M</td>
+    <td style="white-space: nowrap; text-align: right">1.59x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.MapTupleHalfFull</td>
+    <td style="white-space: nowrap">List1D</td>
+    <td style="white-space: nowrap; text-align: right">22.18 M</td>
+    <td style="white-space: nowrap; text-align: right">2.22x</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">MapTupleHalfFull</td>
+    <td style="white-space: nowrap; text-align: right">19.51 M</td>
+    <td style="white-space: nowrap; text-align: right">2.52x</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">Map2D</td>
     <td style="white-space: nowrap; text-align: right">16.56 M</td>
-    <td style="white-space: nowrap; text-align: right">2.26x</td>
+    <td style="white-space: nowrap; text-align: right">2.97x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.List1D</td>
-    <td style="white-space: nowrap; text-align: right">14.99 M</td>
-    <td style="white-space: nowrap; text-align: right">2.5x</td>
+    <td style="white-space: nowrap">List2D</td>
+    <td style="white-space: nowrap; text-align: right">10.98 M</td>
+    <td style="white-space: nowrap; text-align: right">4.48x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.Map2D</td>
-    <td style="white-space: nowrap; text-align: right">14.12 M</td>
-    <td style="white-space: nowrap; text-align: right">2.65x</td>
+    <td style="white-space: nowrap">MapTupleFull</td>
+    <td style="white-space: nowrap; text-align: right">10.66 M</td>
+    <td style="white-space: nowrap; text-align: right">4.61x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.MapTupleFull</td>
-    <td style="white-space: nowrap; text-align: right">11.39 M</td>
-    <td style="white-space: nowrap; text-align: right">3.29x</td>
+    <td style="white-space: nowrap">ETSSet</td>
+    <td style="white-space: nowrap; text-align: right">10.19 M</td>
+    <td style="white-space: nowrap; text-align: right">4.83x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.List2D</td>
-    <td style="white-space: nowrap; text-align: right">10.22 M</td>
-    <td style="white-space: nowrap; text-align: right">3.67x</td>
-  </tr>
-  <tr>
-    <td style="white-space: nowrap">Elixir.Board.ETSSet</td>
-    <td style="white-space: nowrap; text-align: right">9.40 M</td>
-    <td style="white-space: nowrap; text-align: right">3.99x</td>
-  </tr>
-  <tr>
-    <td style="white-space: nowrap">Elixir.Board.ETSOrderedSet</td>
-    <td style="white-space: nowrap; text-align: right">6.05 M</td>
-    <td style="white-space: nowrap; text-align: right">6.19x</td>
+    <td style="white-space: nowrap">ETSOrderedSet</td>
+    <td style="white-space: nowrap; text-align: right">6.12 M</td>
+    <td style="white-space: nowrap; text-align: right">8.04x</td>
   </tr>
 </table>
 
@@ -661,84 +661,84 @@ Run Time
     <th style="text-align: right">99th&nbsp;%</th>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.Tuple2D</td>
-    <td style="white-space: nowrap; text-align: right">37.04 M</td>
-    <td style="white-space: nowrap; text-align: right">26.99 ns</td>
-    <td style="white-space: nowrap; text-align: right">±809.36%</td>
-    <td style="white-space: nowrap; text-align: right">24 ns</td>
-    <td style="white-space: nowrap; text-align: right">40 ns</td>
+    <td style="white-space: nowrap">Tuple1D</td>
+    <td style="white-space: nowrap; text-align: right">54.88 M</td>
+    <td style="white-space: nowrap; text-align: right">18.22 ns</td>
+    <td style="white-space: nowrap; text-align: right">±904.14%</td>
+    <td style="white-space: nowrap; text-align: right">16 ns</td>
+    <td style="white-space: nowrap; text-align: right">33 ns</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.Tuple1D</td>
-    <td style="white-space: nowrap; text-align: right">36.94 M</td>
-    <td style="white-space: nowrap; text-align: right">27.07 ns</td>
-    <td style="white-space: nowrap; text-align: right">±1617.99%</td>
+    <td style="white-space: nowrap">Tuple2D</td>
+    <td style="white-space: nowrap; text-align: right">52.51 M</td>
+    <td style="white-space: nowrap; text-align: right">19.04 ns</td>
+    <td style="white-space: nowrap; text-align: right">±1169.22%</td>
+    <td style="white-space: nowrap; text-align: right">16 ns</td>
+    <td style="white-space: nowrap; text-align: right">32 ns</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">MapTuple</td>
+    <td style="white-space: nowrap; text-align: right">36.10 M</td>
+    <td style="white-space: nowrap; text-align: right">27.70 ns</td>
+    <td style="white-space: nowrap; text-align: right">±1940.68%</td>
     <td style="white-space: nowrap; text-align: right">25 ns</td>
     <td style="white-space: nowrap; text-align: right">41 ns</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.MapTuple</td>
-    <td style="white-space: nowrap; text-align: right">26.62 M</td>
-    <td style="white-space: nowrap; text-align: right">37.56 ns</td>
-    <td style="white-space: nowrap; text-align: right">±117.59%</td>
-    <td style="white-space: nowrap; text-align: right">35 ns</td>
-    <td style="white-space: nowrap; text-align: right">109 ns</td>
-  </tr>
-  <tr>
-    <td style="white-space: nowrap">Elixir.Board.Map2D</td>
-    <td style="white-space: nowrap; text-align: right">14.60 M</td>
-    <td style="white-space: nowrap; text-align: right">68.48 ns</td>
-    <td style="white-space: nowrap; text-align: right">±28.03%</td>
-    <td style="white-space: nowrap; text-align: right">64 ns</td>
-    <td style="white-space: nowrap; text-align: right">106 ns</td>
-  </tr>
-  <tr>
-    <td style="white-space: nowrap">Elixir.Board.MapTupleFull</td>
-    <td style="white-space: nowrap; text-align: right">9.78 M</td>
-    <td style="white-space: nowrap; text-align: right">102.28 ns</td>
-    <td style="white-space: nowrap; text-align: right">±15.70%</td>
+    <td style="white-space: nowrap">Map2D</td>
+    <td style="white-space: nowrap; text-align: right">16.77 M</td>
+    <td style="white-space: nowrap; text-align: right">59.64 ns</td>
+    <td style="white-space: nowrap; text-align: right">±31.01%</td>
+    <td style="white-space: nowrap; text-align: right">55 ns</td>
     <td style="white-space: nowrap; text-align: right">102 ns</td>
-    <td style="white-space: nowrap; text-align: right">147 ns</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.ETSSet</td>
-    <td style="white-space: nowrap; text-align: right">9.18 M</td>
-    <td style="white-space: nowrap; text-align: right">108.94 ns</td>
-    <td style="white-space: nowrap; text-align: right">±14.90%</td>
-    <td style="white-space: nowrap; text-align: right">107 ns</td>
-    <td style="white-space: nowrap; text-align: right">149 ns</td>
+    <td style="white-space: nowrap">MapTupleFull</td>
+    <td style="white-space: nowrap; text-align: right">11.20 M</td>
+    <td style="white-space: nowrap; text-align: right">89.27 ns</td>
+    <td style="white-space: nowrap; text-align: right">±38.55%</td>
+    <td style="white-space: nowrap; text-align: right">85 ns</td>
+    <td style="white-space: nowrap; text-align: right">129 ns</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.List2D</td>
-    <td style="white-space: nowrap; text-align: right">6.09 M</td>
-    <td style="white-space: nowrap; text-align: right">164.11 ns</td>
-    <td style="white-space: nowrap; text-align: right">±63.99%</td>
-    <td style="white-space: nowrap; text-align: right">155 ns</td>
-    <td style="white-space: nowrap; text-align: right">269 ns</td>
+    <td style="white-space: nowrap">ETSSet</td>
+    <td style="white-space: nowrap; text-align: right">9.69 M</td>
+    <td style="white-space: nowrap; text-align: right">103.21 ns</td>
+    <td style="white-space: nowrap; text-align: right">±121.34%</td>
+    <td style="white-space: nowrap; text-align: right">99 ns</td>
+    <td style="white-space: nowrap; text-align: right">142 ns</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.ETSOrderedSet</td>
-    <td style="white-space: nowrap; text-align: right">5.73 M</td>
-    <td style="white-space: nowrap; text-align: right">174.57 ns</td>
-    <td style="white-space: nowrap; text-align: right">±33.56%</td>
-    <td style="white-space: nowrap; text-align: right">169 ns</td>
-    <td style="white-space: nowrap; text-align: right">213.78 ns</td>
+    <td style="white-space: nowrap">List2D</td>
+    <td style="white-space: nowrap; text-align: right">6.20 M</td>
+    <td style="white-space: nowrap; text-align: right">161.23 ns</td>
+    <td style="white-space: nowrap; text-align: right">±55.20%</td>
+    <td style="white-space: nowrap; text-align: right">153 ns</td>
+    <td style="white-space: nowrap; text-align: right">295.79 ns</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.MapTupleHalfFull</td>
-    <td style="white-space: nowrap; text-align: right">4.27 M</td>
-    <td style="white-space: nowrap; text-align: right">234.16 ns</td>
-    <td style="white-space: nowrap; text-align: right">±30.04%</td>
-    <td style="white-space: nowrap; text-align: right">228 ns</td>
-    <td style="white-space: nowrap; text-align: right">465 ns</td>
+    <td style="white-space: nowrap">ETSOrderedSet</td>
+    <td style="white-space: nowrap; text-align: right">5.91 M</td>
+    <td style="white-space: nowrap; text-align: right">169.34 ns</td>
+    <td style="white-space: nowrap; text-align: right">±21.22%</td>
+    <td style="white-space: nowrap; text-align: right">166 ns</td>
+    <td style="white-space: nowrap; text-align: right">236.44 ns</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.List1D</td>
-    <td style="white-space: nowrap; text-align: right">2.42 M</td>
-    <td style="white-space: nowrap; text-align: right">413.63 ns</td>
-    <td style="white-space: nowrap; text-align: right">±9.16%</td>
-    <td style="white-space: nowrap; text-align: right">409 ns</td>
-    <td style="white-space: nowrap; text-align: right">641 ns</td>
+    <td style="white-space: nowrap">MapTupleHalfFull</td>
+    <td style="white-space: nowrap; text-align: right">4.48 M</td>
+    <td style="white-space: nowrap; text-align: right">223.22 ns</td>
+    <td style="white-space: nowrap; text-align: right">±22.58%</td>
+    <td style="white-space: nowrap; text-align: right">219 ns</td>
+    <td style="white-space: nowrap; text-align: right">272 ns</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">List1D</td>
+    <td style="white-space: nowrap; text-align: right">2.59 M</td>
+    <td style="white-space: nowrap; text-align: right">386.43 ns</td>
+    <td style="white-space: nowrap; text-align: right">±9.93%</td>
+    <td style="white-space: nowrap; text-align: right">380 ns</td>
+    <td style="white-space: nowrap; text-align: right">612 ns</td>
   </tr>
 </table>
 
@@ -749,54 +749,54 @@ Comparison
     <th style="text-align: right">IPS</th>
     <th style="text-align: right">Slower</th>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.Tuple2D</td>
-    <td style="white-space: nowrap;text-align: right">37.04 M</td>
+    <td style="white-space: nowrap">Tuple1D</td>
+    <td style="white-space: nowrap;text-align: right">54.88 M</td>
     <td>&nbsp;</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.Tuple1D</td>
-    <td style="white-space: nowrap; text-align: right">36.94 M</td>
-    <td style="white-space: nowrap; text-align: right">1.0x</td>
+    <td style="white-space: nowrap">Tuple2D</td>
+    <td style="white-space: nowrap; text-align: right">52.51 M</td>
+    <td style="white-space: nowrap; text-align: right">1.05x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.MapTuple</td>
-    <td style="white-space: nowrap; text-align: right">26.62 M</td>
-    <td style="white-space: nowrap; text-align: right">1.39x</td>
+    <td style="white-space: nowrap">MapTuple</td>
+    <td style="white-space: nowrap; text-align: right">36.10 M</td>
+    <td style="white-space: nowrap; text-align: right">1.52x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.Map2D</td>
-    <td style="white-space: nowrap; text-align: right">14.60 M</td>
-    <td style="white-space: nowrap; text-align: right">2.54x</td>
+    <td style="white-space: nowrap">Map2D</td>
+    <td style="white-space: nowrap; text-align: right">16.77 M</td>
+    <td style="white-space: nowrap; text-align: right">3.27x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.MapTupleFull</td>
-    <td style="white-space: nowrap; text-align: right">9.78 M</td>
-    <td style="white-space: nowrap; text-align: right">3.79x</td>
+    <td style="white-space: nowrap">MapTupleFull</td>
+    <td style="white-space: nowrap; text-align: right">11.20 M</td>
+    <td style="white-space: nowrap; text-align: right">4.9x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.ETSSet</td>
-    <td style="white-space: nowrap; text-align: right">9.18 M</td>
-    <td style="white-space: nowrap; text-align: right">4.04x</td>
+    <td style="white-space: nowrap">ETSSet</td>
+    <td style="white-space: nowrap; text-align: right">9.69 M</td>
+    <td style="white-space: nowrap; text-align: right">5.66x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.List2D</td>
-    <td style="white-space: nowrap; text-align: right">6.09 M</td>
-    <td style="white-space: nowrap; text-align: right">6.08x</td>
+    <td style="white-space: nowrap">List2D</td>
+    <td style="white-space: nowrap; text-align: right">6.20 M</td>
+    <td style="white-space: nowrap; text-align: right">8.85x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.ETSOrderedSet</td>
-    <td style="white-space: nowrap; text-align: right">5.73 M</td>
-    <td style="white-space: nowrap; text-align: right">6.47x</td>
+    <td style="white-space: nowrap">ETSOrderedSet</td>
+    <td style="white-space: nowrap; text-align: right">5.91 M</td>
+    <td style="white-space: nowrap; text-align: right">9.29x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.MapTupleHalfFull</td>
-    <td style="white-space: nowrap; text-align: right">4.27 M</td>
-    <td style="white-space: nowrap; text-align: right">8.67x</td>
+    <td style="white-space: nowrap">MapTupleHalfFull</td>
+    <td style="white-space: nowrap; text-align: right">4.48 M</td>
+    <td style="white-space: nowrap; text-align: right">12.25x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.List1D</td>
-    <td style="white-space: nowrap; text-align: right">2.42 M</td>
-    <td style="white-space: nowrap; text-align: right">15.32x</td>
+    <td style="white-space: nowrap">List1D</td>
+    <td style="white-space: nowrap; text-align: right">2.59 M</td>
+    <td style="white-space: nowrap; text-align: right">21.21x</td>
   </tr>
 </table>
 
@@ -816,84 +816,84 @@ Run Time
     <th style="text-align: right">99th&nbsp;%</th>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.Tuple2D</td>
-    <td style="white-space: nowrap; text-align: right">158.13 M</td>
-    <td style="white-space: nowrap; text-align: right">6.32 ns</td>
-    <td style="white-space: nowrap; text-align: right">±6667.00%</td>
-    <td style="white-space: nowrap; text-align: right">4 ns</td>
-    <td style="white-space: nowrap; text-align: right">20 ns</td>
+    <td style="white-space: nowrap">Tuple2D</td>
+    <td style="white-space: nowrap; text-align: right">70.54 M</td>
+    <td style="white-space: nowrap; text-align: right">14.18 ns</td>
+    <td style="white-space: nowrap; text-align: right">±1501.52%</td>
+    <td style="white-space: nowrap; text-align: right">11 ns</td>
+    <td style="white-space: nowrap; text-align: right">34 ns</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.Tuple1D</td>
-    <td style="white-space: nowrap; text-align: right">129.51 M</td>
-    <td style="white-space: nowrap; text-align: right">7.72 ns</td>
-    <td style="white-space: nowrap; text-align: right">±1957.32%</td>
-    <td style="white-space: nowrap; text-align: right">5 ns</td>
-    <td style="white-space: nowrap; text-align: right">38 ns</td>
+    <td style="white-space: nowrap">Tuple1D</td>
+    <td style="white-space: nowrap; text-align: right">68.98 M</td>
+    <td style="white-space: nowrap; text-align: right">14.50 ns</td>
+    <td style="white-space: nowrap; text-align: right">±1040.51%</td>
+    <td style="white-space: nowrap; text-align: right">13 ns</td>
+    <td style="white-space: nowrap; text-align: right">27 ns</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.MapTuple</td>
-    <td style="white-space: nowrap; text-align: right">49.60 M</td>
-    <td style="white-space: nowrap; text-align: right">20.16 ns</td>
-    <td style="white-space: nowrap; text-align: right">±3255.08%</td>
-    <td style="white-space: nowrap; text-align: right">16 ns</td>
+    <td style="white-space: nowrap">MapTuple</td>
+    <td style="white-space: nowrap; text-align: right">37.51 M</td>
+    <td style="white-space: nowrap; text-align: right">26.66 ns</td>
+    <td style="white-space: nowrap; text-align: right">±3568.55%</td>
+    <td style="white-space: nowrap; text-align: right">23 ns</td>
+    <td style="white-space: nowrap; text-align: right">47 ns</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">Map2D</td>
+    <td style="white-space: nowrap; text-align: right">16.57 M</td>
+    <td style="white-space: nowrap; text-align: right">60.33 ns</td>
+    <td style="white-space: nowrap; text-align: right">±32.37%</td>
+    <td style="white-space: nowrap; text-align: right">59 ns</td>
+    <td style="white-space: nowrap; text-align: right">98 ns</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">MapTupleFull</td>
+    <td style="white-space: nowrap; text-align: right">11.08 M</td>
+    <td style="white-space: nowrap; text-align: right">90.22 ns</td>
+    <td style="white-space: nowrap; text-align: right">±23.38%</td>
+    <td style="white-space: nowrap; text-align: right">84 ns</td>
+    <td style="white-space: nowrap; text-align: right">136 ns</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">ETSSet</td>
+    <td style="white-space: nowrap; text-align: right">10.60 M</td>
+    <td style="white-space: nowrap; text-align: right">94.33 ns</td>
+    <td style="white-space: nowrap; text-align: right">±27.47%</td>
     <td style="white-space: nowrap; text-align: right">91 ns</td>
+    <td style="white-space: nowrap; text-align: right">134 ns</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.Map2D</td>
-    <td style="white-space: nowrap; text-align: right">17.65 M</td>
-    <td style="white-space: nowrap; text-align: right">56.65 ns</td>
-    <td style="white-space: nowrap; text-align: right">±35.54%</td>
-    <td style="white-space: nowrap; text-align: right">57 ns</td>
-    <td style="white-space: nowrap; text-align: right">91 ns</td>
+    <td style="white-space: nowrap">ETSOrderedSet</td>
+    <td style="white-space: nowrap; text-align: right">6.02 M</td>
+    <td style="white-space: nowrap; text-align: right">166.20 ns</td>
+    <td style="white-space: nowrap; text-align: right">±58.99%</td>
+    <td style="white-space: nowrap; text-align: right">161 ns</td>
+    <td style="white-space: nowrap; text-align: right">203 ns</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.MapTupleFull</td>
-    <td style="white-space: nowrap; text-align: right">12.11 M</td>
-    <td style="white-space: nowrap; text-align: right">82.60 ns</td>
-    <td style="white-space: nowrap; text-align: right">±29.73%</td>
-    <td style="white-space: nowrap; text-align: right">81 ns</td>
-    <td style="white-space: nowrap; text-align: right">123.46 ns</td>
-  </tr>
-  <tr>
-    <td style="white-space: nowrap">Elixir.Board.ETSSet</td>
-    <td style="white-space: nowrap; text-align: right">11.68 M</td>
-    <td style="white-space: nowrap; text-align: right">85.65 ns</td>
-    <td style="white-space: nowrap; text-align: right">±35.12%</td>
-    <td style="white-space: nowrap; text-align: right">83 ns</td>
-    <td style="white-space: nowrap; text-align: right">131 ns</td>
-  </tr>
-  <tr>
-    <td style="white-space: nowrap">Elixir.Board.ETSOrderedSet</td>
-    <td style="white-space: nowrap; text-align: right">6.80 M</td>
-    <td style="white-space: nowrap; text-align: right">146.97 ns</td>
-    <td style="white-space: nowrap; text-align: right">±27.96%</td>
-    <td style="white-space: nowrap; text-align: right">143 ns</td>
-    <td style="white-space: nowrap; text-align: right">186 ns</td>
-  </tr>
-  <tr>
-    <td style="white-space: nowrap">Elixir.Board.MapTupleHalfFull</td>
+    <td style="white-space: nowrap">MapTupleHalfFull</td>
     <td style="white-space: nowrap; text-align: right">4.65 M</td>
-    <td style="white-space: nowrap; text-align: right">215.21 ns</td>
-    <td style="white-space: nowrap; text-align: right">±37.45%</td>
-    <td style="white-space: nowrap; text-align: right">210 ns</td>
-    <td style="white-space: nowrap; text-align: right">350 ns</td>
+    <td style="white-space: nowrap; text-align: right">215.24 ns</td>
+    <td style="white-space: nowrap; text-align: right">±18.43%</td>
+    <td style="white-space: nowrap; text-align: right">212 ns</td>
+    <td style="white-space: nowrap; text-align: right">266 ns</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.List2D</td>
-    <td style="white-space: nowrap; text-align: right">4.40 M</td>
-    <td style="white-space: nowrap; text-align: right">227.36 ns</td>
-    <td style="white-space: nowrap; text-align: right">±54.65%</td>
-    <td style="white-space: nowrap; text-align: right">217 ns</td>
-    <td style="white-space: nowrap; text-align: right">459 ns</td>
+    <td style="white-space: nowrap">List2D</td>
+    <td style="white-space: nowrap; text-align: right">4.25 M</td>
+    <td style="white-space: nowrap; text-align: right">235.23 ns</td>
+    <td style="white-space: nowrap; text-align: right">±37.39%</td>
+    <td style="white-space: nowrap; text-align: right">228 ns</td>
+    <td style="white-space: nowrap; text-align: right">460 ns</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.List1D</td>
-    <td style="white-space: nowrap; text-align: right">1.39 M</td>
-    <td style="white-space: nowrap; text-align: right">718.28 ns</td>
-    <td style="white-space: nowrap; text-align: right">±8.91%</td>
-    <td style="white-space: nowrap; text-align: right">711 ns</td>
-    <td style="white-space: nowrap; text-align: right">951 ns</td>
+    <td style="white-space: nowrap">List1D</td>
+    <td style="white-space: nowrap; text-align: right">1.40 M</td>
+    <td style="white-space: nowrap; text-align: right">712.88 ns</td>
+    <td style="white-space: nowrap; text-align: right">±11.02%</td>
+    <td style="white-space: nowrap; text-align: right">697 ns</td>
+    <td style="white-space: nowrap; text-align: right">945 ns</td>
   </tr>
 </table>
 
@@ -904,54 +904,54 @@ Comparison
     <th style="text-align: right">IPS</th>
     <th style="text-align: right">Slower</th>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.Tuple2D</td>
-    <td style="white-space: nowrap;text-align: right">158.13 M</td>
+    <td style="white-space: nowrap">Tuple2D</td>
+    <td style="white-space: nowrap;text-align: right">70.54 M</td>
     <td>&nbsp;</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.Tuple1D</td>
-    <td style="white-space: nowrap; text-align: right">129.51 M</td>
-    <td style="white-space: nowrap; text-align: right">1.22x</td>
+    <td style="white-space: nowrap">Tuple1D</td>
+    <td style="white-space: nowrap; text-align: right">68.98 M</td>
+    <td style="white-space: nowrap; text-align: right">1.02x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.MapTuple</td>
-    <td style="white-space: nowrap; text-align: right">49.60 M</td>
-    <td style="white-space: nowrap; text-align: right">3.19x</td>
+    <td style="white-space: nowrap">MapTuple</td>
+    <td style="white-space: nowrap; text-align: right">37.51 M</td>
+    <td style="white-space: nowrap; text-align: right">1.88x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.Map2D</td>
-    <td style="white-space: nowrap; text-align: right">17.65 M</td>
-    <td style="white-space: nowrap; text-align: right">8.96x</td>
+    <td style="white-space: nowrap">Map2D</td>
+    <td style="white-space: nowrap; text-align: right">16.57 M</td>
+    <td style="white-space: nowrap; text-align: right">4.26x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.MapTupleFull</td>
-    <td style="white-space: nowrap; text-align: right">12.11 M</td>
-    <td style="white-space: nowrap; text-align: right">13.06x</td>
+    <td style="white-space: nowrap">MapTupleFull</td>
+    <td style="white-space: nowrap; text-align: right">11.08 M</td>
+    <td style="white-space: nowrap; text-align: right">6.36x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.ETSSet</td>
-    <td style="white-space: nowrap; text-align: right">11.68 M</td>
-    <td style="white-space: nowrap; text-align: right">13.54x</td>
+    <td style="white-space: nowrap">ETSSet</td>
+    <td style="white-space: nowrap; text-align: right">10.60 M</td>
+    <td style="white-space: nowrap; text-align: right">6.65x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.ETSOrderedSet</td>
-    <td style="white-space: nowrap; text-align: right">6.80 M</td>
-    <td style="white-space: nowrap; text-align: right">23.24x</td>
+    <td style="white-space: nowrap">ETSOrderedSet</td>
+    <td style="white-space: nowrap; text-align: right">6.02 M</td>
+    <td style="white-space: nowrap; text-align: right">11.72x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.MapTupleHalfFull</td>
+    <td style="white-space: nowrap">MapTupleHalfFull</td>
     <td style="white-space: nowrap; text-align: right">4.65 M</td>
-    <td style="white-space: nowrap; text-align: right">34.03x</td>
+    <td style="white-space: nowrap; text-align: right">15.18x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.List2D</td>
-    <td style="white-space: nowrap; text-align: right">4.40 M</td>
-    <td style="white-space: nowrap; text-align: right">35.95x</td>
+    <td style="white-space: nowrap">List2D</td>
+    <td style="white-space: nowrap; text-align: right">4.25 M</td>
+    <td style="white-space: nowrap; text-align: right">16.59x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.List1D</td>
-    <td style="white-space: nowrap; text-align: right">1.39 M</td>
-    <td style="white-space: nowrap; text-align: right">113.58x</td>
+    <td style="white-space: nowrap">List1D</td>
+    <td style="white-space: nowrap; text-align: right">1.40 M</td>
+    <td style="white-space: nowrap; text-align: right">50.29x</td>
   </tr>
 </table>
 
@@ -971,84 +971,84 @@ Run Time
     <th style="text-align: right">99th&nbsp;%</th>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.List1D</td>
-    <td style="white-space: nowrap; text-align: right">29.05 M</td>
-    <td style="white-space: nowrap; text-align: right">34.43 ns</td>
-    <td style="white-space: nowrap; text-align: right">±59.10%</td>
-    <td style="white-space: nowrap; text-align: right">32 ns</td>
-    <td style="white-space: nowrap; text-align: right">92 ns</td>
+    <td style="white-space: nowrap">List1D</td>
+    <td style="white-space: nowrap; text-align: right">42.65 M</td>
+    <td style="white-space: nowrap; text-align: right">23.45 ns</td>
+    <td style="white-space: nowrap; text-align: right">±78.77%</td>
+    <td style="white-space: nowrap; text-align: right">20 ns</td>
+    <td style="white-space: nowrap; text-align: right">67 ns</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.MapTuple</td>
-    <td style="white-space: nowrap; text-align: right">27.84 M</td>
-    <td style="white-space: nowrap; text-align: right">35.92 ns</td>
-    <td style="white-space: nowrap; text-align: right">±2567.72%</td>
-    <td style="white-space: nowrap; text-align: right">29 ns</td>
-    <td style="white-space: nowrap; text-align: right">65 ns</td>
+    <td style="white-space: nowrap">MapTuple</td>
+    <td style="white-space: nowrap; text-align: right">21.62 M</td>
+    <td style="white-space: nowrap; text-align: right">46.24 ns</td>
+    <td style="white-space: nowrap; text-align: right">±19395.85%</td>
+    <td style="white-space: nowrap; text-align: right">24 ns</td>
+    <td style="white-space: nowrap; text-align: right">55 ns</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.Tuple2D</td>
-    <td style="white-space: nowrap; text-align: right">15.26 M</td>
-    <td style="white-space: nowrap; text-align: right">65.51 ns</td>
-    <td style="white-space: nowrap; text-align: right">±3146.44%</td>
-    <td style="white-space: nowrap; text-align: right">56 ns</td>
-    <td style="white-space: nowrap; text-align: right">92 ns</td>
-  </tr>
-  <tr>
-    <td style="white-space: nowrap">Elixir.Board.Tuple1D</td>
-    <td style="white-space: nowrap; text-align: right">12.67 M</td>
-    <td style="white-space: nowrap; text-align: right">78.92 ns</td>
-    <td style="white-space: nowrap; text-align: right">±5647.15%</td>
-    <td style="white-space: nowrap; text-align: right">42 ns</td>
-    <td style="white-space: nowrap; text-align: right">111 ns</td>
-  </tr>
-  <tr>
-    <td style="white-space: nowrap">Elixir.Board.MapTupleHalfFull</td>
-    <td style="white-space: nowrap; text-align: right">12.52 M</td>
-    <td style="white-space: nowrap; text-align: right">79.89 ns</td>
-    <td style="white-space: nowrap; text-align: right">±376.33%</td>
+    <td style="white-space: nowrap">Tuple2D</td>
+    <td style="white-space: nowrap; text-align: right">18.05 M</td>
+    <td style="white-space: nowrap; text-align: right">55.42 ns</td>
+    <td style="white-space: nowrap; text-align: right">±2317.03%</td>
+    <td style="white-space: nowrap; text-align: right">44 ns</td>
     <td style="white-space: nowrap; text-align: right">75 ns</td>
-    <td style="white-space: nowrap; text-align: right">126 ns</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.List2D</td>
-    <td style="white-space: nowrap; text-align: right">11.48 M</td>
-    <td style="white-space: nowrap; text-align: right">87.10 ns</td>
-    <td style="white-space: nowrap; text-align: right">±528.01%</td>
-    <td style="white-space: nowrap; text-align: right">72 ns</td>
-    <td style="white-space: nowrap; text-align: right">208 ns</td>
+    <td style="white-space: nowrap">Tuple1D</td>
+    <td style="white-space: nowrap; text-align: right">13.33 M</td>
+    <td style="white-space: nowrap; text-align: right">75.02 ns</td>
+    <td style="white-space: nowrap; text-align: right">±7062.47%</td>
+    <td style="white-space: nowrap; text-align: right">35 ns</td>
+    <td style="white-space: nowrap; text-align: right">86 ns</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.MapTupleFull</td>
-    <td style="white-space: nowrap; text-align: right">10.45 M</td>
-    <td style="white-space: nowrap; text-align: right">95.73 ns</td>
-    <td style="white-space: nowrap; text-align: right">±19.50%</td>
-    <td style="white-space: nowrap; text-align: right">92 ns</td>
-    <td style="white-space: nowrap; text-align: right">134 ns</td>
+    <td style="white-space: nowrap">MapTupleHalfFull</td>
+    <td style="white-space: nowrap; text-align: right">13.15 M</td>
+    <td style="white-space: nowrap; text-align: right">76.05 ns</td>
+    <td style="white-space: nowrap; text-align: right">±455.77%</td>
+    <td style="white-space: nowrap; text-align: right">70 ns</td>
+    <td style="white-space: nowrap; text-align: right">116 ns</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.ETSSet</td>
-    <td style="white-space: nowrap; text-align: right">8.46 M</td>
-    <td style="white-space: nowrap; text-align: right">118.18 ns</td>
-    <td style="white-space: nowrap; text-align: right">±31.87%</td>
-    <td style="white-space: nowrap; text-align: right">115 ns</td>
-    <td style="white-space: nowrap; text-align: right">178 ns</td>
+    <td style="white-space: nowrap">List2D</td>
+    <td style="white-space: nowrap; text-align: right">11.86 M</td>
+    <td style="white-space: nowrap; text-align: right">84.30 ns</td>
+    <td style="white-space: nowrap; text-align: right">±546.34%</td>
+    <td style="white-space: nowrap; text-align: right">70 ns</td>
+    <td style="white-space: nowrap; text-align: right">200 ns</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.ETSOrderedSet</td>
-    <td style="white-space: nowrap; text-align: right">5.91 M</td>
-    <td style="white-space: nowrap; text-align: right">169.23 ns</td>
-    <td style="white-space: nowrap; text-align: right">±27.54%</td>
+    <td style="white-space: nowrap">ETSSet</td>
+    <td style="white-space: nowrap; text-align: right">9.38 M</td>
+    <td style="white-space: nowrap; text-align: right">106.58 ns</td>
+    <td style="white-space: nowrap; text-align: right">±25.16%</td>
+    <td style="white-space: nowrap; text-align: right">104 ns</td>
+    <td style="white-space: nowrap; text-align: right">146 ns</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">MapTupleFull</td>
+    <td style="white-space: nowrap; text-align: right">8.58 M</td>
+    <td style="white-space: nowrap; text-align: right">116.54 ns</td>
+    <td style="white-space: nowrap; text-align: right">±20.58%</td>
+    <td style="white-space: nowrap; text-align: right">112 ns</td>
     <td style="white-space: nowrap; text-align: right">164 ns</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">ETSOrderedSet</td>
+    <td style="white-space: nowrap; text-align: right">6.05 M</td>
+    <td style="white-space: nowrap; text-align: right">165.20 ns</td>
+    <td style="white-space: nowrap; text-align: right">±59.88%</td>
+    <td style="white-space: nowrap; text-align: right">159 ns</td>
     <td style="white-space: nowrap; text-align: right">296 ns</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.Map2D</td>
-    <td style="white-space: nowrap; text-align: right">4.53 M</td>
-    <td style="white-space: nowrap; text-align: right">220.62 ns</td>
-    <td style="white-space: nowrap; text-align: right">±310.68%</td>
-    <td style="white-space: nowrap; text-align: right">199 ns</td>
-    <td style="white-space: nowrap; text-align: right">484.90 ns</td>
+    <td style="white-space: nowrap">Map2D</td>
+    <td style="white-space: nowrap; text-align: right">4.33 M</td>
+    <td style="white-space: nowrap; text-align: right">230.88 ns</td>
+    <td style="white-space: nowrap; text-align: right">±122.79%</td>
+    <td style="white-space: nowrap; text-align: right">206 ns</td>
+    <td style="white-space: nowrap; text-align: right">499 ns</td>
   </tr>
 </table>
 
@@ -1059,54 +1059,54 @@ Comparison
     <th style="text-align: right">IPS</th>
     <th style="text-align: right">Slower</th>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.List1D</td>
-    <td style="white-space: nowrap;text-align: right">29.05 M</td>
+    <td style="white-space: nowrap">List1D</td>
+    <td style="white-space: nowrap;text-align: right">42.65 M</td>
     <td>&nbsp;</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.MapTuple</td>
-    <td style="white-space: nowrap; text-align: right">27.84 M</td>
-    <td style="white-space: nowrap; text-align: right">1.04x</td>
+    <td style="white-space: nowrap">MapTuple</td>
+    <td style="white-space: nowrap; text-align: right">21.62 M</td>
+    <td style="white-space: nowrap; text-align: right">1.97x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.Tuple2D</td>
-    <td style="white-space: nowrap; text-align: right">15.26 M</td>
-    <td style="white-space: nowrap; text-align: right">1.9x</td>
+    <td style="white-space: nowrap">Tuple2D</td>
+    <td style="white-space: nowrap; text-align: right">18.05 M</td>
+    <td style="white-space: nowrap; text-align: right">2.36x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.Tuple1D</td>
-    <td style="white-space: nowrap; text-align: right">12.67 M</td>
-    <td style="white-space: nowrap; text-align: right">2.29x</td>
+    <td style="white-space: nowrap">Tuple1D</td>
+    <td style="white-space: nowrap; text-align: right">13.33 M</td>
+    <td style="white-space: nowrap; text-align: right">3.2x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.MapTupleHalfFull</td>
-    <td style="white-space: nowrap; text-align: right">12.52 M</td>
-    <td style="white-space: nowrap; text-align: right">2.32x</td>
+    <td style="white-space: nowrap">MapTupleHalfFull</td>
+    <td style="white-space: nowrap; text-align: right">13.15 M</td>
+    <td style="white-space: nowrap; text-align: right">3.24x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.List2D</td>
-    <td style="white-space: nowrap; text-align: right">11.48 M</td>
-    <td style="white-space: nowrap; text-align: right">2.53x</td>
+    <td style="white-space: nowrap">List2D</td>
+    <td style="white-space: nowrap; text-align: right">11.86 M</td>
+    <td style="white-space: nowrap; text-align: right">3.6x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.MapTupleFull</td>
-    <td style="white-space: nowrap; text-align: right">10.45 M</td>
-    <td style="white-space: nowrap; text-align: right">2.78x</td>
+    <td style="white-space: nowrap">ETSSet</td>
+    <td style="white-space: nowrap; text-align: right">9.38 M</td>
+    <td style="white-space: nowrap; text-align: right">4.55x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.ETSSet</td>
-    <td style="white-space: nowrap; text-align: right">8.46 M</td>
-    <td style="white-space: nowrap; text-align: right">3.43x</td>
+    <td style="white-space: nowrap">MapTupleFull</td>
+    <td style="white-space: nowrap; text-align: right">8.58 M</td>
+    <td style="white-space: nowrap; text-align: right">4.97x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.ETSOrderedSet</td>
-    <td style="white-space: nowrap; text-align: right">5.91 M</td>
-    <td style="white-space: nowrap; text-align: right">4.92x</td>
+    <td style="white-space: nowrap">ETSOrderedSet</td>
+    <td style="white-space: nowrap; text-align: right">6.05 M</td>
+    <td style="white-space: nowrap; text-align: right">7.05x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.Map2D</td>
-    <td style="white-space: nowrap; text-align: right">4.53 M</td>
-    <td style="white-space: nowrap; text-align: right">6.41x</td>
+    <td style="white-space: nowrap">Map2D</td>
+    <td style="white-space: nowrap; text-align: right">4.33 M</td>
+    <td style="white-space: nowrap; text-align: right">9.85x</td>
   </tr>
 </table>
 
@@ -1126,84 +1126,84 @@ Run Time
     <th style="text-align: right">99th&nbsp;%</th>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.MapTuple</td>
-    <td style="white-space: nowrap; text-align: right">33.32 M</td>
-    <td style="white-space: nowrap; text-align: right">30.01 ns</td>
-    <td style="white-space: nowrap; text-align: right">±3895.53%</td>
-    <td style="white-space: nowrap; text-align: right">24 ns</td>
-    <td style="white-space: nowrap; text-align: right">61 ns</td>
+    <td style="white-space: nowrap">MapTuple</td>
+    <td style="white-space: nowrap; text-align: right">27.01 M</td>
+    <td style="white-space: nowrap; text-align: right">37.02 ns</td>
+    <td style="white-space: nowrap; text-align: right">±6159.06%</td>
+    <td style="white-space: nowrap; text-align: right">28 ns</td>
+    <td style="white-space: nowrap; text-align: right">68 ns</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.Tuple2D</td>
-    <td style="white-space: nowrap; text-align: right">16.49 M</td>
-    <td style="white-space: nowrap; text-align: right">60.66 ns</td>
-    <td style="white-space: nowrap; text-align: right">±3246.66%</td>
-    <td style="white-space: nowrap; text-align: right">49 ns</td>
-    <td style="white-space: nowrap; text-align: right">98 ns</td>
+    <td style="white-space: nowrap">Tuple2D</td>
+    <td style="white-space: nowrap; text-align: right">16.96 M</td>
+    <td style="white-space: nowrap; text-align: right">58.97 ns</td>
+    <td style="white-space: nowrap; text-align: right">±2609.67%</td>
+    <td style="white-space: nowrap; text-align: right">48 ns</td>
+    <td style="white-space: nowrap; text-align: right">81 ns</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.Tuple1D</td>
-    <td style="white-space: nowrap; text-align: right">13.76 M</td>
-    <td style="white-space: nowrap; text-align: right">72.65 ns</td>
-    <td style="white-space: nowrap; text-align: right">±6228.76%</td>
-    <td style="white-space: nowrap; text-align: right">37 ns</td>
-    <td style="white-space: nowrap; text-align: right">114 ns</td>
+    <td style="white-space: nowrap">Tuple1D</td>
+    <td style="white-space: nowrap; text-align: right">12.47 M</td>
+    <td style="white-space: nowrap; text-align: right">80.19 ns</td>
+    <td style="white-space: nowrap; text-align: right">±5890.95%</td>
+    <td style="white-space: nowrap; text-align: right">40 ns</td>
+    <td style="white-space: nowrap; text-align: right">119 ns</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.MapTupleFull</td>
-    <td style="white-space: nowrap; text-align: right">9.74 M</td>
-    <td style="white-space: nowrap; text-align: right">102.68 ns</td>
-    <td style="white-space: nowrap; text-align: right">±36.99%</td>
-    <td style="white-space: nowrap; text-align: right">97 ns</td>
-    <td style="white-space: nowrap; text-align: right">150 ns</td>
+    <td style="white-space: nowrap">ETSSet</td>
+    <td style="white-space: nowrap; text-align: right">8.80 M</td>
+    <td style="white-space: nowrap; text-align: right">113.61 ns</td>
+    <td style="white-space: nowrap; text-align: right">±18.73%</td>
+    <td style="white-space: nowrap; text-align: right">110 ns</td>
+    <td style="white-space: nowrap; text-align: right">164.30 ns</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.ETSSet</td>
-    <td style="white-space: nowrap; text-align: right">9.29 M</td>
-    <td style="white-space: nowrap; text-align: right">107.62 ns</td>
-    <td style="white-space: nowrap; text-align: right">±22.42%</td>
-    <td style="white-space: nowrap; text-align: right">105 ns</td>
-    <td style="white-space: nowrap; text-align: right">162 ns</td>
+    <td style="white-space: nowrap">MapTupleFull</td>
+    <td style="white-space: nowrap; text-align: right">8.74 M</td>
+    <td style="white-space: nowrap; text-align: right">114.39 ns</td>
+    <td style="white-space: nowrap; text-align: right">±24.31%</td>
+    <td style="white-space: nowrap; text-align: right">109 ns</td>
+    <td style="white-space: nowrap; text-align: right">250 ns</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.ETSOrderedSet</td>
-    <td style="white-space: nowrap; text-align: right">5.65 M</td>
-    <td style="white-space: nowrap; text-align: right">176.99 ns</td>
-    <td style="white-space: nowrap; text-align: right">±25.85%</td>
-    <td style="white-space: nowrap; text-align: right">170 ns</td>
-    <td style="white-space: nowrap; text-align: right">254.70 ns</td>
+    <td style="white-space: nowrap">ETSOrderedSet</td>
+    <td style="white-space: nowrap; text-align: right">5.60 M</td>
+    <td style="white-space: nowrap; text-align: right">178.57 ns</td>
+    <td style="white-space: nowrap; text-align: right">±17.58%</td>
+    <td style="white-space: nowrap; text-align: right">175 ns</td>
+    <td style="white-space: nowrap; text-align: right">223 ns</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.List2D</td>
-    <td style="white-space: nowrap; text-align: right">5.44 M</td>
-    <td style="white-space: nowrap; text-align: right">183.76 ns</td>
-    <td style="white-space: nowrap; text-align: right">±25.72%</td>
-    <td style="white-space: nowrap; text-align: right">177 ns</td>
+    <td style="white-space: nowrap">List2D</td>
+    <td style="white-space: nowrap; text-align: right">5.00 M</td>
+    <td style="white-space: nowrap; text-align: right">199.90 ns</td>
+    <td style="white-space: nowrap; text-align: right">±108.04%</td>
+    <td style="white-space: nowrap; text-align: right">192 ns</td>
+    <td style="white-space: nowrap; text-align: right">416 ns</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">Map2D</td>
+    <td style="white-space: nowrap; text-align: right">3.86 M</td>
+    <td style="white-space: nowrap; text-align: right">258.94 ns</td>
+    <td style="white-space: nowrap; text-align: right">±108.92%</td>
+    <td style="white-space: nowrap; text-align: right">232 ns</td>
+    <td style="white-space: nowrap; text-align: right">524 ns</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">MapTupleHalfFull</td>
+    <td style="white-space: nowrap; text-align: right">2.86 M</td>
+    <td style="white-space: nowrap; text-align: right">349.57 ns</td>
+    <td style="white-space: nowrap; text-align: right">±84.68%</td>
+    <td style="white-space: nowrap; text-align: right">343 ns</td>
     <td style="white-space: nowrap; text-align: right">407 ns</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.Map2D</td>
-    <td style="white-space: nowrap; text-align: right">4.15 M</td>
-    <td style="white-space: nowrap; text-align: right">241.02 ns</td>
-    <td style="white-space: nowrap; text-align: right">±270.60%</td>
-    <td style="white-space: nowrap; text-align: right">220 ns</td>
-    <td style="white-space: nowrap; text-align: right">510 ns</td>
-  </tr>
-  <tr>
-    <td style="white-space: nowrap">Elixir.Board.MapTupleHalfFull</td>
-    <td style="white-space: nowrap; text-align: right">2.88 M</td>
-    <td style="white-space: nowrap; text-align: right">346.96 ns</td>
-    <td style="white-space: nowrap; text-align: right">±88.92%</td>
-    <td style="white-space: nowrap; text-align: right">339 ns</td>
-    <td style="white-space: nowrap; text-align: right">414 ns</td>
-  </tr>
-  <tr>
-    <td style="white-space: nowrap">Elixir.Board.List1D</td>
-    <td style="white-space: nowrap; text-align: right">2.68 M</td>
-    <td style="white-space: nowrap; text-align: right">372.47 ns</td>
-    <td style="white-space: nowrap; text-align: right">±85.25%</td>
-    <td style="white-space: nowrap; text-align: right">359 ns</td>
-    <td style="white-space: nowrap; text-align: right">609 ns</td>
+    <td style="white-space: nowrap">List1D</td>
+    <td style="white-space: nowrap; text-align: right">2.70 M</td>
+    <td style="white-space: nowrap; text-align: right">370.17 ns</td>
+    <td style="white-space: nowrap; text-align: right">±351.12%</td>
+    <td style="white-space: nowrap; text-align: right">352 ns</td>
+    <td style="white-space: nowrap; text-align: right">605 ns</td>
   </tr>
 </table>
 
@@ -1214,54 +1214,54 @@ Comparison
     <th style="text-align: right">IPS</th>
     <th style="text-align: right">Slower</th>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.MapTuple</td>
-    <td style="white-space: nowrap;text-align: right">33.32 M</td>
+    <td style="white-space: nowrap">MapTuple</td>
+    <td style="white-space: nowrap;text-align: right">27.01 M</td>
     <td>&nbsp;</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.Tuple2D</td>
-    <td style="white-space: nowrap; text-align: right">16.49 M</td>
-    <td style="white-space: nowrap; text-align: right">2.02x</td>
+    <td style="white-space: nowrap">Tuple2D</td>
+    <td style="white-space: nowrap; text-align: right">16.96 M</td>
+    <td style="white-space: nowrap; text-align: right">1.59x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.Tuple1D</td>
-    <td style="white-space: nowrap; text-align: right">13.76 M</td>
-    <td style="white-space: nowrap; text-align: right">2.42x</td>
+    <td style="white-space: nowrap">Tuple1D</td>
+    <td style="white-space: nowrap; text-align: right">12.47 M</td>
+    <td style="white-space: nowrap; text-align: right">2.17x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.MapTupleFull</td>
-    <td style="white-space: nowrap; text-align: right">9.74 M</td>
-    <td style="white-space: nowrap; text-align: right">3.42x</td>
+    <td style="white-space: nowrap">ETSSet</td>
+    <td style="white-space: nowrap; text-align: right">8.80 M</td>
+    <td style="white-space: nowrap; text-align: right">3.07x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.ETSSet</td>
-    <td style="white-space: nowrap; text-align: right">9.29 M</td>
-    <td style="white-space: nowrap; text-align: right">3.59x</td>
+    <td style="white-space: nowrap">MapTupleFull</td>
+    <td style="white-space: nowrap; text-align: right">8.74 M</td>
+    <td style="white-space: nowrap; text-align: right">3.09x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.ETSOrderedSet</td>
-    <td style="white-space: nowrap; text-align: right">5.65 M</td>
-    <td style="white-space: nowrap; text-align: right">5.9x</td>
+    <td style="white-space: nowrap">ETSOrderedSet</td>
+    <td style="white-space: nowrap; text-align: right">5.60 M</td>
+    <td style="white-space: nowrap; text-align: right">4.82x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.List2D</td>
-    <td style="white-space: nowrap; text-align: right">5.44 M</td>
-    <td style="white-space: nowrap; text-align: right">6.12x</td>
+    <td style="white-space: nowrap">List2D</td>
+    <td style="white-space: nowrap; text-align: right">5.00 M</td>
+    <td style="white-space: nowrap; text-align: right">5.4x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.Map2D</td>
-    <td style="white-space: nowrap; text-align: right">4.15 M</td>
-    <td style="white-space: nowrap; text-align: right">8.03x</td>
+    <td style="white-space: nowrap">Map2D</td>
+    <td style="white-space: nowrap; text-align: right">3.86 M</td>
+    <td style="white-space: nowrap; text-align: right">6.99x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.MapTupleHalfFull</td>
-    <td style="white-space: nowrap; text-align: right">2.88 M</td>
-    <td style="white-space: nowrap; text-align: right">11.56x</td>
+    <td style="white-space: nowrap">MapTupleHalfFull</td>
+    <td style="white-space: nowrap; text-align: right">2.86 M</td>
+    <td style="white-space: nowrap; text-align: right">9.44x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.List1D</td>
-    <td style="white-space: nowrap; text-align: right">2.68 M</td>
-    <td style="white-space: nowrap; text-align: right">12.41x</td>
+    <td style="white-space: nowrap">List1D</td>
+    <td style="white-space: nowrap; text-align: right">2.70 M</td>
+    <td style="white-space: nowrap; text-align: right">10.0x</td>
   </tr>
 </table>
 
@@ -1281,84 +1281,84 @@ Run Time
     <th style="text-align: right">99th&nbsp;%</th>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.MapTuple</td>
-    <td style="white-space: nowrap; text-align: right">21.23 M</td>
-    <td style="white-space: nowrap; text-align: right">47.11 ns</td>
-    <td style="white-space: nowrap; text-align: right">±9122.58%</td>
-    <td style="white-space: nowrap; text-align: right">35 ns</td>
-    <td style="white-space: nowrap; text-align: right">66 ns</td>
+    <td style="white-space: nowrap">MapTuple</td>
+    <td style="white-space: nowrap; text-align: right">24.41 M</td>
+    <td style="white-space: nowrap; text-align: right">40.96 ns</td>
+    <td style="white-space: nowrap; text-align: right">±5060.93%</td>
+    <td style="white-space: nowrap; text-align: right">31 ns</td>
+    <td style="white-space: nowrap; text-align: right">72 ns</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.Tuple2D</td>
-    <td style="white-space: nowrap; text-align: right">13.75 M</td>
-    <td style="white-space: nowrap; text-align: right">72.72 ns</td>
-    <td style="white-space: nowrap; text-align: right">±3726.93%</td>
-    <td style="white-space: nowrap; text-align: right">61 ns</td>
-    <td style="white-space: nowrap; text-align: right">77 ns</td>
+    <td style="white-space: nowrap">Tuple2D</td>
+    <td style="white-space: nowrap; text-align: right">15.95 M</td>
+    <td style="white-space: nowrap; text-align: right">62.70 ns</td>
+    <td style="white-space: nowrap; text-align: right">±2149.23%</td>
+    <td style="white-space: nowrap; text-align: right">52 ns</td>
+    <td style="white-space: nowrap; text-align: right">73 ns</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.Tuple1D</td>
-    <td style="white-space: nowrap; text-align: right">9.98 M</td>
-    <td style="white-space: nowrap; text-align: right">100.16 ns</td>
-    <td style="white-space: nowrap; text-align: right">±9312.11%</td>
-    <td style="white-space: nowrap; text-align: right">47 ns</td>
-    <td style="white-space: nowrap; text-align: right">128 ns</td>
+    <td style="white-space: nowrap">Tuple1D</td>
+    <td style="white-space: nowrap; text-align: right">10.68 M</td>
+    <td style="white-space: nowrap; text-align: right">93.61 ns</td>
+    <td style="white-space: nowrap; text-align: right">±8311.01%</td>
+    <td style="white-space: nowrap; text-align: right">43 ns</td>
+    <td style="white-space: nowrap; text-align: right">120 ns</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.MapTupleFull</td>
-    <td style="white-space: nowrap; text-align: right">8.84 M</td>
-    <td style="white-space: nowrap; text-align: right">113.12 ns</td>
-    <td style="white-space: nowrap; text-align: right">±13.41%</td>
-    <td style="white-space: nowrap; text-align: right">108 ns</td>
-    <td style="white-space: nowrap; text-align: right">153 ns</td>
-  </tr>
-  <tr>
-    <td style="white-space: nowrap">Elixir.Board.ETSSet</td>
-    <td style="white-space: nowrap; text-align: right">8.40 M</td>
-    <td style="white-space: nowrap; text-align: right">119.03 ns</td>
-    <td style="white-space: nowrap; text-align: right">±21.77%</td>
+    <td style="white-space: nowrap">ETSSet</td>
+    <td style="white-space: nowrap; text-align: right">8.77 M</td>
+    <td style="white-space: nowrap; text-align: right">113.98 ns</td>
+    <td style="white-space: nowrap; text-align: right">±13.97%</td>
     <td style="white-space: nowrap; text-align: right">112 ns</td>
-    <td style="white-space: nowrap; text-align: right">179 ns</td>
+    <td style="white-space: nowrap; text-align: right">148 ns</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.ETSOrderedSet</td>
-    <td style="white-space: nowrap; text-align: right">5.58 M</td>
-    <td style="white-space: nowrap; text-align: right">179.07 ns</td>
-    <td style="white-space: nowrap; text-align: right">±27.94%</td>
-    <td style="white-space: nowrap; text-align: right">174 ns</td>
+    <td style="white-space: nowrap">MapTupleFull</td>
+    <td style="white-space: nowrap; text-align: right">8.47 M</td>
+    <td style="white-space: nowrap; text-align: right">118.03 ns</td>
+    <td style="white-space: nowrap; text-align: right">±17.85%</td>
+    <td style="white-space: nowrap; text-align: right">114 ns</td>
+    <td style="white-space: nowrap; text-align: right">166 ns</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">ETSOrderedSet</td>
+    <td style="white-space: nowrap; text-align: right">5.47 M</td>
+    <td style="white-space: nowrap; text-align: right">182.88 ns</td>
+    <td style="white-space: nowrap; text-align: right">±80.46%</td>
+    <td style="white-space: nowrap; text-align: right">177 ns</td>
     <td style="white-space: nowrap; text-align: right">226 ns</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.Map2D</td>
-    <td style="white-space: nowrap; text-align: right">3.85 M</td>
-    <td style="white-space: nowrap; text-align: right">259.90 ns</td>
-    <td style="white-space: nowrap; text-align: right">±241.14%</td>
-    <td style="white-space: nowrap; text-align: right">238 ns</td>
-    <td style="white-space: nowrap; text-align: right">523 ns</td>
+    <td style="white-space: nowrap">Map2D</td>
+    <td style="white-space: nowrap; text-align: right">3.73 M</td>
+    <td style="white-space: nowrap; text-align: right">267.76 ns</td>
+    <td style="white-space: nowrap; text-align: right">±106.48%</td>
+    <td style="white-space: nowrap; text-align: right">240 ns</td>
+    <td style="white-space: nowrap; text-align: right">546 ns</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.List2D</td>
-    <td style="white-space: nowrap; text-align: right">3.08 M</td>
-    <td style="white-space: nowrap; text-align: right">324.75 ns</td>
-    <td style="white-space: nowrap; text-align: right">±73.05%</td>
-    <td style="white-space: nowrap; text-align: right">312 ns</td>
-    <td style="white-space: nowrap; text-align: right">558 ns</td>
+    <td style="white-space: nowrap">List2D</td>
+    <td style="white-space: nowrap; text-align: right">3.10 M</td>
+    <td style="white-space: nowrap; text-align: right">322.24 ns</td>
+    <td style="white-space: nowrap; text-align: right">±69.83%</td>
+    <td style="white-space: nowrap; text-align: right">309 ns</td>
+    <td style="white-space: nowrap; text-align: right">553 ns</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.MapTupleHalfFull</td>
-    <td style="white-space: nowrap; text-align: right">2.71 M</td>
-    <td style="white-space: nowrap; text-align: right">368.62 ns</td>
-    <td style="white-space: nowrap; text-align: right">±65.68%</td>
-    <td style="white-space: nowrap; text-align: right">348 ns</td>
-    <td style="white-space: nowrap; text-align: right">1462 ns</td>
+    <td style="white-space: nowrap">MapTupleHalfFull</td>
+    <td style="white-space: nowrap; text-align: right">2.73 M</td>
+    <td style="white-space: nowrap; text-align: right">366.94 ns</td>
+    <td style="white-space: nowrap; text-align: right">±66.04%</td>
+    <td style="white-space: nowrap; text-align: right">347 ns</td>
+    <td style="white-space: nowrap; text-align: right">1449 ns</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.List1D</td>
-    <td style="white-space: nowrap; text-align: right">1.36 M</td>
-    <td style="white-space: nowrap; text-align: right">734.08 ns</td>
-    <td style="white-space: nowrap; text-align: right">±159.21%</td>
-    <td style="white-space: nowrap; text-align: right">687 ns</td>
-    <td style="white-space: nowrap; text-align: right">1351.83 ns</td>
+    <td style="white-space: nowrap">List1D</td>
+    <td style="white-space: nowrap; text-align: right">1.40 M</td>
+    <td style="white-space: nowrap; text-align: right">712.70 ns</td>
+    <td style="white-space: nowrap; text-align: right">±157.98%</td>
+    <td style="white-space: nowrap; text-align: right">663 ns</td>
+    <td style="white-space: nowrap; text-align: right">1393 ns</td>
   </tr>
 </table>
 
@@ -1369,54 +1369,54 @@ Comparison
     <th style="text-align: right">IPS</th>
     <th style="text-align: right">Slower</th>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.MapTuple</td>
-    <td style="white-space: nowrap;text-align: right">21.23 M</td>
+    <td style="white-space: nowrap">MapTuple</td>
+    <td style="white-space: nowrap;text-align: right">24.41 M</td>
     <td>&nbsp;</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.Tuple2D</td>
-    <td style="white-space: nowrap; text-align: right">13.75 M</td>
-    <td style="white-space: nowrap; text-align: right">1.54x</td>
+    <td style="white-space: nowrap">Tuple2D</td>
+    <td style="white-space: nowrap; text-align: right">15.95 M</td>
+    <td style="white-space: nowrap; text-align: right">1.53x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.Tuple1D</td>
-    <td style="white-space: nowrap; text-align: right">9.98 M</td>
-    <td style="white-space: nowrap; text-align: right">2.13x</td>
+    <td style="white-space: nowrap">Tuple1D</td>
+    <td style="white-space: nowrap; text-align: right">10.68 M</td>
+    <td style="white-space: nowrap; text-align: right">2.29x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.MapTupleFull</td>
-    <td style="white-space: nowrap; text-align: right">8.84 M</td>
-    <td style="white-space: nowrap; text-align: right">2.4x</td>
+    <td style="white-space: nowrap">ETSSet</td>
+    <td style="white-space: nowrap; text-align: right">8.77 M</td>
+    <td style="white-space: nowrap; text-align: right">2.78x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.ETSSet</td>
-    <td style="white-space: nowrap; text-align: right">8.40 M</td>
-    <td style="white-space: nowrap; text-align: right">2.53x</td>
+    <td style="white-space: nowrap">MapTupleFull</td>
+    <td style="white-space: nowrap; text-align: right">8.47 M</td>
+    <td style="white-space: nowrap; text-align: right">2.88x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.ETSOrderedSet</td>
-    <td style="white-space: nowrap; text-align: right">5.58 M</td>
-    <td style="white-space: nowrap; text-align: right">3.8x</td>
+    <td style="white-space: nowrap">ETSOrderedSet</td>
+    <td style="white-space: nowrap; text-align: right">5.47 M</td>
+    <td style="white-space: nowrap; text-align: right">4.46x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.Map2D</td>
-    <td style="white-space: nowrap; text-align: right">3.85 M</td>
-    <td style="white-space: nowrap; text-align: right">5.52x</td>
+    <td style="white-space: nowrap">Map2D</td>
+    <td style="white-space: nowrap; text-align: right">3.73 M</td>
+    <td style="white-space: nowrap; text-align: right">6.54x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.List2D</td>
-    <td style="white-space: nowrap; text-align: right">3.08 M</td>
-    <td style="white-space: nowrap; text-align: right">6.89x</td>
+    <td style="white-space: nowrap">List2D</td>
+    <td style="white-space: nowrap; text-align: right">3.10 M</td>
+    <td style="white-space: nowrap; text-align: right">7.87x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.MapTupleHalfFull</td>
-    <td style="white-space: nowrap; text-align: right">2.71 M</td>
-    <td style="white-space: nowrap; text-align: right">7.82x</td>
+    <td style="white-space: nowrap">MapTupleHalfFull</td>
+    <td style="white-space: nowrap; text-align: right">2.73 M</td>
+    <td style="white-space: nowrap; text-align: right">8.96x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Elixir.Board.List1D</td>
-    <td style="white-space: nowrap; text-align: right">1.36 M</td>
-    <td style="white-space: nowrap; text-align: right">15.58x</td>
+    <td style="white-space: nowrap">List1D</td>
+    <td style="white-space: nowrap; text-align: right">1.40 M</td>
+    <td style="white-space: nowrap; text-align: right">17.4x</td>
   </tr>
 </table>
 
