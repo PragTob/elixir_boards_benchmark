@@ -20,7 +20,8 @@ defmodule ElixirBoardsBenchmark.MixProject do
   defp deps do
     [
       {:benchee, "~> 1.0"},
-      {:benchee_html, "~> 1.0"}
+      {:benchee_html, "~> 1.0"},
+      {:benchee_markdown, "~> 0.2"}
     ]
   end
 end

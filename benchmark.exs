@@ -48,7 +48,7 @@ defmodule BoardBenchmarkMacro do
     end)
   end
 
-  defmacro creating_getting_and_setting_full_board do
+  defmacro getting_and_setting_full_board do
     Enum.map(@board_modules, fn module ->
       quote do
         {unquote(module),
@@ -91,16 +91,37 @@ end
 defmodule BoardBenchmark do
   require BoardBenchmarkMacro
   import BoardBenchmarkMacro
+  alias Benchee.Formatters.{Console, HTML, Markdown}
 
   # can't use macros top level if defined in the same context and I want to use them in the same context, hence this "main" method
   def main do
+    headline("Getting and setting full board")
+
+    # times are rather small as our measurements are very fast, so we get good sample sizes
+    # plus the HTML formatter/the JS part of it gets problems with big data sets and slows to a crawl
+    Benchee.run(getting_and_setting_full_board(),
+      time: 2,
+      warmup: 0.5,
+      memory_time: 0.1,
+      formatters: [
+        {Console, extended_statistics: true},
+        {HTML, file: "output/html/getting_and_setting_full_board.html", auto_open: false},
+        {Markdown, file: "output/md/getting_and_setting_full_board.md"}
+      ]
+    )
+
     Enum.each([{0, 0}, {4, 4}, {8, 8}], fn {x, y} ->
       headline("get(#{x}, #{y})")
 
       Benchee.run(get(x, y),
-        time: 0.5,
+        time: 0.3,
         warmup: 0.1,
-        print: [benchmarking: false, configuration: false]
+        print: [benchmarking: false, configuration: false],
+        formatters: [
+          Console,
+          {HTML, file: "output/html/get_#{x}_#{y}.html", auto_open: false},
+          {Markdown, file: "output/md/get_#{x}_#{y}.md"}
+        ]
       )
     end)
 
@@ -108,29 +129,29 @@ defmodule BoardBenchmark do
       headline("set(#{x}, #{y}, :boom)")
 
       Benchee.run(set(x, y, :boom),
-        time: 0.5,
+        time: 0.3,
         warmup: 0.1,
-        print: [benchmarking: false, configuration: false]
+        print: [benchmarking: false, configuration: false],
+        formatters: [
+          {Console, extended_statistics: true},
+          {HTML, file: "output/html/set_#{x}_#{y}.html", auto_open: false},
+          {Markdown, file: "output/md/set_#{x}_#{y}.md"}
+        ]
       )
     end)
 
     headline("mixed bag (3 sets, 3 gets)")
 
     Benchee.run(mixed_bag(),
-      time: 0.5,
+      time: 0.3,
       warmup: 0.1,
-      memory_time: 0.1,
+      memory_time: 0.01,
       print: [benchmarking: false, configuration: false],
-      formatters: [{Benchee.Formatters.Console, extended_statistics: true}]
-    )
-
-    headline("Creating, getting and setting full board")
-
-    Benchee.run(creating_getting_and_setting_full_board(),
-      time: 3,
-      warmup: 0.5,
-      memory_time: 0.1,
-      formatters: [{Benchee.Formatters.Console, extended_statistics: true}]
+      formatters: [
+        {Console, extended_statistics: true},
+        {HTML, file: "output/html/mixed_bag.html", auto_open: false},
+        {Markdown, file: "output/md/mixed_bag.md"}
+      ]
     )
   end
 
