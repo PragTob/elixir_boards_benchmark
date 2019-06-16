@@ -11,6 +11,8 @@ What is benchmarked?
 * getting and setting of (0, 0), (4, 4) and (8, 8)
 * getting and setting of all coordinates in one rune
 
+The benchmarking code itself is in [benchmark.exs](https://github.com/PragTob/elixir_boards_benchmark/blob/master/benchmark.exs).
+
 Table of Contents
 =================
 
