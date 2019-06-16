@@ -1,11 +1,10 @@
 defmodule Board.MapTupleFull do
   @behaviour Board
 
-  @dimension 9
   def new do
-    1..@dimension
+    0..8
     |> Enum.flat_map(fn x ->
-      Enum.map(1..@dimension, fn y ->
+      Enum.map(0..8, fn y ->
         {{x, y}, nil}
       end)
     end)
