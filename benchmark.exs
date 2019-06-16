@@ -19,8 +19,10 @@ defmodule BoardBenchmarkMacro do
 
   defmacro get(x, y) do
     Enum.map(@board_modules, fn module ->
+      name = short_module_name(module)
+
       quote do
-        {unquote(module),
+        {unquote(name),
          {fn board ->
             unquote(module).get(
               board,
@@ -34,8 +36,10 @@ defmodule BoardBenchmarkMacro do
 
   defmacro set(x, y, value) do
     Enum.map(@board_modules, fn module ->
+      name = short_module_name(module)
+
       quote do
-        {unquote(module),
+        {unquote(name),
          {fn board ->
             unquote(module).set(
               board,
@@ -50,8 +54,10 @@ defmodule BoardBenchmarkMacro do
 
   defmacro getting_and_setting_full_board do
     Enum.map(@board_modules, fn module ->
+      name = short_module_name(module)
+
       quote do
-        {unquote(module),
+        {unquote(name),
          {fn board ->
             # maping so it sholdn't potentially optimize away return values
             Enum.flat_map(0..8, fn x ->
@@ -67,8 +73,10 @@ defmodule BoardBenchmarkMacro do
 
   defmacro mixed_bag() do
     Enum.map(@board_modules, fn module ->
+      name = short_module_name(module)
+
       quote do
-        {unquote(module),
+        {unquote(name),
          {fn board ->
             new_board =
               board
@@ -85,6 +93,13 @@ defmodule BoardBenchmarkMacro do
           end, before_each: fn _ -> unquote(module).new end}}
       end
     end)
+  end
+
+  def short_module_name(module) do
+    module
+    |> to_string()
+    |> String.split(".")
+    |> List.last()
   end
 end
 
@@ -133,7 +148,7 @@ defmodule BoardBenchmark do
         warmup: 0.1,
         print: [benchmarking: false, configuration: false],
         formatters: [
-          {Console, extended_statistics: true},
+          Console,
           {HTML, file: "output/html/set_#{x}_#{y}.html", auto_open: false},
           {Markdown, file: "output/md/set_#{x}_#{y}.md"}
         ]
