@@ -1,4 +1,9 @@
-defmodule Magic do
+defmodule BoardBenchmarkMacro do
+  # Why macros?
+  # Repetition got very annoying quickly in those benchmarks. Non macro benchmarks had too much of an overhead for the times we want to measure here (sub 20 ns sometimes), presumably because the module had to be looked up with non macro approaches at reducing the repetition.
+  # Also I wanted it to be easy to add new implementations. Now it's as easy as adding one to these @board_modules here.
+
+  # Add your implementation here:
   @board_modules [
     Board.List1D,
     Board.List2D,
@@ -84,11 +89,11 @@ defmodule Magic do
 end
 
 defmodule BoardBenchmark do
-  require Magic
-  import Magic
+  require BoardBenchmarkMacro
+  import BoardBenchmarkMacro
 
-  # can't use macros top level if defined in the same context and I want to use them in the same context
-  def go do
+  # can't use macros top level if defined in the same context and I want to use them in the same context, hence this "main" method
+  def main do
     Enum.each([{0, 0}, {4, 4}, {8, 8}], fn {x, y} ->
       headline("get(#{x}, #{y})")
 
@@ -138,4 +143,4 @@ defmodule BoardBenchmark do
   end
 end
 
-BoardBenchmark.go()
+BoardBenchmark.main()
