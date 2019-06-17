@@ -12,7 +12,8 @@ defmodule BoardTest do
     Board.MapTupleQuarterFull,
     Board.Map2D,
     Board.ETSSet,
-    Board.ETSOrderedSet
+    Board.ETSOrderedSet,
+    Board.ProcessDictionary
   ]
   # for module <- @modules do
   Enum.each(@modules, fn module ->
