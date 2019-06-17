@@ -8,7 +8,7 @@ defmodule Board.Map2D do
     |> Map.new()
   end
 
-  def get(board, x, y), do: board[x][y]
+  def get(board, x, y), do: board |> Map.get(x) |> Map.get(y)
 
   def set(board, x, y, value) do
     put_in(board[x][y], value)
