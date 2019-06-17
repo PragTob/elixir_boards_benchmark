@@ -9,6 +9,7 @@ defmodule BoardTest do
     Board.Tuple1D,
     Board.MapTupleFull,
     Board.MapTupleHalfFull,
+    Board.MapTupleQuarterFull,
     Board.Map2D,
     Board.ETSSet,
     Board.ETSOrderedSet

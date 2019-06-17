@@ -9,6 +9,7 @@ defmodule BoardBenchmarkMacro do
     Board.List2D,
     Board.MapTuple,
     Board.MapTupleHalfFull,
+    Board.MapTupleQuarterFull,
     Board.MapTupleFull,
     Board.Map2D,
     Board.Tuple1D,
