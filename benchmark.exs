@@ -16,7 +16,9 @@ defmodule BoardBenchmarkMacro do
     Board.Tuple2D,
     Board.ETSSet,
     Board.ETSOrderedSet,
-    Board.ProcessDictionary
+    Board.ProcessDictionary,
+    Board.Array1D,
+    Board.Array2D
   ]
 
   defmacro get(x, y) do

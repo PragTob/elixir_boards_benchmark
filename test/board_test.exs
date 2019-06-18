@@ -13,7 +13,9 @@ defmodule BoardTest do
     Board.Map2D,
     Board.ETSSet,
     Board.ETSOrderedSet,
-    Board.ProcessDictionary
+    Board.ProcessDictionary,
+    Board.Array1D,
+    Board.Array2D
   ]
   # for module <- @modules do
   Enum.each(@modules, fn module ->

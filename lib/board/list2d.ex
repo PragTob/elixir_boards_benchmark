@@ -9,11 +9,11 @@ defmodule Board.List2D do
   def get(board, x, y), do: board |> Enum.at(x) |> Enum.at(y)
 
   def set(board, x, y, value) do
-    row =
+    column =
       board
       |> Enum.at(x)
       |> List.replace_at(y, value)
 
-    List.replace_at(board, x, row)
+    List.replace_at(board, x, column)
   end
 end
