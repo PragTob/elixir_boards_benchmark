@@ -80,99 +80,115 @@ Run Time
   </tr>
   <tr>
     <td style="white-space: nowrap">Tuple1D</td>
-    <td style="white-space: nowrap; text-align: right">136.21 K</td>
-    <td style="white-space: nowrap; text-align: right">7.34 μs</td>
-    <td style="white-space: nowrap; text-align: right">±55.74%</td>
-    <td style="white-space: nowrap; text-align: right">6.76 μs</td>
-    <td style="white-space: nowrap; text-align: right">11.92 μs</td>
+    <td style="white-space: nowrap; text-align: right">133.95 K</td>
+    <td style="white-space: nowrap; text-align: right">7.47 μs</td>
+    <td style="white-space: nowrap; text-align: right">±23.29%</td>
+    <td style="white-space: nowrap; text-align: right">6.93 μs</td>
+    <td style="white-space: nowrap; text-align: right">10.80 μs</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">Tuple2D</td>
-    <td style="white-space: nowrap; text-align: right">134.70 K</td>
-    <td style="white-space: nowrap; text-align: right">7.42 μs</td>
-    <td style="white-space: nowrap; text-align: right">±40.47%</td>
-    <td style="white-space: nowrap; text-align: right">7.08 μs</td>
-    <td style="white-space: nowrap; text-align: right">11.86 μs</td>
+    <td style="white-space: nowrap; text-align: right">132.16 K</td>
+    <td style="white-space: nowrap; text-align: right">7.57 μs</td>
+    <td style="white-space: nowrap; text-align: right">±29.17%</td>
+    <td style="white-space: nowrap; text-align: right">7.21 μs</td>
+    <td style="white-space: nowrap; text-align: right">14.02 μs</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">MapTuple</td>
-    <td style="white-space: nowrap; text-align: right">125.94 K</td>
-    <td style="white-space: nowrap; text-align: right">7.94 μs</td>
-    <td style="white-space: nowrap; text-align: right">±24.67%</td>
-    <td style="white-space: nowrap; text-align: right">7.63 μs</td>
-    <td style="white-space: nowrap; text-align: right">16.24 μs</td>
+    <td style="white-space: nowrap; text-align: right">126.54 K</td>
+    <td style="white-space: nowrap; text-align: right">7.90 μs</td>
+    <td style="white-space: nowrap; text-align: right">±25.69%</td>
+    <td style="white-space: nowrap; text-align: right">7.59 μs</td>
+    <td style="white-space: nowrap; text-align: right">16.30 μs</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">ProcessDictionary</td>
-    <td style="white-space: nowrap; text-align: right">64.42 K</td>
-    <td style="white-space: nowrap; text-align: right">15.52 μs</td>
-    <td style="white-space: nowrap; text-align: right">±13.52%</td>
-    <td style="white-space: nowrap; text-align: right">15.10 μs</td>
-    <td style="white-space: nowrap; text-align: right">20.58 μs</td>
+    <td style="white-space: nowrap; text-align: right">64.68 K</td>
+    <td style="white-space: nowrap; text-align: right">15.46 μs</td>
+    <td style="white-space: nowrap; text-align: right">±14.61%</td>
+    <td style="white-space: nowrap; text-align: right">15.12 μs</td>
+    <td style="white-space: nowrap; text-align: right">21.71 μs</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">ETSSet</td>
-    <td style="white-space: nowrap; text-align: right">60.17 K</td>
-    <td style="white-space: nowrap; text-align: right">16.62 μs</td>
-    <td style="white-space: nowrap; text-align: right">±10.44%</td>
-    <td style="white-space: nowrap; text-align: right">16.07 μs</td>
-    <td style="white-space: nowrap; text-align: right">21.29 μs</td>
+    <td style="white-space: nowrap; text-align: right">60.35 K</td>
+    <td style="white-space: nowrap; text-align: right">16.57 μs</td>
+    <td style="white-space: nowrap; text-align: right">±9.17%</td>
+    <td style="white-space: nowrap; text-align: right">16.04 μs</td>
+    <td style="white-space: nowrap; text-align: right">21.09 μs</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">Array2D</td>
+    <td style="white-space: nowrap; text-align: right">56.76 K</td>
+    <td style="white-space: nowrap; text-align: right">17.62 μs</td>
+    <td style="white-space: nowrap; text-align: right">±17.45%</td>
+    <td style="white-space: nowrap; text-align: right">17.15 μs</td>
+    <td style="white-space: nowrap; text-align: right">21.45 μs</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">MapTupleFull</td>
-    <td style="white-space: nowrap; text-align: right">55.00 K</td>
-    <td style="white-space: nowrap; text-align: right">18.18 μs</td>
-    <td style="white-space: nowrap; text-align: right">±13.75%</td>
-    <td style="white-space: nowrap; text-align: right">17.01 μs</td>
-    <td style="white-space: nowrap; text-align: right">23.08 μs</td>
+    <td style="white-space: nowrap; text-align: right">55.44 K</td>
+    <td style="white-space: nowrap; text-align: right">18.04 μs</td>
+    <td style="white-space: nowrap; text-align: right">±11.00%</td>
+    <td style="white-space: nowrap; text-align: right">16.92 μs</td>
+    <td style="white-space: nowrap; text-align: right">22.01 μs</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">MapTupleHalfFull</td>
-    <td style="white-space: nowrap; text-align: right">53.13 K</td>
-    <td style="white-space: nowrap; text-align: right">18.82 μs</td>
-    <td style="white-space: nowrap; text-align: right">±8.09%</td>
-    <td style="white-space: nowrap; text-align: right">18.09 μs</td>
-    <td style="white-space: nowrap; text-align: right">22.31 μs</td>
+    <td style="white-space: nowrap; text-align: right">53.70 K</td>
+    <td style="white-space: nowrap; text-align: right">18.62 μs</td>
+    <td style="white-space: nowrap; text-align: right">±8.36%</td>
+    <td style="white-space: nowrap; text-align: right">17.96 μs</td>
+    <td style="white-space: nowrap; text-align: right">22.32 μs</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">Array1D</td>
+    <td style="white-space: nowrap; text-align: right">50.74 K</td>
+    <td style="white-space: nowrap; text-align: right">19.71 μs</td>
+    <td style="white-space: nowrap; text-align: right">±10.60%</td>
+    <td style="white-space: nowrap; text-align: right">19.29 μs</td>
+    <td style="white-space: nowrap; text-align: right">22.71 μs</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">ETSOrderedSet</td>
-    <td style="white-space: nowrap; text-align: right">38.75 K</td>
-    <td style="white-space: nowrap; text-align: right">25.81 μs</td>
-    <td style="white-space: nowrap; text-align: right">±13.16%</td>
-    <td style="white-space: nowrap; text-align: right">25.00 μs</td>
-    <td style="white-space: nowrap; text-align: right">30.38 μs</td>
+    <td style="white-space: nowrap; text-align: right">39.53 K</td>
+    <td style="white-space: nowrap; text-align: right">25.30 μs</td>
+    <td style="white-space: nowrap; text-align: right">±10.51%</td>
+    <td style="white-space: nowrap; text-align: right">24.82 μs</td>
+    <td style="white-space: nowrap; text-align: right">28.42 μs</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">Map2D</td>
-    <td style="white-space: nowrap; text-align: right">36.25 K</td>
-    <td style="white-space: nowrap; text-align: right">27.58 μs</td>
-    <td style="white-space: nowrap; text-align: right">±8.30%</td>
-    <td style="white-space: nowrap; text-align: right">27.62 μs</td>
-    <td style="white-space: nowrap; text-align: right">32.38 μs</td>
+    <td style="white-space: nowrap; text-align: right">36.24 K</td>
+    <td style="white-space: nowrap; text-align: right">27.59 μs</td>
+    <td style="white-space: nowrap; text-align: right">±8.32%</td>
+    <td style="white-space: nowrap; text-align: right">27.71 μs</td>
+    <td style="white-space: nowrap; text-align: right">32.27 μs</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">List2D</td>
-    <td style="white-space: nowrap; text-align: right">29.61 K</td>
-    <td style="white-space: nowrap; text-align: right">33.77 μs</td>
-    <td style="white-space: nowrap; text-align: right">±4.08%</td>
-    <td style="white-space: nowrap; text-align: right">33.38 μs</td>
-    <td style="white-space: nowrap; text-align: right">37.12 μs</td>
+    <td style="white-space: nowrap; text-align: right">29.65 K</td>
+    <td style="white-space: nowrap; text-align: right">33.73 μs</td>
+    <td style="white-space: nowrap; text-align: right">±4.12%</td>
+    <td style="white-space: nowrap; text-align: right">33.31 μs</td>
+    <td style="white-space: nowrap; text-align: right">36.99 μs</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">MapTupleQuarterFull</td>
-    <td style="white-space: nowrap; text-align: right">28.19 K</td>
-    <td style="white-space: nowrap; text-align: right">35.47 μs</td>
-    <td style="white-space: nowrap; text-align: right">±5.55%</td>
-    <td style="white-space: nowrap; text-align: right">34.98 μs</td>
-    <td style="white-space: nowrap; text-align: right">38.84 μs</td>
+    <td style="white-space: nowrap; text-align: right">28.23 K</td>
+    <td style="white-space: nowrap; text-align: right">35.42 μs</td>
+    <td style="white-space: nowrap; text-align: right">±3.86%</td>
+    <td style="white-space: nowrap; text-align: right">34.96 μs</td>
+    <td style="white-space: nowrap; text-align: right">38.34 μs</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">List1D</td>
-    <td style="white-space: nowrap; text-align: right">15.56 K</td>
-    <td style="white-space: nowrap; text-align: right">64.28 μs</td>
-    <td style="white-space: nowrap; text-align: right">±2.78%</td>
-    <td style="white-space: nowrap; text-align: right">63.99 μs</td>
-    <td style="white-space: nowrap; text-align: right">70.66 μs</td>
+    <td style="white-space: nowrap; text-align: right">15.41 K</td>
+    <td style="white-space: nowrap; text-align: right">64.90 μs</td>
+    <td style="white-space: nowrap; text-align: right">±2.84%</td>
+    <td style="white-space: nowrap; text-align: right">64.91 μs</td>
+    <td style="white-space: nowrap; text-align: right">70.59 μs</td>
   </tr>
 </table>
 
@@ -184,63 +200,73 @@ Comparison
     <th style="text-align: right">Slower</th>
   <tr>
     <td style="white-space: nowrap">Tuple1D</td>
-    <td style="white-space: nowrap;text-align: right">136.21 K</td>
+    <td style="white-space: nowrap;text-align: right">133.95 K</td>
     <td>&nbsp;</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">Tuple2D</td>
-    <td style="white-space: nowrap; text-align: right">134.70 K</td>
+    <td style="white-space: nowrap; text-align: right">132.16 K</td>
     <td style="white-space: nowrap; text-align: right">1.01x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">MapTuple</td>
-    <td style="white-space: nowrap; text-align: right">125.94 K</td>
-    <td style="white-space: nowrap; text-align: right">1.08x</td>
+    <td style="white-space: nowrap; text-align: right">126.54 K</td>
+    <td style="white-space: nowrap; text-align: right">1.06x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">ProcessDictionary</td>
-    <td style="white-space: nowrap; text-align: right">64.42 K</td>
-    <td style="white-space: nowrap; text-align: right">2.11x</td>
+    <td style="white-space: nowrap; text-align: right">64.68 K</td>
+    <td style="white-space: nowrap; text-align: right">2.07x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">ETSSet</td>
-    <td style="white-space: nowrap; text-align: right">60.17 K</td>
-    <td style="white-space: nowrap; text-align: right">2.26x</td>
+    <td style="white-space: nowrap; text-align: right">60.35 K</td>
+    <td style="white-space: nowrap; text-align: right">2.22x</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">Array2D</td>
+    <td style="white-space: nowrap; text-align: right">56.76 K</td>
+    <td style="white-space: nowrap; text-align: right">2.36x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">MapTupleFull</td>
-    <td style="white-space: nowrap; text-align: right">55.00 K</td>
-    <td style="white-space: nowrap; text-align: right">2.48x</td>
+    <td style="white-space: nowrap; text-align: right">55.44 K</td>
+    <td style="white-space: nowrap; text-align: right">2.42x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">MapTupleHalfFull</td>
-    <td style="white-space: nowrap; text-align: right">53.13 K</td>
-    <td style="white-space: nowrap; text-align: right">2.56x</td>
+    <td style="white-space: nowrap; text-align: right">53.70 K</td>
+    <td style="white-space: nowrap; text-align: right">2.49x</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">Array1D</td>
+    <td style="white-space: nowrap; text-align: right">50.74 K</td>
+    <td style="white-space: nowrap; text-align: right">2.64x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">ETSOrderedSet</td>
-    <td style="white-space: nowrap; text-align: right">38.75 K</td>
-    <td style="white-space: nowrap; text-align: right">3.52x</td>
+    <td style="white-space: nowrap; text-align: right">39.53 K</td>
+    <td style="white-space: nowrap; text-align: right">3.39x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">Map2D</td>
-    <td style="white-space: nowrap; text-align: right">36.25 K</td>
-    <td style="white-space: nowrap; text-align: right">3.76x</td>
+    <td style="white-space: nowrap; text-align: right">36.24 K</td>
+    <td style="white-space: nowrap; text-align: right">3.7x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">List2D</td>
-    <td style="white-space: nowrap; text-align: right">29.61 K</td>
-    <td style="white-space: nowrap; text-align: right">4.6x</td>
+    <td style="white-space: nowrap; text-align: right">29.65 K</td>
+    <td style="white-space: nowrap; text-align: right">4.52x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">MapTupleQuarterFull</td>
-    <td style="white-space: nowrap; text-align: right">28.19 K</td>
-    <td style="white-space: nowrap; text-align: right">4.83x</td>
+    <td style="white-space: nowrap; text-align: right">28.23 K</td>
+    <td style="white-space: nowrap; text-align: right">4.75x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">List1D</td>
-    <td style="white-space: nowrap; text-align: right">15.56 K</td>
-    <td style="white-space: nowrap; text-align: right">8.76x</td>
+    <td style="white-space: nowrap; text-align: right">15.41 K</td>
+    <td style="white-space: nowrap; text-align: right">8.69x</td>
   </tr>
 </table>
 
@@ -277,6 +303,11 @@ Memory Usage
     <td>0.21x</td>
   </tr>
   <tr>
+    <td style="white-space: nowrap">Array2D</td>
+    <td style="white-space: nowrap">34.33 KB</td>
+    <td>0.63x</td>
+  </tr>
+  <tr>
     <td style="white-space: nowrap">MapTupleFull</td>
     <td style="white-space: nowrap">25.79 KB</td>
     <td>0.47x</td>
@@ -285,6 +316,11 @@ Memory Usage
     <td style="white-space: nowrap">MapTupleHalfFull</td>
     <td style="white-space: nowrap">24.06 KB</td>
     <td>0.44x</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">Array1D</td>
+    <td style="white-space: nowrap">38.10 KB</td>
+    <td>0.69x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">ETSOrderedSet</td>
@@ -329,99 +365,115 @@ Run Time
   </tr>
   <tr>
     <td style="white-space: nowrap">Tuple1D</td>
-    <td style="white-space: nowrap; text-align: right">5.71 M</td>
-    <td style="white-space: nowrap; text-align: right">175.16 ns</td>
-    <td style="white-space: nowrap; text-align: right">±1267.91%</td>
-    <td style="white-space: nowrap; text-align: right">135 ns</td>
-    <td style="white-space: nowrap; text-align: right">440 ns</td>
+    <td style="white-space: nowrap; text-align: right">6.02 M</td>
+    <td style="white-space: nowrap; text-align: right">166.04 ns</td>
+    <td style="white-space: nowrap; text-align: right">±721.06%</td>
+    <td style="white-space: nowrap; text-align: right">127 ns</td>
+    <td style="white-space: nowrap; text-align: right">424 ns</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">Tuple2D</td>
-    <td style="white-space: nowrap; text-align: right">5.45 M</td>
-    <td style="white-space: nowrap; text-align: right">183.51 ns</td>
-    <td style="white-space: nowrap; text-align: right">±1026.85%</td>
-    <td style="white-space: nowrap; text-align: right">157 ns</td>
-    <td style="white-space: nowrap; text-align: right">325 ns</td>
+    <td style="white-space: nowrap; text-align: right">5.89 M</td>
+    <td style="white-space: nowrap; text-align: right">169.76 ns</td>
+    <td style="white-space: nowrap; text-align: right">±1323.53%</td>
+    <td style="white-space: nowrap; text-align: right">153 ns</td>
+    <td style="white-space: nowrap; text-align: right">350 ns</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">MapTuple</td>
-    <td style="white-space: nowrap; text-align: right">4.57 M</td>
-    <td style="white-space: nowrap; text-align: right">219.03 ns</td>
-    <td style="white-space: nowrap; text-align: right">±3297.01%</td>
-    <td style="white-space: nowrap; text-align: right">174 ns</td>
-    <td style="white-space: nowrap; text-align: right">236 ns</td>
+    <td style="white-space: nowrap; text-align: right">5.01 M</td>
+    <td style="white-space: nowrap; text-align: right">199.45 ns</td>
+    <td style="white-space: nowrap; text-align: right">±907.01%</td>
+    <td style="white-space: nowrap; text-align: right">178 ns</td>
+    <td style="white-space: nowrap; text-align: right">296 ns</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">ProcessDictionary</td>
-    <td style="white-space: nowrap; text-align: right">2.98 M</td>
-    <td style="white-space: nowrap; text-align: right">335.89 ns</td>
-    <td style="white-space: nowrap; text-align: right">±802.10%</td>
-    <td style="white-space: nowrap; text-align: right">304 ns</td>
-    <td style="white-space: nowrap; text-align: right">562 ns</td>
+    <td style="white-space: nowrap; text-align: right">3.09 M</td>
+    <td style="white-space: nowrap; text-align: right">323.35 ns</td>
+    <td style="white-space: nowrap; text-align: right">±379.04%</td>
+    <td style="white-space: nowrap; text-align: right">307 ns</td>
+    <td style="white-space: nowrap; text-align: right">547 ns</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">Array1D</td>
+    <td style="white-space: nowrap; text-align: right">2.16 M</td>
+    <td style="white-space: nowrap; text-align: right">462.20 ns</td>
+    <td style="white-space: nowrap; text-align: right">±835.43%</td>
+    <td style="white-space: nowrap; text-align: right">421 ns</td>
+    <td style="white-space: nowrap; text-align: right">698 ns</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">MapTupleFull</td>
-    <td style="white-space: nowrap; text-align: right">1.91 M</td>
-    <td style="white-space: nowrap; text-align: right">524.04 ns</td>
-    <td style="white-space: nowrap; text-align: right">±8.59%</td>
-    <td style="white-space: nowrap; text-align: right">514 ns</td>
-    <td style="white-space: nowrap; text-align: right">662 ns</td>
-  </tr>
-  <tr>
-    <td style="white-space: nowrap">MapTupleHalfFull</td>
-    <td style="white-space: nowrap; text-align: right">1.88 M</td>
-    <td style="white-space: nowrap; text-align: right">532.90 ns</td>
-    <td style="white-space: nowrap; text-align: right">±34.28%</td>
-    <td style="white-space: nowrap; text-align: right">511 ns</td>
-    <td style="white-space: nowrap; text-align: right">820 ns</td>
+    <td style="white-space: nowrap; text-align: right">1.84 M</td>
+    <td style="white-space: nowrap; text-align: right">542.80 ns</td>
+    <td style="white-space: nowrap; text-align: right">±29.17%</td>
+    <td style="white-space: nowrap; text-align: right">506 ns</td>
+    <td style="white-space: nowrap; text-align: right">730 ns</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">ETSSet</td>
-    <td style="white-space: nowrap; text-align: right">1.80 M</td>
-    <td style="white-space: nowrap; text-align: right">555.13 ns</td>
-    <td style="white-space: nowrap; text-align: right">±30.65%</td>
-    <td style="white-space: nowrap; text-align: right">523 ns</td>
-    <td style="white-space: nowrap; text-align: right">1774.24 ns</td>
+    <td style="white-space: nowrap; text-align: right">1.83 M</td>
+    <td style="white-space: nowrap; text-align: right">547.30 ns</td>
+    <td style="white-space: nowrap; text-align: right">±32.92%</td>
+    <td style="white-space: nowrap; text-align: right">515 ns</td>
+    <td style="white-space: nowrap; text-align: right">1474.88 ns</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">MapTupleHalfFull</td>
+    <td style="white-space: nowrap; text-align: right">1.79 M</td>
+    <td style="white-space: nowrap; text-align: right">560.05 ns</td>
+    <td style="white-space: nowrap; text-align: right">±41.55%</td>
+    <td style="white-space: nowrap; text-align: right">528 ns</td>
+    <td style="white-space: nowrap; text-align: right">953.76 ns</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">Array2D</td>
+    <td style="white-space: nowrap; text-align: right">1.76 M</td>
+    <td style="white-space: nowrap; text-align: right">569.76 ns</td>
+    <td style="white-space: nowrap; text-align: right">±405.50%</td>
+    <td style="white-space: nowrap; text-align: right">528 ns</td>
+    <td style="white-space: nowrap; text-align: right">873 ns</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">Map2D</td>
-    <td style="white-space: nowrap; text-align: right">1.27 M</td>
-    <td style="white-space: nowrap; text-align: right">788.33 ns</td>
-    <td style="white-space: nowrap; text-align: right">±92.80%</td>
-    <td style="white-space: nowrap; text-align: right">736 ns</td>
-    <td style="white-space: nowrap; text-align: right">2616 ns</td>
+    <td style="white-space: nowrap; text-align: right">1.29 M</td>
+    <td style="white-space: nowrap; text-align: right">777.13 ns</td>
+    <td style="white-space: nowrap; text-align: right">±19.67%</td>
+    <td style="white-space: nowrap; text-align: right">754 ns</td>
+    <td style="white-space: nowrap; text-align: right">2011.91 ns</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">ETSOrderedSet</td>
-    <td style="white-space: nowrap; text-align: right">1.14 M</td>
-    <td style="white-space: nowrap; text-align: right">879.69 ns</td>
-    <td style="white-space: nowrap; text-align: right">±20.50%</td>
-    <td style="white-space: nowrap; text-align: right">844 ns</td>
-    <td style="white-space: nowrap; text-align: right">1886.68 ns</td>
+    <td style="white-space: nowrap; text-align: right">1.10 M</td>
+    <td style="white-space: nowrap; text-align: right">907.35 ns</td>
+    <td style="white-space: nowrap; text-align: right">±39.78%</td>
+    <td style="white-space: nowrap; text-align: right">853 ns</td>
+    <td style="white-space: nowrap; text-align: right">1961.88 ns</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">List2D</td>
     <td style="white-space: nowrap; text-align: right">0.91 M</td>
-    <td style="white-space: nowrap; text-align: right">1093.92 ns</td>
-    <td style="white-space: nowrap; text-align: right">±50.69%</td>
-    <td style="white-space: nowrap; text-align: right">1027 ns</td>
-    <td style="white-space: nowrap; text-align: right">2987.35 ns</td>
+    <td style="white-space: nowrap; text-align: right">1093.69 ns</td>
+    <td style="white-space: nowrap; text-align: right">±30.31%</td>
+    <td style="white-space: nowrap; text-align: right">1068 ns</td>
+    <td style="white-space: nowrap; text-align: right">1514.97 ns</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">MapTupleQuarterFull</td>
-    <td style="white-space: nowrap; text-align: right">0.84 M</td>
-    <td style="white-space: nowrap; text-align: right">1196.90 ns</td>
-    <td style="white-space: nowrap; text-align: right">±131.92%</td>
-    <td style="white-space: nowrap; text-align: right">1174 ns</td>
-    <td style="white-space: nowrap; text-align: right">1333 ns</td>
+    <td style="white-space: nowrap; text-align: right">0.82 M</td>
+    <td style="white-space: nowrap; text-align: right">1215.76 ns</td>
+    <td style="white-space: nowrap; text-align: right">±36.83%</td>
+    <td style="white-space: nowrap; text-align: right">1183 ns</td>
+    <td style="white-space: nowrap; text-align: right">2882 ns</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">List1D</td>
     <td style="white-space: nowrap; text-align: right">0.44 M</td>
-    <td style="white-space: nowrap; text-align: right">2278.51 ns</td>
-    <td style="white-space: nowrap; text-align: right">±34.62%</td>
-    <td style="white-space: nowrap; text-align: right">2188 ns</td>
-    <td style="white-space: nowrap; text-align: right">3336.39 ns</td>
+    <td style="white-space: nowrap; text-align: right">2277.54 ns</td>
+    <td style="white-space: nowrap; text-align: right">±171.70%</td>
+    <td style="white-space: nowrap; text-align: right">2160 ns</td>
+    <td style="white-space: nowrap; text-align: right">3321.13 ns</td>
   </tr>
 </table>
 
@@ -433,63 +485,73 @@ Comparison
     <th style="text-align: right">Slower</th>
   <tr>
     <td style="white-space: nowrap">Tuple1D</td>
-    <td style="white-space: nowrap;text-align: right">5.71 M</td>
+    <td style="white-space: nowrap;text-align: right">6.02 M</td>
     <td>&nbsp;</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">Tuple2D</td>
-    <td style="white-space: nowrap; text-align: right">5.45 M</td>
-    <td style="white-space: nowrap; text-align: right">1.05x</td>
+    <td style="white-space: nowrap; text-align: right">5.89 M</td>
+    <td style="white-space: nowrap; text-align: right">1.02x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">MapTuple</td>
-    <td style="white-space: nowrap; text-align: right">4.57 M</td>
-    <td style="white-space: nowrap; text-align: right">1.25x</td>
+    <td style="white-space: nowrap; text-align: right">5.01 M</td>
+    <td style="white-space: nowrap; text-align: right">1.2x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">ProcessDictionary</td>
-    <td style="white-space: nowrap; text-align: right">2.98 M</td>
-    <td style="white-space: nowrap; text-align: right">1.92x</td>
+    <td style="white-space: nowrap; text-align: right">3.09 M</td>
+    <td style="white-space: nowrap; text-align: right">1.95x</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">Array1D</td>
+    <td style="white-space: nowrap; text-align: right">2.16 M</td>
+    <td style="white-space: nowrap; text-align: right">2.78x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">MapTupleFull</td>
-    <td style="white-space: nowrap; text-align: right">1.91 M</td>
-    <td style="white-space: nowrap; text-align: right">2.99x</td>
-  </tr>
-  <tr>
-    <td style="white-space: nowrap">MapTupleHalfFull</td>
-    <td style="white-space: nowrap; text-align: right">1.88 M</td>
-    <td style="white-space: nowrap; text-align: right">3.04x</td>
+    <td style="white-space: nowrap; text-align: right">1.84 M</td>
+    <td style="white-space: nowrap; text-align: right">3.27x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">ETSSet</td>
-    <td style="white-space: nowrap; text-align: right">1.80 M</td>
-    <td style="white-space: nowrap; text-align: right">3.17x</td>
+    <td style="white-space: nowrap; text-align: right">1.83 M</td>
+    <td style="white-space: nowrap; text-align: right">3.3x</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">MapTupleHalfFull</td>
+    <td style="white-space: nowrap; text-align: right">1.79 M</td>
+    <td style="white-space: nowrap; text-align: right">3.37x</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">Array2D</td>
+    <td style="white-space: nowrap; text-align: right">1.76 M</td>
+    <td style="white-space: nowrap; text-align: right">3.43x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">Map2D</td>
-    <td style="white-space: nowrap; text-align: right">1.27 M</td>
-    <td style="white-space: nowrap; text-align: right">4.5x</td>
+    <td style="white-space: nowrap; text-align: right">1.29 M</td>
+    <td style="white-space: nowrap; text-align: right">4.68x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">ETSOrderedSet</td>
-    <td style="white-space: nowrap; text-align: right">1.14 M</td>
-    <td style="white-space: nowrap; text-align: right">5.02x</td>
+    <td style="white-space: nowrap; text-align: right">1.10 M</td>
+    <td style="white-space: nowrap; text-align: right">5.46x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">List2D</td>
     <td style="white-space: nowrap; text-align: right">0.91 M</td>
-    <td style="white-space: nowrap; text-align: right">6.25x</td>
+    <td style="white-space: nowrap; text-align: right">6.59x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">MapTupleQuarterFull</td>
-    <td style="white-space: nowrap; text-align: right">0.84 M</td>
-    <td style="white-space: nowrap; text-align: right">6.83x</td>
+    <td style="white-space: nowrap; text-align: right">0.82 M</td>
+    <td style="white-space: nowrap; text-align: right">7.32x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">List1D</td>
     <td style="white-space: nowrap; text-align: right">0.44 M</td>
-    <td style="white-space: nowrap; text-align: right">13.01x</td>
+    <td style="white-space: nowrap; text-align: right">13.72x</td>
   </tr>
 </table>
 
@@ -521,9 +583,19 @@ Memory Usage
     <td>0.08x</td>
   </tr>
   <tr>
+    <td style="white-space: nowrap">Array1D</td>
+    <td style="white-space: nowrap">1088 B</td>
+    <td>0.81x</td>
+  </tr>
+  <tr>
     <td style="white-space: nowrap">MapTupleFull</td>
     <td style="white-space: nowrap">400 B</td>
     <td>0.3x</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">ETSSet</td>
+    <td style="white-space: nowrap">248 B</td>
+    <td>0.18x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">MapTupleHalfFull</td>
@@ -531,9 +603,9 @@ Memory Usage
     <td>0.29x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">ETSSet</td>
-    <td style="white-space: nowrap">248 B</td>
-    <td>0.18x</td>
+    <td style="white-space: nowrap">Array2D</td>
+    <td style="white-space: nowrap">1112 B</td>
+    <td>0.83x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">Map2D</td>
@@ -577,100 +649,116 @@ Run Time
     <th style="text-align: right">99th&nbsp;%</th>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Tuple2D</td>
-    <td style="white-space: nowrap; text-align: right">68.73 M</td>
-    <td style="white-space: nowrap; text-align: right">14.55 ns</td>
-    <td style="white-space: nowrap; text-align: right">±1199.05%</td>
-    <td style="white-space: nowrap; text-align: right">13 ns</td>
-    <td style="white-space: nowrap; text-align: right">24 ns</td>
+    <td style="white-space: nowrap">Tuple1D</td>
+    <td style="white-space: nowrap; text-align: right">44.12 M</td>
+    <td style="white-space: nowrap; text-align: right">22.66 ns</td>
+    <td style="white-space: nowrap; text-align: right">±842.77%</td>
+    <td style="white-space: nowrap; text-align: right">20 ns</td>
+    <td style="white-space: nowrap; text-align: right">33 ns</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Tuple1D</td>
-    <td style="white-space: nowrap; text-align: right">64.66 M</td>
-    <td style="white-space: nowrap; text-align: right">15.46 ns</td>
-    <td style="white-space: nowrap; text-align: right">±1090.14%</td>
-    <td style="white-space: nowrap; text-align: right">13 ns</td>
-    <td style="white-space: nowrap; text-align: right">31 ns</td>
+    <td style="white-space: nowrap">Tuple2D</td>
+    <td style="white-space: nowrap; text-align: right">42.46 M</td>
+    <td style="white-space: nowrap; text-align: right">23.55 ns</td>
+    <td style="white-space: nowrap; text-align: right">±846.67%</td>
+    <td style="white-space: nowrap; text-align: right">20 ns</td>
+    <td style="white-space: nowrap; text-align: right">64 ns</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">Array1D</td>
+    <td style="white-space: nowrap; text-align: right">30.38 M</td>
+    <td style="white-space: nowrap; text-align: right">32.92 ns</td>
+    <td style="white-space: nowrap; text-align: right">±84.61%</td>
+    <td style="white-space: nowrap; text-align: right">32 ns</td>
+    <td style="white-space: nowrap; text-align: right">49 ns</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">MapTuple</td>
-    <td style="white-space: nowrap; text-align: right">42.70 M</td>
-    <td style="white-space: nowrap; text-align: right">23.42 ns</td>
-    <td style="white-space: nowrap; text-align: right">±2222.66%</td>
-    <td style="white-space: nowrap; text-align: right">21 ns</td>
-    <td style="white-space: nowrap; text-align: right">50 ns</td>
-  </tr>
-  <tr>
-    <td style="white-space: nowrap">ProcessDictionary</td>
-    <td style="white-space: nowrap; text-align: right">23.38 M</td>
-    <td style="white-space: nowrap; text-align: right">42.77 ns</td>
-    <td style="white-space: nowrap; text-align: right">±118.73%</td>
-    <td style="white-space: nowrap; text-align: right">40 ns</td>
+    <td style="white-space: nowrap; text-align: right">29.09 M</td>
+    <td style="white-space: nowrap; text-align: right">34.38 ns</td>
+    <td style="white-space: nowrap; text-align: right">±111.15%</td>
+    <td style="white-space: nowrap; text-align: right">32 ns</td>
     <td style="white-space: nowrap; text-align: right">61 ns</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">MapTupleQuarterFull</td>
-    <td style="white-space: nowrap; text-align: right">22.29 M</td>
-    <td style="white-space: nowrap; text-align: right">44.86 ns</td>
-    <td style="white-space: nowrap; text-align: right">±52.18%</td>
-    <td style="white-space: nowrap; text-align: right">41 ns</td>
-    <td style="white-space: nowrap; text-align: right">103 ns</td>
-  </tr>
-  <tr>
-    <td style="white-space: nowrap">List1D</td>
-    <td style="white-space: nowrap; text-align: right">20.74 M</td>
-    <td style="white-space: nowrap; text-align: right">48.22 ns</td>
-    <td style="white-space: nowrap; text-align: right">±83.34%</td>
-    <td style="white-space: nowrap; text-align: right">44 ns</td>
-    <td style="white-space: nowrap; text-align: right">84 ns</td>
-  </tr>
-  <tr>
-    <td style="white-space: nowrap">Map2D</td>
-    <td style="white-space: nowrap; text-align: right">18.39 M</td>
-    <td style="white-space: nowrap; text-align: right">54.38 ns</td>
-    <td style="white-space: nowrap; text-align: right">±41.60%</td>
+    <td style="white-space: nowrap; text-align: right">18.86 M</td>
+    <td style="white-space: nowrap; text-align: right">53.03 ns</td>
+    <td style="white-space: nowrap; text-align: right">±37.27%</td>
     <td style="white-space: nowrap; text-align: right">50 ns</td>
     <td style="white-space: nowrap; text-align: right">95 ns</td>
   </tr>
   <tr>
+    <td style="white-space: nowrap">Array2D</td>
+    <td style="white-space: nowrap; text-align: right">18.62 M</td>
+    <td style="white-space: nowrap; text-align: right">53.70 ns</td>
+    <td style="white-space: nowrap; text-align: right">±67.02%</td>
+    <td style="white-space: nowrap; text-align: right">50 ns</td>
+    <td style="white-space: nowrap; text-align: right">80 ns</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">List1D</td>
+    <td style="white-space: nowrap; text-align: right">18.26 M</td>
+    <td style="white-space: nowrap; text-align: right">54.75 ns</td>
+    <td style="white-space: nowrap; text-align: right">±56.06%</td>
+    <td style="white-space: nowrap; text-align: right">53 ns</td>
+    <td style="white-space: nowrap; text-align: right">117 ns</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">ProcessDictionary</td>
+    <td style="white-space: nowrap; text-align: right">17.19 M</td>
+    <td style="white-space: nowrap; text-align: right">58.18 ns</td>
+    <td style="white-space: nowrap; text-align: right">±1393.09%</td>
+    <td style="white-space: nowrap; text-align: right">52 ns</td>
+    <td style="white-space: nowrap; text-align: right">71 ns</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">Map2D</td>
+    <td style="white-space: nowrap; text-align: right">15.79 M</td>
+    <td style="white-space: nowrap; text-align: right">63.34 ns</td>
+    <td style="white-space: nowrap; text-align: right">±25.86%</td>
+    <td style="white-space: nowrap; text-align: right">60 ns</td>
+    <td style="white-space: nowrap; text-align: right">108 ns</td>
+  </tr>
+  <tr>
     <td style="white-space: nowrap">MapTupleHalfFull</td>
-    <td style="white-space: nowrap; text-align: right">12.66 M</td>
-    <td style="white-space: nowrap; text-align: right">78.98 ns</td>
-    <td style="white-space: nowrap; text-align: right">±20.39%</td>
-    <td style="white-space: nowrap; text-align: right">75 ns</td>
-    <td style="white-space: nowrap; text-align: right">126 ns</td>
+    <td style="white-space: nowrap; text-align: right">10.54 M</td>
+    <td style="white-space: nowrap; text-align: right">94.87 ns</td>
+    <td style="white-space: nowrap; text-align: right">±27.72%</td>
+    <td style="white-space: nowrap; text-align: right">91 ns</td>
+    <td style="white-space: nowrap; text-align: right">142 ns</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">MapTupleFull</td>
-    <td style="white-space: nowrap; text-align: right">12.02 M</td>
-    <td style="white-space: nowrap; text-align: right">83.20 ns</td>
-    <td style="white-space: nowrap; text-align: right">±48.78%</td>
-    <td style="white-space: nowrap; text-align: right">76 ns</td>
-    <td style="white-space: nowrap; text-align: right">141 ns</td>
-  </tr>
-  <tr>
-    <td style="white-space: nowrap">List2D</td>
-    <td style="white-space: nowrap; text-align: right">11.27 M</td>
-    <td style="white-space: nowrap; text-align: right">88.75 ns</td>
-    <td style="white-space: nowrap; text-align: right">±83.70%</td>
-    <td style="white-space: nowrap; text-align: right">82 ns</td>
-    <td style="white-space: nowrap; text-align: right">183 ns</td>
+    <td style="white-space: nowrap; text-align: right">10.29 M</td>
+    <td style="white-space: nowrap; text-align: right">97.16 ns</td>
+    <td style="white-space: nowrap; text-align: right">±18.01%</td>
+    <td style="white-space: nowrap; text-align: right">93 ns</td>
+    <td style="white-space: nowrap; text-align: right">132 ns</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">ETSSet</td>
-    <td style="white-space: nowrap; text-align: right">8.96 M</td>
-    <td style="white-space: nowrap; text-align: right">111.56 ns</td>
-    <td style="white-space: nowrap; text-align: right">±15.70%</td>
-    <td style="white-space: nowrap; text-align: right">109 ns</td>
-    <td style="white-space: nowrap; text-align: right">149 ns</td>
+    <td style="white-space: nowrap; text-align: right">9.74 M</td>
+    <td style="white-space: nowrap; text-align: right">102.63 ns</td>
+    <td style="white-space: nowrap; text-align: right">±26.57%</td>
+    <td style="white-space: nowrap; text-align: right">100 ns</td>
+    <td style="white-space: nowrap; text-align: right">144 ns</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">List2D</td>
+    <td style="white-space: nowrap; text-align: right">9.04 M</td>
+    <td style="white-space: nowrap; text-align: right">110.57 ns</td>
+    <td style="white-space: nowrap; text-align: right">±69.64%</td>
+    <td style="white-space: nowrap; text-align: right">105 ns</td>
+    <td style="white-space: nowrap; text-align: right">200 ns</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">ETSOrderedSet</td>
-    <td style="white-space: nowrap; text-align: right">6.53 M</td>
-    <td style="white-space: nowrap; text-align: right">153.11 ns</td>
-    <td style="white-space: nowrap; text-align: right">±24.34%</td>
-    <td style="white-space: nowrap; text-align: right">150 ns</td>
-    <td style="white-space: nowrap; text-align: right">191 ns</td>
+    <td style="white-space: nowrap; text-align: right">6.47 M</td>
+    <td style="white-space: nowrap; text-align: right">154.65 ns</td>
+    <td style="white-space: nowrap; text-align: right">±19.27%</td>
+    <td style="white-space: nowrap; text-align: right">152 ns</td>
+    <td style="white-space: nowrap; text-align: right">190 ns</td>
   </tr>
 </table>
 
@@ -681,64 +769,74 @@ Comparison
     <th style="text-align: right">IPS</th>
     <th style="text-align: right">Slower</th>
   <tr>
-    <td style="white-space: nowrap">Tuple2D</td>
-    <td style="white-space: nowrap;text-align: right">68.73 M</td>
+    <td style="white-space: nowrap">Tuple1D</td>
+    <td style="white-space: nowrap;text-align: right">44.12 M</td>
     <td>&nbsp;</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Tuple1D</td>
-    <td style="white-space: nowrap; text-align: right">64.66 M</td>
-    <td style="white-space: nowrap; text-align: right">1.06x</td>
+    <td style="white-space: nowrap">Tuple2D</td>
+    <td style="white-space: nowrap; text-align: right">42.46 M</td>
+    <td style="white-space: nowrap; text-align: right">1.04x</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">Array1D</td>
+    <td style="white-space: nowrap; text-align: right">30.38 M</td>
+    <td style="white-space: nowrap; text-align: right">1.45x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">MapTuple</td>
-    <td style="white-space: nowrap; text-align: right">42.70 M</td>
-    <td style="white-space: nowrap; text-align: right">1.61x</td>
-  </tr>
-  <tr>
-    <td style="white-space: nowrap">ProcessDictionary</td>
-    <td style="white-space: nowrap; text-align: right">23.38 M</td>
-    <td style="white-space: nowrap; text-align: right">2.94x</td>
+    <td style="white-space: nowrap; text-align: right">29.09 M</td>
+    <td style="white-space: nowrap; text-align: right">1.52x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">MapTupleQuarterFull</td>
-    <td style="white-space: nowrap; text-align: right">22.29 M</td>
-    <td style="white-space: nowrap; text-align: right">3.08x</td>
+    <td style="white-space: nowrap; text-align: right">18.86 M</td>
+    <td style="white-space: nowrap; text-align: right">2.34x</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">Array2D</td>
+    <td style="white-space: nowrap; text-align: right">18.62 M</td>
+    <td style="white-space: nowrap; text-align: right">2.37x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">List1D</td>
-    <td style="white-space: nowrap; text-align: right">20.74 M</td>
-    <td style="white-space: nowrap; text-align: right">3.31x</td>
+    <td style="white-space: nowrap; text-align: right">18.26 M</td>
+    <td style="white-space: nowrap; text-align: right">2.42x</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">ProcessDictionary</td>
+    <td style="white-space: nowrap; text-align: right">17.19 M</td>
+    <td style="white-space: nowrap; text-align: right">2.57x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">Map2D</td>
-    <td style="white-space: nowrap; text-align: right">18.39 M</td>
-    <td style="white-space: nowrap; text-align: right">3.74x</td>
+    <td style="white-space: nowrap; text-align: right">15.79 M</td>
+    <td style="white-space: nowrap; text-align: right">2.79x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">MapTupleHalfFull</td>
-    <td style="white-space: nowrap; text-align: right">12.66 M</td>
-    <td style="white-space: nowrap; text-align: right">5.43x</td>
+    <td style="white-space: nowrap; text-align: right">10.54 M</td>
+    <td style="white-space: nowrap; text-align: right">4.19x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">MapTupleFull</td>
-    <td style="white-space: nowrap; text-align: right">12.02 M</td>
-    <td style="white-space: nowrap; text-align: right">5.72x</td>
-  </tr>
-  <tr>
-    <td style="white-space: nowrap">List2D</td>
-    <td style="white-space: nowrap; text-align: right">11.27 M</td>
-    <td style="white-space: nowrap; text-align: right">6.1x</td>
+    <td style="white-space: nowrap; text-align: right">10.29 M</td>
+    <td style="white-space: nowrap; text-align: right">4.29x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">ETSSet</td>
-    <td style="white-space: nowrap; text-align: right">8.96 M</td>
-    <td style="white-space: nowrap; text-align: right">7.67x</td>
+    <td style="white-space: nowrap; text-align: right">9.74 M</td>
+    <td style="white-space: nowrap; text-align: right">4.53x</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">List2D</td>
+    <td style="white-space: nowrap; text-align: right">9.04 M</td>
+    <td style="white-space: nowrap; text-align: right">4.88x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">ETSOrderedSet</td>
-    <td style="white-space: nowrap; text-align: right">6.53 M</td>
-    <td style="white-space: nowrap; text-align: right">10.52x</td>
+    <td style="white-space: nowrap; text-align: right">6.47 M</td>
+    <td style="white-space: nowrap; text-align: right">6.82x</td>
   </tr>
 </table>
 
@@ -759,99 +857,115 @@ Run Time
   </tr>
   <tr>
     <td style="white-space: nowrap">Tuple2D</td>
-    <td style="white-space: nowrap; text-align: right">45.10 M</td>
-    <td style="white-space: nowrap; text-align: right">22.17 ns</td>
-    <td style="white-space: nowrap; text-align: right">±774.40%</td>
-    <td style="white-space: nowrap; text-align: right">20 ns</td>
-    <td style="white-space: nowrap; text-align: right">35 ns</td>
+    <td style="white-space: nowrap; text-align: right">37.76 M</td>
+    <td style="white-space: nowrap; text-align: right">26.48 ns</td>
+    <td style="white-space: nowrap; text-align: right">±722.24%</td>
+    <td style="white-space: nowrap; text-align: right">24 ns</td>
+    <td style="white-space: nowrap; text-align: right">40 ns</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">Tuple1D</td>
-    <td style="white-space: nowrap; text-align: right">39.85 M</td>
-    <td style="white-space: nowrap; text-align: right">25.09 ns</td>
-    <td style="white-space: nowrap; text-align: right">±624.74%</td>
-    <td style="white-space: nowrap; text-align: right">22 ns</td>
-    <td style="white-space: nowrap; text-align: right">49 ns</td>
+    <td style="white-space: nowrap; text-align: right">36.87 M</td>
+    <td style="white-space: nowrap; text-align: right">27.12 ns</td>
+    <td style="white-space: nowrap; text-align: right">±618.93%</td>
+    <td style="white-space: nowrap; text-align: right">24 ns</td>
+    <td style="white-space: nowrap; text-align: right">57 ns</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">Array1D</td>
+    <td style="white-space: nowrap; text-align: right">28.57 M</td>
+    <td style="white-space: nowrap; text-align: right">35.00 ns</td>
+    <td style="white-space: nowrap; text-align: right">±78.21%</td>
+    <td style="white-space: nowrap; text-align: right">34 ns</td>
+    <td style="white-space: nowrap; text-align: right">45 ns</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">MapTuple</td>
-    <td style="white-space: nowrap; text-align: right">30.43 M</td>
-    <td style="white-space: nowrap; text-align: right">32.87 ns</td>
-    <td style="white-space: nowrap; text-align: right">±1087.83%</td>
-    <td style="white-space: nowrap; text-align: right">30 ns</td>
-    <td style="white-space: nowrap; text-align: right">80 ns</td>
+    <td style="white-space: nowrap; text-align: right">27.00 M</td>
+    <td style="white-space: nowrap; text-align: right">37.04 ns</td>
+    <td style="white-space: nowrap; text-align: right">±131.99%</td>
+    <td style="white-space: nowrap; text-align: right">34 ns</td>
+    <td style="white-space: nowrap; text-align: right">73 ns</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">ProcessDictionary</td>
-    <td style="white-space: nowrap; text-align: right">19.95 M</td>
-    <td style="white-space: nowrap; text-align: right">50.13 ns</td>
-    <td style="white-space: nowrap; text-align: right">±1021.41%</td>
-    <td style="white-space: nowrap; text-align: right">46 ns</td>
-    <td style="white-space: nowrap; text-align: right">68 ns</td>
+    <td style="white-space: nowrap; text-align: right">18.89 M</td>
+    <td style="white-space: nowrap; text-align: right">52.94 ns</td>
+    <td style="white-space: nowrap; text-align: right">±843.86%</td>
+    <td style="white-space: nowrap; text-align: right">49 ns</td>
+    <td style="white-space: nowrap; text-align: right">67 ns</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">Array2D</td>
+    <td style="white-space: nowrap; text-align: right">16.70 M</td>
+    <td style="white-space: nowrap; text-align: right">59.88 ns</td>
+    <td style="white-space: nowrap; text-align: right">±34.66%</td>
+    <td style="white-space: nowrap; text-align: right">56 ns</td>
+    <td style="white-space: nowrap; text-align: right">85 ns</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">Map2D</td>
-    <td style="white-space: nowrap; text-align: right">15.58 M</td>
-    <td style="white-space: nowrap; text-align: right">64.20 ns</td>
-    <td style="white-space: nowrap; text-align: right">±25.46%</td>
-    <td style="white-space: nowrap; text-align: right">60 ns</td>
-    <td style="white-space: nowrap; text-align: right">105 ns</td>
+    <td style="white-space: nowrap; text-align: right">14.28 M</td>
+    <td style="white-space: nowrap; text-align: right">70.03 ns</td>
+    <td style="white-space: nowrap; text-align: right">±49.51%</td>
+    <td style="white-space: nowrap; text-align: right">64 ns</td>
+    <td style="white-space: nowrap; text-align: right">115 ns</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">MapTupleHalfFull</td>
-    <td style="white-space: nowrap; text-align: right">11.49 M</td>
-    <td style="white-space: nowrap; text-align: right">87.06 ns</td>
-    <td style="white-space: nowrap; text-align: right">±25.69%</td>
-    <td style="white-space: nowrap; text-align: right">82 ns</td>
-    <td style="white-space: nowrap; text-align: right">137 ns</td>
+    <td style="white-space: nowrap; text-align: right">10.38 M</td>
+    <td style="white-space: nowrap; text-align: right">96.36 ns</td>
+    <td style="white-space: nowrap; text-align: right">±30.87%</td>
+    <td style="white-space: nowrap; text-align: right">93 ns</td>
+    <td style="white-space: nowrap; text-align: right">146 ns</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">MapTupleFull</td>
-    <td style="white-space: nowrap; text-align: right">10.97 M</td>
-    <td style="white-space: nowrap; text-align: right">91.16 ns</td>
-    <td style="white-space: nowrap; text-align: right">±23.17%</td>
-    <td style="white-space: nowrap; text-align: right">85 ns</td>
-    <td style="white-space: nowrap; text-align: right">144 ns</td>
+    <td style="white-space: nowrap; text-align: right">9.97 M</td>
+    <td style="white-space: nowrap; text-align: right">100.30 ns</td>
+    <td style="white-space: nowrap; text-align: right">±20.77%</td>
+    <td style="white-space: nowrap; text-align: right">97 ns</td>
+    <td style="white-space: nowrap; text-align: right">136 ns</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">ETSSet</td>
-    <td style="white-space: nowrap; text-align: right">8.25 M</td>
-    <td style="white-space: nowrap; text-align: right">121.25 ns</td>
-    <td style="white-space: nowrap; text-align: right">±18.07%</td>
-    <td style="white-space: nowrap; text-align: right">118 ns</td>
-    <td style="white-space: nowrap; text-align: right">155.21 ns</td>
+    <td style="white-space: nowrap; text-align: right">9.17 M</td>
+    <td style="white-space: nowrap; text-align: right">109.02 ns</td>
+    <td style="white-space: nowrap; text-align: right">±14.73%</td>
+    <td style="white-space: nowrap; text-align: right">107 ns</td>
+    <td style="white-space: nowrap; text-align: right">145 ns</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">List2D</td>
-    <td style="white-space: nowrap; text-align: right">6.01 M</td>
-    <td style="white-space: nowrap; text-align: right">166.44 ns</td>
-    <td style="white-space: nowrap; text-align: right">±45.81%</td>
-    <td style="white-space: nowrap; text-align: right">159 ns</td>
-    <td style="white-space: nowrap; text-align: right">284 ns</td>
+    <td style="white-space: nowrap; text-align: right">5.77 M</td>
+    <td style="white-space: nowrap; text-align: right">173.18 ns</td>
+    <td style="white-space: nowrap; text-align: right">±47.97%</td>
+    <td style="white-space: nowrap; text-align: right">164 ns</td>
+    <td style="white-space: nowrap; text-align: right">293 ns</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">ETSOrderedSet</td>
-    <td style="white-space: nowrap; text-align: right">5.88 M</td>
-    <td style="white-space: nowrap; text-align: right">169.93 ns</td>
-    <td style="white-space: nowrap; text-align: right">±19.51%</td>
-    <td style="white-space: nowrap; text-align: right">167 ns</td>
-    <td style="white-space: nowrap; text-align: right">207 ns</td>
+    <td style="white-space: nowrap; text-align: right">5.64 M</td>
+    <td style="white-space: nowrap; text-align: right">177.34 ns</td>
+    <td style="white-space: nowrap; text-align: right">±34.69%</td>
+    <td style="white-space: nowrap; text-align: right">173 ns</td>
+    <td style="white-space: nowrap; text-align: right">211 ns</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">MapTupleQuarterFull</td>
-    <td style="white-space: nowrap; text-align: right">4.17 M</td>
-    <td style="white-space: nowrap; text-align: right">239.93 ns</td>
-    <td style="white-space: nowrap; text-align: right">±10.39%</td>
-    <td style="white-space: nowrap; text-align: right">237 ns</td>
-    <td style="white-space: nowrap; text-align: right">316 ns</td>
+    <td style="white-space: nowrap; text-align: right">3.99 M</td>
+    <td style="white-space: nowrap; text-align: right">250.61 ns</td>
+    <td style="white-space: nowrap; text-align: right">±25.89%</td>
+    <td style="white-space: nowrap; text-align: right">247 ns</td>
+    <td style="white-space: nowrap; text-align: right">308 ns</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">List1D</td>
-    <td style="white-space: nowrap; text-align: right">2.44 M</td>
-    <td style="white-space: nowrap; text-align: right">409.27 ns</td>
-    <td style="white-space: nowrap; text-align: right">±10.53%</td>
-    <td style="white-space: nowrap; text-align: right">405 ns</td>
-    <td style="white-space: nowrap; text-align: right">644.21 ns</td>
+    <td style="white-space: nowrap; text-align: right">2.46 M</td>
+    <td style="white-space: nowrap; text-align: right">407.10 ns</td>
+    <td style="white-space: nowrap; text-align: right">±14.32%</td>
+    <td style="white-space: nowrap; text-align: right">400 ns</td>
+    <td style="white-space: nowrap; text-align: right">632 ns</td>
   </tr>
 </table>
 
@@ -863,63 +977,73 @@ Comparison
     <th style="text-align: right">Slower</th>
   <tr>
     <td style="white-space: nowrap">Tuple2D</td>
-    <td style="white-space: nowrap;text-align: right">45.10 M</td>
+    <td style="white-space: nowrap;text-align: right">37.76 M</td>
     <td>&nbsp;</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">Tuple1D</td>
-    <td style="white-space: nowrap; text-align: right">39.85 M</td>
-    <td style="white-space: nowrap; text-align: right">1.13x</td>
+    <td style="white-space: nowrap; text-align: right">36.87 M</td>
+    <td style="white-space: nowrap; text-align: right">1.02x</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">Array1D</td>
+    <td style="white-space: nowrap; text-align: right">28.57 M</td>
+    <td style="white-space: nowrap; text-align: right">1.32x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">MapTuple</td>
-    <td style="white-space: nowrap; text-align: right">30.43 M</td>
-    <td style="white-space: nowrap; text-align: right">1.48x</td>
+    <td style="white-space: nowrap; text-align: right">27.00 M</td>
+    <td style="white-space: nowrap; text-align: right">1.4x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">ProcessDictionary</td>
-    <td style="white-space: nowrap; text-align: right">19.95 M</td>
+    <td style="white-space: nowrap; text-align: right">18.89 M</td>
+    <td style="white-space: nowrap; text-align: right">2.0x</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">Array2D</td>
+    <td style="white-space: nowrap; text-align: right">16.70 M</td>
     <td style="white-space: nowrap; text-align: right">2.26x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">Map2D</td>
-    <td style="white-space: nowrap; text-align: right">15.58 M</td>
-    <td style="white-space: nowrap; text-align: right">2.9x</td>
+    <td style="white-space: nowrap; text-align: right">14.28 M</td>
+    <td style="white-space: nowrap; text-align: right">2.64x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">MapTupleHalfFull</td>
-    <td style="white-space: nowrap; text-align: right">11.49 M</td>
-    <td style="white-space: nowrap; text-align: right">3.93x</td>
+    <td style="white-space: nowrap; text-align: right">10.38 M</td>
+    <td style="white-space: nowrap; text-align: right">3.64x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">MapTupleFull</td>
-    <td style="white-space: nowrap; text-align: right">10.97 M</td>
-    <td style="white-space: nowrap; text-align: right">4.11x</td>
+    <td style="white-space: nowrap; text-align: right">9.97 M</td>
+    <td style="white-space: nowrap; text-align: right">3.79x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">ETSSet</td>
-    <td style="white-space: nowrap; text-align: right">8.25 M</td>
-    <td style="white-space: nowrap; text-align: right">5.47x</td>
+    <td style="white-space: nowrap; text-align: right">9.17 M</td>
+    <td style="white-space: nowrap; text-align: right">4.12x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">List2D</td>
-    <td style="white-space: nowrap; text-align: right">6.01 M</td>
-    <td style="white-space: nowrap; text-align: right">7.51x</td>
+    <td style="white-space: nowrap; text-align: right">5.77 M</td>
+    <td style="white-space: nowrap; text-align: right">6.54x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">ETSOrderedSet</td>
-    <td style="white-space: nowrap; text-align: right">5.88 M</td>
-    <td style="white-space: nowrap; text-align: right">7.66x</td>
+    <td style="white-space: nowrap; text-align: right">5.64 M</td>
+    <td style="white-space: nowrap; text-align: right">6.7x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">MapTupleQuarterFull</td>
-    <td style="white-space: nowrap; text-align: right">4.17 M</td>
-    <td style="white-space: nowrap; text-align: right">10.82x</td>
+    <td style="white-space: nowrap; text-align: right">3.99 M</td>
+    <td style="white-space: nowrap; text-align: right">9.46x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">List1D</td>
-    <td style="white-space: nowrap; text-align: right">2.44 M</td>
-    <td style="white-space: nowrap; text-align: right">18.46x</td>
+    <td style="white-space: nowrap; text-align: right">2.46 M</td>
+    <td style="white-space: nowrap; text-align: right">15.37x</td>
   </tr>
 </table>
 
@@ -939,100 +1063,116 @@ Run Time
     <th style="text-align: right">99th&nbsp;%</th>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Tuple1D</td>
-    <td style="white-space: nowrap; text-align: right">44.65 M</td>
-    <td style="white-space: nowrap; text-align: right">22.39 ns</td>
-    <td style="white-space: nowrap; text-align: right">±853.18%</td>
-    <td style="white-space: nowrap; text-align: right">20 ns</td>
-    <td style="white-space: nowrap; text-align: right">34 ns</td>
+    <td style="white-space: nowrap">Tuple2D</td>
+    <td style="white-space: nowrap; text-align: right">42.47 M</td>
+    <td style="white-space: nowrap; text-align: right">23.55 ns</td>
+    <td style="white-space: nowrap; text-align: right">±788.60%</td>
+    <td style="white-space: nowrap; text-align: right">21 ns</td>
+    <td style="white-space: nowrap; text-align: right">40 ns</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Tuple2D</td>
-    <td style="white-space: nowrap; text-align: right">44.31 M</td>
-    <td style="white-space: nowrap; text-align: right">22.57 ns</td>
-    <td style="white-space: nowrap; text-align: right">±936.09%</td>
-    <td style="white-space: nowrap; text-align: right">20 ns</td>
-    <td style="white-space: nowrap; text-align: right">46 ns</td>
+    <td style="white-space: nowrap">Tuple1D</td>
+    <td style="white-space: nowrap; text-align: right">40.98 M</td>
+    <td style="white-space: nowrap; text-align: right">24.40 ns</td>
+    <td style="white-space: nowrap; text-align: right">±725.07%</td>
+    <td style="white-space: nowrap; text-align: right">22 ns</td>
+    <td style="white-space: nowrap; text-align: right">41 ns</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">Array1D</td>
+    <td style="white-space: nowrap; text-align: right">29.67 M</td>
+    <td style="white-space: nowrap; text-align: right">33.70 ns</td>
+    <td style="white-space: nowrap; text-align: right">±161.51%</td>
+    <td style="white-space: nowrap; text-align: right">33 ns</td>
+    <td style="white-space: nowrap; text-align: right">45 ns</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">MapTuple</td>
-    <td style="white-space: nowrap; text-align: right">32.61 M</td>
-    <td style="white-space: nowrap; text-align: right">30.66 ns</td>
-    <td style="white-space: nowrap; text-align: right">±1700.95%</td>
-    <td style="white-space: nowrap; text-align: right">28 ns</td>
-    <td style="white-space: nowrap; text-align: right">54 ns</td>
+    <td style="white-space: nowrap; text-align: right">28.54 M</td>
+    <td style="white-space: nowrap; text-align: right">35.03 ns</td>
+    <td style="white-space: nowrap; text-align: right">±986.95%</td>
+    <td style="white-space: nowrap; text-align: right">32 ns</td>
+    <td style="white-space: nowrap; text-align: right">50 ns</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">ProcessDictionary</td>
-    <td style="white-space: nowrap; text-align: right">21.13 M</td>
-    <td style="white-space: nowrap; text-align: right">47.33 ns</td>
-    <td style="white-space: nowrap; text-align: right">±157.58%</td>
-    <td style="white-space: nowrap; text-align: right">45 ns</td>
+    <td style="white-space: nowrap; text-align: right">19.71 M</td>
+    <td style="white-space: nowrap; text-align: right">50.73 ns</td>
+    <td style="white-space: nowrap; text-align: right">±1279.45%</td>
+    <td style="white-space: nowrap; text-align: right">47 ns</td>
     <td style="white-space: nowrap; text-align: right">65 ns</td>
   </tr>
   <tr>
+    <td style="white-space: nowrap">Array2D</td>
+    <td style="white-space: nowrap; text-align: right">17.88 M</td>
+    <td style="white-space: nowrap; text-align: right">55.92 ns</td>
+    <td style="white-space: nowrap; text-align: right">±85.10%</td>
+    <td style="white-space: nowrap; text-align: right">52 ns</td>
+    <td style="white-space: nowrap; text-align: right">80 ns</td>
+  </tr>
+  <tr>
     <td style="white-space: nowrap">Map2D</td>
-    <td style="white-space: nowrap; text-align: right">14.44 M</td>
-    <td style="white-space: nowrap; text-align: right">69.27 ns</td>
-    <td style="white-space: nowrap; text-align: right">±36.36%</td>
-    <td style="white-space: nowrap; text-align: right">67 ns</td>
-    <td style="white-space: nowrap; text-align: right">110 ns</td>
+    <td style="white-space: nowrap; text-align: right">13.28 M</td>
+    <td style="white-space: nowrap; text-align: right">75.31 ns</td>
+    <td style="white-space: nowrap; text-align: right">±32.34%</td>
+    <td style="white-space: nowrap; text-align: right">73 ns</td>
+    <td style="white-space: nowrap; text-align: right">126 ns</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">MapTupleHalfFull</td>
-    <td style="white-space: nowrap; text-align: right">13.40 M</td>
-    <td style="white-space: nowrap; text-align: right">74.60 ns</td>
-    <td style="white-space: nowrap; text-align: right">±26.36%</td>
-    <td style="white-space: nowrap; text-align: right">72 ns</td>
-    <td style="white-space: nowrap; text-align: right">118 ns</td>
-  </tr>
-  <tr>
-    <td style="white-space: nowrap">MapTupleFull</td>
-    <td style="white-space: nowrap; text-align: right">10.86 M</td>
-    <td style="white-space: nowrap; text-align: right">92.12 ns</td>
-    <td style="white-space: nowrap; text-align: right">±25.67%</td>
-    <td style="white-space: nowrap; text-align: right">86 ns</td>
-    <td style="white-space: nowrap; text-align: right">146 ns</td>
+    <td style="white-space: nowrap; text-align: right">12.12 M</td>
+    <td style="white-space: nowrap; text-align: right">82.53 ns</td>
+    <td style="white-space: nowrap; text-align: right">±31.49%</td>
+    <td style="white-space: nowrap; text-align: right">80 ns</td>
+    <td style="white-space: nowrap; text-align: right">126 ns</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">ETSSet</td>
-    <td style="white-space: nowrap; text-align: right">8.45 M</td>
-    <td style="white-space: nowrap; text-align: right">118.28 ns</td>
-    <td style="white-space: nowrap; text-align: right">±14.35%</td>
-    <td style="white-space: nowrap; text-align: right">116 ns</td>
-    <td style="white-space: nowrap; text-align: right">152 ns</td>
+    <td style="white-space: nowrap; text-align: right">9.90 M</td>
+    <td style="white-space: nowrap; text-align: right">101.05 ns</td>
+    <td style="white-space: nowrap; text-align: right">±16.04%</td>
+    <td style="white-space: nowrap; text-align: right">99 ns</td>
+    <td style="white-space: nowrap; text-align: right">135 ns</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">MapTupleFull</td>
+    <td style="white-space: nowrap; text-align: right">9.85 M</td>
+    <td style="white-space: nowrap; text-align: right">101.53 ns</td>
+    <td style="white-space: nowrap; text-align: right">±19.29%</td>
+    <td style="white-space: nowrap; text-align: right">99 ns</td>
+    <td style="white-space: nowrap; text-align: right">136 ns</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">ETSOrderedSet</td>
-    <td style="white-space: nowrap; text-align: right">5.90 M</td>
-    <td style="white-space: nowrap; text-align: right">169.59 ns</td>
-    <td style="white-space: nowrap; text-align: right">±40.25%</td>
-    <td style="white-space: nowrap; text-align: right">165 ns</td>
-    <td style="white-space: nowrap; text-align: right">214 ns</td>
+    <td style="white-space: nowrap; text-align: right">5.59 M</td>
+    <td style="white-space: nowrap; text-align: right">178.80 ns</td>
+    <td style="white-space: nowrap; text-align: right">±41.70%</td>
+    <td style="white-space: nowrap; text-align: right">169 ns</td>
+    <td style="white-space: nowrap; text-align: right">394.49 ns</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">MapTupleQuarterFull</td>
-    <td style="white-space: nowrap; text-align: right">4.23 M</td>
-    <td style="white-space: nowrap; text-align: right">236.16 ns</td>
-    <td style="white-space: nowrap; text-align: right">±10.75%</td>
-    <td style="white-space: nowrap; text-align: right">233 ns</td>
-    <td style="white-space: nowrap; text-align: right">312 ns</td>
+    <td style="white-space: nowrap; text-align: right">4.09 M</td>
+    <td style="white-space: nowrap; text-align: right">244.65 ns</td>
+    <td style="white-space: nowrap; text-align: right">±16.85%</td>
+    <td style="white-space: nowrap; text-align: right">242 ns</td>
+    <td style="white-space: nowrap; text-align: right">299 ns</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">List2D</td>
-    <td style="white-space: nowrap; text-align: right">3.85 M</td>
-    <td style="white-space: nowrap; text-align: right">259.59 ns</td>
-    <td style="white-space: nowrap; text-align: right">±33.84%</td>
-    <td style="white-space: nowrap; text-align: right">254 ns</td>
-    <td style="white-space: nowrap; text-align: right">504 ns</td>
+    <td style="white-space: nowrap; text-align: right">3.76 M</td>
+    <td style="white-space: nowrap; text-align: right">265.82 ns</td>
+    <td style="white-space: nowrap; text-align: right">±35.71%</td>
+    <td style="white-space: nowrap; text-align: right">251 ns</td>
+    <td style="white-space: nowrap; text-align: right">486 ns</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">List1D</td>
-    <td style="white-space: nowrap; text-align: right">1.33 M</td>
-    <td style="white-space: nowrap; text-align: right">753.42 ns</td>
-    <td style="white-space: nowrap; text-align: right">±12.49%</td>
-    <td style="white-space: nowrap; text-align: right">732 ns</td>
-    <td style="white-space: nowrap; text-align: right">1122 ns</td>
+    <td style="white-space: nowrap; text-align: right">1.38 M</td>
+    <td style="white-space: nowrap; text-align: right">724.35 ns</td>
+    <td style="white-space: nowrap; text-align: right">±10.88%</td>
+    <td style="white-space: nowrap; text-align: right">715 ns</td>
+    <td style="white-space: nowrap; text-align: right">951 ns</td>
   </tr>
 </table>
 
@@ -1043,64 +1183,74 @@ Comparison
     <th style="text-align: right">IPS</th>
     <th style="text-align: right">Slower</th>
   <tr>
-    <td style="white-space: nowrap">Tuple1D</td>
-    <td style="white-space: nowrap;text-align: right">44.65 M</td>
+    <td style="white-space: nowrap">Tuple2D</td>
+    <td style="white-space: nowrap;text-align: right">42.47 M</td>
     <td>&nbsp;</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Tuple2D</td>
-    <td style="white-space: nowrap; text-align: right">44.31 M</td>
-    <td style="white-space: nowrap; text-align: right">1.01x</td>
+    <td style="white-space: nowrap">Tuple1D</td>
+    <td style="white-space: nowrap; text-align: right">40.98 M</td>
+    <td style="white-space: nowrap; text-align: right">1.04x</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">Array1D</td>
+    <td style="white-space: nowrap; text-align: right">29.67 M</td>
+    <td style="white-space: nowrap; text-align: right">1.43x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">MapTuple</td>
-    <td style="white-space: nowrap; text-align: right">32.61 M</td>
-    <td style="white-space: nowrap; text-align: right">1.37x</td>
+    <td style="white-space: nowrap; text-align: right">28.54 M</td>
+    <td style="white-space: nowrap; text-align: right">1.49x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">ProcessDictionary</td>
-    <td style="white-space: nowrap; text-align: right">21.13 M</td>
-    <td style="white-space: nowrap; text-align: right">2.11x</td>
+    <td style="white-space: nowrap; text-align: right">19.71 M</td>
+    <td style="white-space: nowrap; text-align: right">2.15x</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">Array2D</td>
+    <td style="white-space: nowrap; text-align: right">17.88 M</td>
+    <td style="white-space: nowrap; text-align: right">2.37x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">Map2D</td>
-    <td style="white-space: nowrap; text-align: right">14.44 M</td>
-    <td style="white-space: nowrap; text-align: right">3.09x</td>
+    <td style="white-space: nowrap; text-align: right">13.28 M</td>
+    <td style="white-space: nowrap; text-align: right">3.2x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">MapTupleHalfFull</td>
-    <td style="white-space: nowrap; text-align: right">13.40 M</td>
-    <td style="white-space: nowrap; text-align: right">3.33x</td>
-  </tr>
-  <tr>
-    <td style="white-space: nowrap">MapTupleFull</td>
-    <td style="white-space: nowrap; text-align: right">10.86 M</td>
-    <td style="white-space: nowrap; text-align: right">4.11x</td>
+    <td style="white-space: nowrap; text-align: right">12.12 M</td>
+    <td style="white-space: nowrap; text-align: right">3.5x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">ETSSet</td>
-    <td style="white-space: nowrap; text-align: right">8.45 M</td>
-    <td style="white-space: nowrap; text-align: right">5.28x</td>
+    <td style="white-space: nowrap; text-align: right">9.90 M</td>
+    <td style="white-space: nowrap; text-align: right">4.29x</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">MapTupleFull</td>
+    <td style="white-space: nowrap; text-align: right">9.85 M</td>
+    <td style="white-space: nowrap; text-align: right">4.31x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">ETSOrderedSet</td>
-    <td style="white-space: nowrap; text-align: right">5.90 M</td>
-    <td style="white-space: nowrap; text-align: right">7.57x</td>
+    <td style="white-space: nowrap; text-align: right">5.59 M</td>
+    <td style="white-space: nowrap; text-align: right">7.59x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">MapTupleQuarterFull</td>
-    <td style="white-space: nowrap; text-align: right">4.23 M</td>
-    <td style="white-space: nowrap; text-align: right">10.55x</td>
+    <td style="white-space: nowrap; text-align: right">4.09 M</td>
+    <td style="white-space: nowrap; text-align: right">10.39x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">List2D</td>
-    <td style="white-space: nowrap; text-align: right">3.85 M</td>
-    <td style="white-space: nowrap; text-align: right">11.59x</td>
+    <td style="white-space: nowrap; text-align: right">3.76 M</td>
+    <td style="white-space: nowrap; text-align: right">11.29x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">List1D</td>
-    <td style="white-space: nowrap; text-align: right">1.33 M</td>
-    <td style="white-space: nowrap; text-align: right">33.64x</td>
+    <td style="white-space: nowrap; text-align: right">1.38 M</td>
+    <td style="white-space: nowrap; text-align: right">30.76x</td>
   </tr>
 </table>
 
@@ -1121,99 +1271,115 @@ Run Time
   </tr>
   <tr>
     <td style="white-space: nowrap">List1D</td>
-    <td style="white-space: nowrap; text-align: right">27.27 M</td>
-    <td style="white-space: nowrap; text-align: right">36.68 ns</td>
-    <td style="white-space: nowrap; text-align: right">±58.82%</td>
-    <td style="white-space: nowrap; text-align: right">32 ns</td>
+    <td style="white-space: nowrap; text-align: right">31.04 M</td>
+    <td style="white-space: nowrap; text-align: right">32.21 ns</td>
+    <td style="white-space: nowrap; text-align: right">±59.43%</td>
+    <td style="white-space: nowrap; text-align: right">30 ns</td>
+    <td style="white-space: nowrap; text-align: right">91 ns</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">Tuple2D</td>
+    <td style="white-space: nowrap; text-align: right">16.91 M</td>
+    <td style="white-space: nowrap; text-align: right">59.15 ns</td>
+    <td style="white-space: nowrap; text-align: right">±2301.62%</td>
+    <td style="white-space: nowrap; text-align: right">48 ns</td>
+    <td style="white-space: nowrap; text-align: right">87 ns</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">ProcessDictionary</td>
+    <td style="white-space: nowrap; text-align: right">14.86 M</td>
+    <td style="white-space: nowrap; text-align: right">67.31 ns</td>
+    <td style="white-space: nowrap; text-align: right">±666.24%</td>
+    <td style="white-space: nowrap; text-align: right">62 ns</td>
     <td style="white-space: nowrap; text-align: right">80 ns</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">MapTuple</td>
-    <td style="white-space: nowrap; text-align: right">23.96 M</td>
-    <td style="white-space: nowrap; text-align: right">41.73 ns</td>
-    <td style="white-space: nowrap; text-align: right">±5207.19%</td>
+    <td style="white-space: nowrap; text-align: right">14.65 M</td>
+    <td style="white-space: nowrap; text-align: right">68.24 ns</td>
+    <td style="white-space: nowrap; text-align: right">±24850.94%</td>
     <td style="white-space: nowrap; text-align: right">33 ns</td>
-    <td style="white-space: nowrap; text-align: right">53 ns</td>
-  </tr>
-  <tr>
-    <td style="white-space: nowrap">Tuple2D</td>
-    <td style="white-space: nowrap; text-align: right">16.63 M</td>
-    <td style="white-space: nowrap; text-align: right">60.15 ns</td>
-    <td style="white-space: nowrap; text-align: right">±3381.98%</td>
-    <td style="white-space: nowrap; text-align: right">49 ns</td>
-    <td style="white-space: nowrap; text-align: right">67 ns</td>
-  </tr>
-  <tr>
-    <td style="white-space: nowrap">ProcessDictionary</td>
-    <td style="white-space: nowrap; text-align: right">14.27 M</td>
-    <td style="white-space: nowrap; text-align: right">70.06 ns</td>
-    <td style="white-space: nowrap; text-align: right">±1541.08%</td>
-    <td style="white-space: nowrap; text-align: right">57 ns</td>
-    <td style="white-space: nowrap; text-align: right">70 ns</td>
+    <td style="white-space: nowrap; text-align: right">88 ns</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">Tuple1D</td>
-    <td style="white-space: nowrap; text-align: right">11.64 M</td>
-    <td style="white-space: nowrap; text-align: right">85.92 ns</td>
-    <td style="white-space: nowrap; text-align: right">±5760.34%</td>
-    <td style="white-space: nowrap; text-align: right">44 ns</td>
-    <td style="white-space: nowrap; text-align: right">122 ns</td>
+    <td style="white-space: nowrap; text-align: right">12.04 M</td>
+    <td style="white-space: nowrap; text-align: right">83.05 ns</td>
+    <td style="white-space: nowrap; text-align: right">±5738.15%</td>
+    <td style="white-space: nowrap; text-align: right">43 ns</td>
+    <td style="white-space: nowrap; text-align: right">116 ns</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">List2D</td>
-    <td style="white-space: nowrap; text-align: right">10.39 M</td>
-    <td style="white-space: nowrap; text-align: right">96.28 ns</td>
-    <td style="white-space: nowrap; text-align: right">±475.20%</td>
+    <td style="white-space: nowrap; text-align: right">10.49 M</td>
+    <td style="white-space: nowrap; text-align: right">95.30 ns</td>
+    <td style="white-space: nowrap; text-align: right">±484.89%</td>
     <td style="white-space: nowrap; text-align: right">81 ns</td>
-    <td style="white-space: nowrap; text-align: right">188 ns</td>
+    <td style="white-space: nowrap; text-align: right">204 ns</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">MapTupleQuarterFull</td>
-    <td style="white-space: nowrap; text-align: right">8.89 M</td>
-    <td style="white-space: nowrap; text-align: right">112.45 ns</td>
-    <td style="white-space: nowrap; text-align: right">±248.53%</td>
+    <td style="white-space: nowrap; text-align: right">9.01 M</td>
+    <td style="white-space: nowrap; text-align: right">111.00 ns</td>
+    <td style="white-space: nowrap; text-align: right">±247.51%</td>
     <td style="white-space: nowrap; text-align: right">81 ns</td>
-    <td style="white-space: nowrap; text-align: right">1380 ns</td>
-  </tr>
-  <tr>
-    <td style="white-space: nowrap">MapTupleFull</td>
-    <td style="white-space: nowrap; text-align: right">8.76 M</td>
-    <td style="white-space: nowrap; text-align: right">114.16 ns</td>
-    <td style="white-space: nowrap; text-align: right">±51.01%</td>
-    <td style="white-space: nowrap; text-align: right">108 ns</td>
-    <td style="white-space: nowrap; text-align: right">168 ns</td>
+    <td style="white-space: nowrap; text-align: right">1388 ns</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">ETSSet</td>
-    <td style="white-space: nowrap; text-align: right">7.38 M</td>
-    <td style="white-space: nowrap; text-align: right">135.45 ns</td>
-    <td style="white-space: nowrap; text-align: right">±14.90%</td>
-    <td style="white-space: nowrap; text-align: right">131 ns</td>
-    <td style="white-space: nowrap; text-align: right">186 ns</td>
+    <td style="white-space: nowrap; text-align: right">8.75 M</td>
+    <td style="white-space: nowrap; text-align: right">114.30 ns</td>
+    <td style="white-space: nowrap; text-align: right">±19.08%</td>
+    <td style="white-space: nowrap; text-align: right">112 ns</td>
+    <td style="white-space: nowrap; text-align: right">142 ns</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">MapTupleFull</td>
+    <td style="white-space: nowrap; text-align: right">8.65 M</td>
+    <td style="white-space: nowrap; text-align: right">115.64 ns</td>
+    <td style="white-space: nowrap; text-align: right">±16.84%</td>
+    <td style="white-space: nowrap; text-align: right">111 ns</td>
+    <td style="white-space: nowrap; text-align: right">151 ns</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">MapTupleHalfFull</td>
-    <td style="white-space: nowrap; text-align: right">6.92 M</td>
-    <td style="white-space: nowrap; text-align: right">144.56 ns</td>
-    <td style="white-space: nowrap; text-align: right">±197.80%</td>
-    <td style="white-space: nowrap; text-align: right">119 ns</td>
-    <td style="white-space: nowrap; text-align: right">191.34 ns</td>
+    <td style="white-space: nowrap; text-align: right">6.87 M</td>
+    <td style="white-space: nowrap; text-align: right">145.65 ns</td>
+    <td style="white-space: nowrap; text-align: right">±195.37%</td>
+    <td style="white-space: nowrap; text-align: right">121 ns</td>
+    <td style="white-space: nowrap; text-align: right">174.11 ns</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">Array2D</td>
+    <td style="white-space: nowrap; text-align: right">6.73 M</td>
+    <td style="white-space: nowrap; text-align: right">148.59 ns</td>
+    <td style="white-space: nowrap; text-align: right">±31.02%</td>
+    <td style="white-space: nowrap; text-align: right">145 ns</td>
+    <td style="white-space: nowrap; text-align: right">237 ns</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">Array1D</td>
+    <td style="white-space: nowrap; text-align: right">5.77 M</td>
+    <td style="white-space: nowrap; text-align: right">173.25 ns</td>
+    <td style="white-space: nowrap; text-align: right">±1013.39%</td>
+    <td style="white-space: nowrap; text-align: right">149 ns</td>
+    <td style="white-space: nowrap; text-align: right">189 ns</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">ETSOrderedSet</td>
-    <td style="white-space: nowrap; text-align: right">5.78 M</td>
-    <td style="white-space: nowrap; text-align: right">172.98 ns</td>
-    <td style="white-space: nowrap; text-align: right">±18.07%</td>
-    <td style="white-space: nowrap; text-align: right">169 ns</td>
-    <td style="white-space: nowrap; text-align: right">251 ns</td>
+    <td style="white-space: nowrap; text-align: right">5.49 M</td>
+    <td style="white-space: nowrap; text-align: right">182.25 ns</td>
+    <td style="white-space: nowrap; text-align: right">±22.92%</td>
+    <td style="white-space: nowrap; text-align: right">180 ns</td>
+    <td style="white-space: nowrap; text-align: right">227.75 ns</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">Map2D</td>
-    <td style="white-space: nowrap; text-align: right">4.20 M</td>
-    <td style="white-space: nowrap; text-align: right">238.03 ns</td>
-    <td style="white-space: nowrap; text-align: right">±120.54%</td>
-    <td style="white-space: nowrap; text-align: right">209 ns</td>
-    <td style="white-space: nowrap; text-align: right">537 ns</td>
+    <td style="white-space: nowrap; text-align: right">4.09 M</td>
+    <td style="white-space: nowrap; text-align: right">244.47 ns</td>
+    <td style="white-space: nowrap; text-align: right">±115.24%</td>
+    <td style="white-space: nowrap; text-align: right">219 ns</td>
+    <td style="white-space: nowrap; text-align: right">1051 ns</td>
   </tr>
 </table>
 
@@ -1225,63 +1391,73 @@ Comparison
     <th style="text-align: right">Slower</th>
   <tr>
     <td style="white-space: nowrap">List1D</td>
-    <td style="white-space: nowrap;text-align: right">27.27 M</td>
+    <td style="white-space: nowrap;text-align: right">31.04 M</td>
     <td>&nbsp;</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">MapTuple</td>
-    <td style="white-space: nowrap; text-align: right">23.96 M</td>
-    <td style="white-space: nowrap; text-align: right">1.14x</td>
-  </tr>
-  <tr>
     <td style="white-space: nowrap">Tuple2D</td>
-    <td style="white-space: nowrap; text-align: right">16.63 M</td>
-    <td style="white-space: nowrap; text-align: right">1.64x</td>
+    <td style="white-space: nowrap; text-align: right">16.91 M</td>
+    <td style="white-space: nowrap; text-align: right">1.84x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">ProcessDictionary</td>
-    <td style="white-space: nowrap; text-align: right">14.27 M</td>
-    <td style="white-space: nowrap; text-align: right">1.91x</td>
+    <td style="white-space: nowrap; text-align: right">14.86 M</td>
+    <td style="white-space: nowrap; text-align: right">2.09x</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">MapTuple</td>
+    <td style="white-space: nowrap; text-align: right">14.65 M</td>
+    <td style="white-space: nowrap; text-align: right">2.12x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">Tuple1D</td>
-    <td style="white-space: nowrap; text-align: right">11.64 M</td>
-    <td style="white-space: nowrap; text-align: right">2.34x</td>
+    <td style="white-space: nowrap; text-align: right">12.04 M</td>
+    <td style="white-space: nowrap; text-align: right">2.58x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">List2D</td>
-    <td style="white-space: nowrap; text-align: right">10.39 M</td>
-    <td style="white-space: nowrap; text-align: right">2.63x</td>
+    <td style="white-space: nowrap; text-align: right">10.49 M</td>
+    <td style="white-space: nowrap; text-align: right">2.96x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">MapTupleQuarterFull</td>
-    <td style="white-space: nowrap; text-align: right">8.89 M</td>
-    <td style="white-space: nowrap; text-align: right">3.07x</td>
-  </tr>
-  <tr>
-    <td style="white-space: nowrap">MapTupleFull</td>
-    <td style="white-space: nowrap; text-align: right">8.76 M</td>
-    <td style="white-space: nowrap; text-align: right">3.11x</td>
+    <td style="white-space: nowrap; text-align: right">9.01 M</td>
+    <td style="white-space: nowrap; text-align: right">3.45x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">ETSSet</td>
-    <td style="white-space: nowrap; text-align: right">7.38 M</td>
-    <td style="white-space: nowrap; text-align: right">3.69x</td>
+    <td style="white-space: nowrap; text-align: right">8.75 M</td>
+    <td style="white-space: nowrap; text-align: right">3.55x</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">MapTupleFull</td>
+    <td style="white-space: nowrap; text-align: right">8.65 M</td>
+    <td style="white-space: nowrap; text-align: right">3.59x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">MapTupleHalfFull</td>
-    <td style="white-space: nowrap; text-align: right">6.92 M</td>
-    <td style="white-space: nowrap; text-align: right">3.94x</td>
+    <td style="white-space: nowrap; text-align: right">6.87 M</td>
+    <td style="white-space: nowrap; text-align: right">4.52x</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">Array2D</td>
+    <td style="white-space: nowrap; text-align: right">6.73 M</td>
+    <td style="white-space: nowrap; text-align: right">4.61x</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">Array1D</td>
+    <td style="white-space: nowrap; text-align: right">5.77 M</td>
+    <td style="white-space: nowrap; text-align: right">5.38x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">ETSOrderedSet</td>
-    <td style="white-space: nowrap; text-align: right">5.78 M</td>
-    <td style="white-space: nowrap; text-align: right">4.72x</td>
+    <td style="white-space: nowrap; text-align: right">5.49 M</td>
+    <td style="white-space: nowrap; text-align: right">5.66x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">Map2D</td>
-    <td style="white-space: nowrap; text-align: right">4.20 M</td>
-    <td style="white-space: nowrap; text-align: right">6.49x</td>
+    <td style="white-space: nowrap; text-align: right">4.09 M</td>
+    <td style="white-space: nowrap; text-align: right">7.59x</td>
   </tr>
 </table>
 
@@ -1301,100 +1477,116 @@ Run Time
     <th style="text-align: right">99th&nbsp;%</th>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Tuple2D</td>
-    <td style="white-space: nowrap; text-align: right">15.27 M</td>
-    <td style="white-space: nowrap; text-align: right">65.47 ns</td>
-    <td style="white-space: nowrap; text-align: right">±3120.86%</td>
-    <td style="white-space: nowrap; text-align: right">54 ns</td>
-    <td style="white-space: nowrap; text-align: right">72 ns</td>
+    <td style="white-space: nowrap">MapTuple</td>
+    <td style="white-space: nowrap; text-align: right">21.17 M</td>
+    <td style="white-space: nowrap; text-align: right">47.25 ns</td>
+    <td style="white-space: nowrap; text-align: right">±18021.59%</td>
+    <td style="white-space: nowrap; text-align: right">24 ns</td>
+    <td style="white-space: nowrap; text-align: right">55 ns</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">MapTuple</td>
-    <td style="white-space: nowrap; text-align: right">15.10 M</td>
-    <td style="white-space: nowrap; text-align: right">66.21 ns</td>
-    <td style="white-space: nowrap; text-align: right">±18671.77%</td>
-    <td style="white-space: nowrap; text-align: right">36 ns</td>
-    <td style="white-space: nowrap; text-align: right">77 ns</td>
+    <td style="white-space: nowrap">Tuple2D</td>
+    <td style="white-space: nowrap; text-align: right">20.96 M</td>
+    <td style="white-space: nowrap; text-align: right">47.70 ns</td>
+    <td style="white-space: nowrap; text-align: right">±4316.38%</td>
+    <td style="white-space: nowrap; text-align: right">38 ns</td>
+    <td style="white-space: nowrap; text-align: right">57 ns</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">ProcessDictionary</td>
-    <td style="white-space: nowrap; text-align: right">13.68 M</td>
-    <td style="white-space: nowrap; text-align: right">73.11 ns</td>
-    <td style="white-space: nowrap; text-align: right">±1299.96%</td>
-    <td style="white-space: nowrap; text-align: right">61 ns</td>
-    <td style="white-space: nowrap; text-align: right">73 ns</td>
+    <td style="white-space: nowrap; text-align: right">17.43 M</td>
+    <td style="white-space: nowrap; text-align: right">57.36 ns</td>
+    <td style="white-space: nowrap; text-align: right">±6745.68%</td>
+    <td style="white-space: nowrap; text-align: right">46 ns</td>
+    <td style="white-space: nowrap; text-align: right">62 ns</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">Tuple1D</td>
-    <td style="white-space: nowrap; text-align: right">10.92 M</td>
-    <td style="white-space: nowrap; text-align: right">91.58 ns</td>
-    <td style="white-space: nowrap; text-align: right">±7470.26%</td>
-    <td style="white-space: nowrap; text-align: right">47 ns</td>
-    <td style="white-space: nowrap; text-align: right">123 ns</td>
+    <td style="white-space: nowrap; text-align: right">12.43 M</td>
+    <td style="white-space: nowrap; text-align: right">80.46 ns</td>
+    <td style="white-space: nowrap; text-align: right">±8459.34%</td>
+    <td style="white-space: nowrap; text-align: right">33 ns</td>
+    <td style="white-space: nowrap; text-align: right">115 ns</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">MapTupleFull</td>
-    <td style="white-space: nowrap; text-align: right">8.78 M</td>
-    <td style="white-space: nowrap; text-align: right">113.86 ns</td>
-    <td style="white-space: nowrap; text-align: right">±23.14%</td>
-    <td style="white-space: nowrap; text-align: right">107 ns</td>
-    <td style="white-space: nowrap; text-align: right">257 ns</td>
-  </tr>
-  <tr>
-    <td style="white-space: nowrap">MapTupleHalfFull</td>
-    <td style="white-space: nowrap; text-align: right">8.12 M</td>
-    <td style="white-space: nowrap; text-align: right">123.21 ns</td>
-    <td style="white-space: nowrap; text-align: right">±14.70%</td>
-    <td style="white-space: nowrap; text-align: right">119 ns</td>
-    <td style="white-space: nowrap; text-align: right">183 ns</td>
+    <td style="white-space: nowrap; text-align: right">9.54 M</td>
+    <td style="white-space: nowrap; text-align: right">104.85 ns</td>
+    <td style="white-space: nowrap; text-align: right">±25.06%</td>
+    <td style="white-space: nowrap; text-align: right">100 ns</td>
+    <td style="white-space: nowrap; text-align: right">242.92 ns</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">ETSSet</td>
-    <td style="white-space: nowrap; text-align: right">7.37 M</td>
-    <td style="white-space: nowrap; text-align: right">135.71 ns</td>
-    <td style="white-space: nowrap; text-align: right">±14.09%</td>
-    <td style="white-space: nowrap; text-align: right">130 ns</td>
-    <td style="white-space: nowrap; text-align: right">184 ns</td>
+    <td style="white-space: nowrap; text-align: right">9.34 M</td>
+    <td style="white-space: nowrap; text-align: right">107.08 ns</td>
+    <td style="white-space: nowrap; text-align: right">±20.13%</td>
+    <td style="white-space: nowrap; text-align: right">105 ns</td>
+    <td style="white-space: nowrap; text-align: right">137 ns</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">MapTupleHalfFull</td>
+    <td style="white-space: nowrap; text-align: right">8.92 M</td>
+    <td style="white-space: nowrap; text-align: right">112.14 ns</td>
+    <td style="white-space: nowrap; text-align: right">±51.21%</td>
+    <td style="white-space: nowrap; text-align: right">108 ns</td>
+    <td style="white-space: nowrap; text-align: right">157 ns</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">Array2D</td>
+    <td style="white-space: nowrap; text-align: right">7.06 M</td>
+    <td style="white-space: nowrap; text-align: right">141.62 ns</td>
+    <td style="white-space: nowrap; text-align: right">±45.86%</td>
+    <td style="white-space: nowrap; text-align: right">138 ns</td>
+    <td style="white-space: nowrap; text-align: right">211 ns</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">Array1D</td>
+    <td style="white-space: nowrap; text-align: right">6.01 M</td>
+    <td style="white-space: nowrap; text-align: right">166.46 ns</td>
+    <td style="white-space: nowrap; text-align: right">±949.89%</td>
+    <td style="white-space: nowrap; text-align: right">142 ns</td>
+    <td style="white-space: nowrap; text-align: right">186 ns</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">ETSOrderedSet</td>
-    <td style="white-space: nowrap; text-align: right">5.11 M</td>
-    <td style="white-space: nowrap; text-align: right">195.53 ns</td>
-    <td style="white-space: nowrap; text-align: right">±19.74%</td>
-    <td style="white-space: nowrap; text-align: right">193 ns</td>
-    <td style="white-space: nowrap; text-align: right">236.16 ns</td>
+    <td style="white-space: nowrap; text-align: right">5.55 M</td>
+    <td style="white-space: nowrap; text-align: right">180.21 ns</td>
+    <td style="white-space: nowrap; text-align: right">±30.79%</td>
+    <td style="white-space: nowrap; text-align: right">174 ns</td>
+    <td style="white-space: nowrap; text-align: right">271.61 ns</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">List2D</td>
-    <td style="white-space: nowrap; text-align: right">4.88 M</td>
-    <td style="white-space: nowrap; text-align: right">204.95 ns</td>
-    <td style="white-space: nowrap; text-align: right">±112.99%</td>
-    <td style="white-space: nowrap; text-align: right">195 ns</td>
-    <td style="white-space: nowrap; text-align: right">424 ns</td>
-  </tr>
-  <tr>
-    <td style="white-space: nowrap">Map2D</td>
-    <td style="white-space: nowrap; text-align: right">3.82 M</td>
-    <td style="white-space: nowrap; text-align: right">261.53 ns</td>
-    <td style="white-space: nowrap; text-align: right">±102.32%</td>
-    <td style="white-space: nowrap; text-align: right">235 ns</td>
-    <td style="white-space: nowrap; text-align: right">527.42 ns</td>
+    <td style="white-space: nowrap; text-align: right">4.81 M</td>
+    <td style="white-space: nowrap; text-align: right">207.77 ns</td>
+    <td style="white-space: nowrap; text-align: right">±93.27%</td>
+    <td style="white-space: nowrap; text-align: right">201 ns</td>
+    <td style="white-space: nowrap; text-align: right">431 ns</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">MapTupleQuarterFull</td>
-    <td style="white-space: nowrap; text-align: right">3.78 M</td>
-    <td style="white-space: nowrap; text-align: right">264.37 ns</td>
-    <td style="white-space: nowrap; text-align: right">±13.83%</td>
-    <td style="white-space: nowrap; text-align: right">260 ns</td>
-    <td style="white-space: nowrap; text-align: right">316 ns</td>
+    <td style="white-space: nowrap; text-align: right">4.03 M</td>
+    <td style="white-space: nowrap; text-align: right">247.92 ns</td>
+    <td style="white-space: nowrap; text-align: right">±28.34%</td>
+    <td style="white-space: nowrap; text-align: right">241 ns</td>
+    <td style="white-space: nowrap; text-align: right">307 ns</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">Map2D</td>
+    <td style="white-space: nowrap; text-align: right">3.95 M</td>
+    <td style="white-space: nowrap; text-align: right">253.35 ns</td>
+    <td style="white-space: nowrap; text-align: right">±117.41%</td>
+    <td style="white-space: nowrap; text-align: right">225 ns</td>
+    <td style="white-space: nowrap; text-align: right">1053.34 ns</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">List1D</td>
-    <td style="white-space: nowrap; text-align: right">2.68 M</td>
-    <td style="white-space: nowrap; text-align: right">373.65 ns</td>
-    <td style="white-space: nowrap; text-align: right">±412.53%</td>
-    <td style="white-space: nowrap; text-align: right">355 ns</td>
-    <td style="white-space: nowrap; text-align: right">608 ns</td>
+    <td style="white-space: nowrap; text-align: right">2.80 M</td>
+    <td style="white-space: nowrap; text-align: right">357.35 ns</td>
+    <td style="white-space: nowrap; text-align: right">±94.13%</td>
+    <td style="white-space: nowrap; text-align: right">342 ns</td>
+    <td style="white-space: nowrap; text-align: right">611 ns</td>
   </tr>
 </table>
 
@@ -1405,64 +1597,74 @@ Comparison
     <th style="text-align: right">IPS</th>
     <th style="text-align: right">Slower</th>
   <tr>
-    <td style="white-space: nowrap">Tuple2D</td>
-    <td style="white-space: nowrap;text-align: right">15.27 M</td>
+    <td style="white-space: nowrap">MapTuple</td>
+    <td style="white-space: nowrap;text-align: right">21.17 M</td>
     <td>&nbsp;</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">MapTuple</td>
-    <td style="white-space: nowrap; text-align: right">15.10 M</td>
+    <td style="white-space: nowrap">Tuple2D</td>
+    <td style="white-space: nowrap; text-align: right">20.96 M</td>
     <td style="white-space: nowrap; text-align: right">1.01x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">ProcessDictionary</td>
-    <td style="white-space: nowrap; text-align: right">13.68 M</td>
-    <td style="white-space: nowrap; text-align: right">1.12x</td>
+    <td style="white-space: nowrap; text-align: right">17.43 M</td>
+    <td style="white-space: nowrap; text-align: right">1.21x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">Tuple1D</td>
-    <td style="white-space: nowrap; text-align: right">10.92 M</td>
-    <td style="white-space: nowrap; text-align: right">1.4x</td>
+    <td style="white-space: nowrap; text-align: right">12.43 M</td>
+    <td style="white-space: nowrap; text-align: right">1.7x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">MapTupleFull</td>
-    <td style="white-space: nowrap; text-align: right">8.78 M</td>
-    <td style="white-space: nowrap; text-align: right">1.74x</td>
-  </tr>
-  <tr>
-    <td style="white-space: nowrap">MapTupleHalfFull</td>
-    <td style="white-space: nowrap; text-align: right">8.12 M</td>
-    <td style="white-space: nowrap; text-align: right">1.88x</td>
+    <td style="white-space: nowrap; text-align: right">9.54 M</td>
+    <td style="white-space: nowrap; text-align: right">2.22x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">ETSSet</td>
-    <td style="white-space: nowrap; text-align: right">7.37 M</td>
-    <td style="white-space: nowrap; text-align: right">2.07x</td>
+    <td style="white-space: nowrap; text-align: right">9.34 M</td>
+    <td style="white-space: nowrap; text-align: right">2.27x</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">MapTupleHalfFull</td>
+    <td style="white-space: nowrap; text-align: right">8.92 M</td>
+    <td style="white-space: nowrap; text-align: right">2.37x</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">Array2D</td>
+    <td style="white-space: nowrap; text-align: right">7.06 M</td>
+    <td style="white-space: nowrap; text-align: right">3.0x</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">Array1D</td>
+    <td style="white-space: nowrap; text-align: right">6.01 M</td>
+    <td style="white-space: nowrap; text-align: right">3.52x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">ETSOrderedSet</td>
-    <td style="white-space: nowrap; text-align: right">5.11 M</td>
-    <td style="white-space: nowrap; text-align: right">2.99x</td>
+    <td style="white-space: nowrap; text-align: right">5.55 M</td>
+    <td style="white-space: nowrap; text-align: right">3.81x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">List2D</td>
-    <td style="white-space: nowrap; text-align: right">4.88 M</td>
-    <td style="white-space: nowrap; text-align: right">3.13x</td>
-  </tr>
-  <tr>
-    <td style="white-space: nowrap">Map2D</td>
-    <td style="white-space: nowrap; text-align: right">3.82 M</td>
-    <td style="white-space: nowrap; text-align: right">3.99x</td>
+    <td style="white-space: nowrap; text-align: right">4.81 M</td>
+    <td style="white-space: nowrap; text-align: right">4.4x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">MapTupleQuarterFull</td>
-    <td style="white-space: nowrap; text-align: right">3.78 M</td>
-    <td style="white-space: nowrap; text-align: right">4.04x</td>
+    <td style="white-space: nowrap; text-align: right">4.03 M</td>
+    <td style="white-space: nowrap; text-align: right">5.25x</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">Map2D</td>
+    <td style="white-space: nowrap; text-align: right">3.95 M</td>
+    <td style="white-space: nowrap; text-align: right">5.36x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">List1D</td>
-    <td style="white-space: nowrap; text-align: right">2.68 M</td>
-    <td style="white-space: nowrap; text-align: right">5.71x</td>
+    <td style="white-space: nowrap; text-align: right">2.80 M</td>
+    <td style="white-space: nowrap; text-align: right">7.56x</td>
   </tr>
 </table>
 
@@ -1482,100 +1684,116 @@ Run Time
     <th style="text-align: right">99th&nbsp;%</th>
   </tr>
   <tr>
-    <td style="white-space: nowrap">MapTuple</td>
-    <td style="white-space: nowrap; text-align: right">40.48 M</td>
-    <td style="white-space: nowrap; text-align: right">24.70 ns</td>
-    <td style="white-space: nowrap; text-align: right">±7388.70%</td>
-    <td style="white-space: nowrap; text-align: right">16 ns</td>
-    <td style="white-space: nowrap; text-align: right">41 ns</td>
-  </tr>
-  <tr>
     <td style="white-space: nowrap">Tuple2D</td>
-    <td style="white-space: nowrap; text-align: right">23.82 M</td>
-    <td style="white-space: nowrap; text-align: right">41.98 ns</td>
-    <td style="white-space: nowrap; text-align: right">±2819.22%</td>
-    <td style="white-space: nowrap; text-align: right">33 ns</td>
+    <td style="white-space: nowrap; text-align: right">16.87 M</td>
+    <td style="white-space: nowrap; text-align: right">59.28 ns</td>
+    <td style="white-space: nowrap; text-align: right">±2026.15%</td>
     <td style="white-space: nowrap; text-align: right">51 ns</td>
+    <td style="white-space: nowrap; text-align: right">70 ns</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">ProcessDictionary</td>
-    <td style="white-space: nowrap; text-align: right">19.93 M</td>
-    <td style="white-space: nowrap; text-align: right">50.19 ns</td>
-    <td style="white-space: nowrap; text-align: right">±1703.77%</td>
-    <td style="white-space: nowrap; text-align: right">40 ns</td>
-    <td style="white-space: nowrap; text-align: right">56 ns</td>
+    <td style="white-space: nowrap; text-align: right">14.36 M</td>
+    <td style="white-space: nowrap; text-align: right">69.65 ns</td>
+    <td style="white-space: nowrap; text-align: right">±4696.55%</td>
+    <td style="white-space: nowrap; text-align: right">59 ns</td>
+    <td style="white-space: nowrap; text-align: right">75 ns</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">MapTuple</td>
+    <td style="white-space: nowrap; text-align: right">12.16 M</td>
+    <td style="white-space: nowrap; text-align: right">82.24 ns</td>
+    <td style="white-space: nowrap; text-align: right">±23284.12%</td>
+    <td style="white-space: nowrap; text-align: right">36 ns</td>
+    <td style="white-space: nowrap; text-align: right">67 ns</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">Tuple1D</td>
-    <td style="white-space: nowrap; text-align: right">14.79 M</td>
-    <td style="white-space: nowrap; text-align: right">67.62 ns</td>
-    <td style="white-space: nowrap; text-align: right">±7105.44%</td>
-    <td style="white-space: nowrap; text-align: right">27 ns</td>
-    <td style="white-space: nowrap; text-align: right">100 ns</td>
+    <td style="white-space: nowrap; text-align: right">10.67 M</td>
+    <td style="white-space: nowrap; text-align: right">93.74 ns</td>
+    <td style="white-space: nowrap; text-align: right">±7351.11%</td>
+    <td style="white-space: nowrap; text-align: right">46 ns</td>
+    <td style="white-space: nowrap; text-align: right">111 ns</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">MapTupleHalfFull</td>
-    <td style="white-space: nowrap; text-align: right">11.11 M</td>
-    <td style="white-space: nowrap; text-align: right">90.00 ns</td>
-    <td style="white-space: nowrap; text-align: right">±21.33%</td>
-    <td style="white-space: nowrap; text-align: right">87 ns</td>
-    <td style="white-space: nowrap; text-align: right">133 ns</td>
+    <td style="white-space: nowrap; text-align: right">8.92 M</td>
+    <td style="white-space: nowrap; text-align: right">112.16 ns</td>
+    <td style="white-space: nowrap; text-align: right">±42.16%</td>
+    <td style="white-space: nowrap; text-align: right">110 ns</td>
+    <td style="white-space: nowrap; text-align: right">158 ns</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">MapTupleFull</td>
-    <td style="white-space: nowrap; text-align: right">9.90 M</td>
-    <td style="white-space: nowrap; text-align: right">100.97 ns</td>
-    <td style="white-space: nowrap; text-align: right">±22.17%</td>
-    <td style="white-space: nowrap; text-align: right">95 ns</td>
-    <td style="white-space: nowrap; text-align: right">150 ns</td>
+    <td style="white-space: nowrap; text-align: right">8.77 M</td>
+    <td style="white-space: nowrap; text-align: right">114.03 ns</td>
+    <td style="white-space: nowrap; text-align: right">±22.42%</td>
+    <td style="white-space: nowrap; text-align: right">111 ns</td>
+    <td style="white-space: nowrap; text-align: right">148 ns</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">ETSSet</td>
-    <td style="white-space: nowrap; text-align: right">7.13 M</td>
-    <td style="white-space: nowrap; text-align: right">140.17 ns</td>
-    <td style="white-space: nowrap; text-align: right">±20.40%</td>
-    <td style="white-space: nowrap; text-align: right">136 ns</td>
-    <td style="white-space: nowrap; text-align: right">189 ns</td>
+    <td style="white-space: nowrap; text-align: right">8.58 M</td>
+    <td style="white-space: nowrap; text-align: right">116.53 ns</td>
+    <td style="white-space: nowrap; text-align: right">±17.78%</td>
+    <td style="white-space: nowrap; text-align: right">114 ns</td>
+    <td style="white-space: nowrap; text-align: right">145 ns</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">Array2D</td>
+    <td style="white-space: nowrap; text-align: right">6.58 M</td>
+    <td style="white-space: nowrap; text-align: right">152.06 ns</td>
+    <td style="white-space: nowrap; text-align: right">±35.69%</td>
+    <td style="white-space: nowrap; text-align: right">148 ns</td>
+    <td style="white-space: nowrap; text-align: right">245 ns</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">Array1D</td>
+    <td style="white-space: nowrap; text-align: right">5.63 M</td>
+    <td style="white-space: nowrap; text-align: right">177.74 ns</td>
+    <td style="white-space: nowrap; text-align: right">±978.38%</td>
+    <td style="white-space: nowrap; text-align: right">154 ns</td>
+    <td style="white-space: nowrap; text-align: right">202 ns</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">ETSOrderedSet</td>
-    <td style="white-space: nowrap; text-align: right">6.01 M</td>
-    <td style="white-space: nowrap; text-align: right">166.49 ns</td>
-    <td style="white-space: nowrap; text-align: right">±29.36%</td>
-    <td style="white-space: nowrap; text-align: right">163 ns</td>
-    <td style="white-space: nowrap; text-align: right">203 ns</td>
+    <td style="white-space: nowrap; text-align: right">5.34 M</td>
+    <td style="white-space: nowrap; text-align: right">187.42 ns</td>
+    <td style="white-space: nowrap; text-align: right">±38.95%</td>
+    <td style="white-space: nowrap; text-align: right">183 ns</td>
+    <td style="white-space: nowrap; text-align: right">228 ns</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">Map2D</td>
-    <td style="white-space: nowrap; text-align: right">4.04 M</td>
-    <td style="white-space: nowrap; text-align: right">247.29 ns</td>
-    <td style="white-space: nowrap; text-align: right">±121.04%</td>
-    <td style="white-space: nowrap; text-align: right">219 ns</td>
-    <td style="white-space: nowrap; text-align: right">623 ns</td>
+    <td style="white-space: nowrap; text-align: right">3.50 M</td>
+    <td style="white-space: nowrap; text-align: right">285.55 ns</td>
+    <td style="white-space: nowrap; text-align: right">±100.73%</td>
+    <td style="white-space: nowrap; text-align: right">260 ns</td>
+    <td style="white-space: nowrap; text-align: right">1090 ns</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">List2D</td>
-    <td style="white-space: nowrap; text-align: right">3.36 M</td>
-    <td style="white-space: nowrap; text-align: right">297.34 ns</td>
-    <td style="white-space: nowrap; text-align: right">±72.69%</td>
-    <td style="white-space: nowrap; text-align: right">284 ns</td>
-    <td style="white-space: nowrap; text-align: right">535 ns</td>
+    <td style="white-space: nowrap; text-align: right">2.89 M</td>
+    <td style="white-space: nowrap; text-align: right">345.55 ns</td>
+    <td style="white-space: nowrap; text-align: right">±24.43%</td>
+    <td style="white-space: nowrap; text-align: right">328 ns</td>
+    <td style="white-space: nowrap; text-align: right">587.01 ns</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">MapTupleQuarterFull</td>
-    <td style="white-space: nowrap; text-align: right">2.72 M</td>
-    <td style="white-space: nowrap; text-align: right">367.10 ns</td>
-    <td style="white-space: nowrap; text-align: right">±12.40%</td>
-    <td style="white-space: nowrap; text-align: right">362 ns</td>
-    <td style="white-space: nowrap; text-align: right">418 ns</td>
+    <td style="white-space: nowrap; text-align: right">2.62 M</td>
+    <td style="white-space: nowrap; text-align: right">381.31 ns</td>
+    <td style="white-space: nowrap; text-align: right">±16.51%</td>
+    <td style="white-space: nowrap; text-align: right">375 ns</td>
+    <td style="white-space: nowrap; text-align: right">436 ns</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">List1D</td>
-    <td style="white-space: nowrap; text-align: right">1.46 M</td>
-    <td style="white-space: nowrap; text-align: right">686.91 ns</td>
-    <td style="white-space: nowrap; text-align: right">±164.82%</td>
-    <td style="white-space: nowrap; text-align: right">645 ns</td>
-    <td style="white-space: nowrap; text-align: right">1303 ns</td>
+    <td style="white-space: nowrap; text-align: right">1.35 M</td>
+    <td style="white-space: nowrap; text-align: right">739.31 ns</td>
+    <td style="white-space: nowrap; text-align: right">±147.87%</td>
+    <td style="white-space: nowrap; text-align: right">705 ns</td>
+    <td style="white-space: nowrap; text-align: right">1340.80 ns</td>
   </tr>
 </table>
 
@@ -1586,64 +1804,74 @@ Comparison
     <th style="text-align: right">IPS</th>
     <th style="text-align: right">Slower</th>
   <tr>
-    <td style="white-space: nowrap">MapTuple</td>
-    <td style="white-space: nowrap;text-align: right">40.48 M</td>
+    <td style="white-space: nowrap">Tuple2D</td>
+    <td style="white-space: nowrap;text-align: right">16.87 M</td>
     <td>&nbsp;</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">Tuple2D</td>
-    <td style="white-space: nowrap; text-align: right">23.82 M</td>
-    <td style="white-space: nowrap; text-align: right">1.7x</td>
+    <td style="white-space: nowrap">ProcessDictionary</td>
+    <td style="white-space: nowrap; text-align: right">14.36 M</td>
+    <td style="white-space: nowrap; text-align: right">1.17x</td>
   </tr>
   <tr>
-    <td style="white-space: nowrap">ProcessDictionary</td>
-    <td style="white-space: nowrap; text-align: right">19.93 M</td>
-    <td style="white-space: nowrap; text-align: right">2.03x</td>
+    <td style="white-space: nowrap">MapTuple</td>
+    <td style="white-space: nowrap; text-align: right">12.16 M</td>
+    <td style="white-space: nowrap; text-align: right">1.39x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">Tuple1D</td>
-    <td style="white-space: nowrap; text-align: right">14.79 M</td>
-    <td style="white-space: nowrap; text-align: right">2.74x</td>
+    <td style="white-space: nowrap; text-align: right">10.67 M</td>
+    <td style="white-space: nowrap; text-align: right">1.58x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">MapTupleHalfFull</td>
-    <td style="white-space: nowrap; text-align: right">11.11 M</td>
-    <td style="white-space: nowrap; text-align: right">3.64x</td>
+    <td style="white-space: nowrap; text-align: right">8.92 M</td>
+    <td style="white-space: nowrap; text-align: right">1.89x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">MapTupleFull</td>
-    <td style="white-space: nowrap; text-align: right">9.90 M</td>
-    <td style="white-space: nowrap; text-align: right">4.09x</td>
+    <td style="white-space: nowrap; text-align: right">8.77 M</td>
+    <td style="white-space: nowrap; text-align: right">1.92x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">ETSSet</td>
-    <td style="white-space: nowrap; text-align: right">7.13 M</td>
-    <td style="white-space: nowrap; text-align: right">5.67x</td>
+    <td style="white-space: nowrap; text-align: right">8.58 M</td>
+    <td style="white-space: nowrap; text-align: right">1.97x</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">Array2D</td>
+    <td style="white-space: nowrap; text-align: right">6.58 M</td>
+    <td style="white-space: nowrap; text-align: right">2.57x</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">Array1D</td>
+    <td style="white-space: nowrap; text-align: right">5.63 M</td>
+    <td style="white-space: nowrap; text-align: right">3.0x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">ETSOrderedSet</td>
-    <td style="white-space: nowrap; text-align: right">6.01 M</td>
-    <td style="white-space: nowrap; text-align: right">6.74x</td>
+    <td style="white-space: nowrap; text-align: right">5.34 M</td>
+    <td style="white-space: nowrap; text-align: right">3.16x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">Map2D</td>
-    <td style="white-space: nowrap; text-align: right">4.04 M</td>
-    <td style="white-space: nowrap; text-align: right">10.01x</td>
+    <td style="white-space: nowrap; text-align: right">3.50 M</td>
+    <td style="white-space: nowrap; text-align: right">4.82x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">List2D</td>
-    <td style="white-space: nowrap; text-align: right">3.36 M</td>
-    <td style="white-space: nowrap; text-align: right">12.04x</td>
+    <td style="white-space: nowrap; text-align: right">2.89 M</td>
+    <td style="white-space: nowrap; text-align: right">5.83x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">MapTupleQuarterFull</td>
-    <td style="white-space: nowrap; text-align: right">2.72 M</td>
-    <td style="white-space: nowrap; text-align: right">14.86x</td>
+    <td style="white-space: nowrap; text-align: right">2.62 M</td>
+    <td style="white-space: nowrap; text-align: right">6.43x</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">List1D</td>
-    <td style="white-space: nowrap; text-align: right">1.46 M</td>
-    <td style="white-space: nowrap; text-align: right">27.81x</td>
+    <td style="white-space: nowrap; text-align: right">1.35 M</td>
+    <td style="white-space: nowrap; text-align: right">12.47x</td>
   </tr>
 </table>
 
